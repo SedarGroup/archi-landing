@@ -2,17 +2,17 @@
   "filtersName": [
     {
       "id": 1,
-      "name": "Interior",
+      "name": "Interieur",
       "filterClass": ".interior"
     },
     {
       "id": 2,
-      "name": "theaters",
+      "name": "theatres",
       "filterClass": ".theaters"
     },
     {
       "id": 3,
-      "name": "Residential",
+      "name": "Residentiel",
       "filterClass": ".residential"
     }
   ],

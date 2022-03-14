@@ -15,10 +15,10 @@ const About = () => {
   return (
     <MainLayout>
       <PageHeader
-        title="About Us"
+        title="A propos"
         fullPath={[
-          { id: 1, name: "home", url: "/" },
-          { id: 2, name: "about us", url: "/about" },
+          { id: 1, name: "Accueil", url: "/" },
+          { id: 2, name: "A propos", url: "/about" },
         ]}
       />
       <AboutUs4 />

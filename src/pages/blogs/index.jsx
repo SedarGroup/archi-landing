@@ -12,7 +12,7 @@ const Blogs = () => {
         <PageHeader
           title="Nos Blogs"
           fullPath={[
-            { id: 1, name: "home", url: "/" },
+            { id: 1, name: "Accueil", url: "/" },
             { id: 2, name: "blogs", url: "/blogs" },
           ]}
         />

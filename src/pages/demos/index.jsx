@@ -212,7 +212,7 @@ const Demos = () => {
                       >
                         <img src="/demos/5.png" alt="image" />
                         <div className="cont">
-                          <h6>About Us</h6>
+                          <h6>A propos</h6>
                         </div>
                       </div>
                     </a>

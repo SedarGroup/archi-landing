@@ -13,7 +13,7 @@ const AboutUs2 = () => {
               className="exp-content nopat wow fadeInUp"
               data-wow-delay=".3s"
             >
-              <h6 className="sub-title">About Us</h6>
+              <h6 className="sub-title">A propos</h6>
               <h2 className="mb-20 playfont">
                 {aboutUs2Data.title.first} <br /> {aboutUs2Data.title.second}
               </h2>

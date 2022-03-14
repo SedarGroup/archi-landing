@@ -25,7 +25,7 @@ const Contact = () => {
                       id="form_name"
                       type="text"
                       name="name"
-                      placeholder="Name"
+                      placeholder="Nom"
                       required="required"
                     />
                   </div>
@@ -51,7 +51,7 @@ const Contact = () => {
                   </div>
 
                   <button type="submit" className="btn-curve btn-color">
-                    <span>Send Message</span>
+                    <span>Envoyer</span>
                   </button>
                 </div>
               </form>

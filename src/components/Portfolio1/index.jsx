@@ -36,7 +36,7 @@ const Portfolio1 = () => {
                 style={{ backgroundImage: "url(/assets/img/line-pattern1.png" }}
               >
                 <span data-filter="*" className="active">
-                  All
+                  Tout
                 </span>
                 {portfolio1Data.filtersName.map((filter) => (
                   <span data-filter={filter.filterClass} key={filter.id}>

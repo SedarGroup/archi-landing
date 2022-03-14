@@ -8,7 +8,7 @@ import React from "react";
         <div className="row">
           <div className="col-lg-5 exp">
             <div className="mb-50">
-              <h6 className="fw-100 text-u ls10 main-color mb-10">About Us</h6>
+              <h6 className="fw-100 text-u ls10 main-color mb-10">A propos</h6>
               <h3 className="fw-400 text-u ls4">Nos Comapny</h3>
             </div>
             <div className="box">

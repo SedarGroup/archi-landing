@@ -9,7 +9,7 @@ const AboutUs6 = () => {
         <div className="row">
           <div className="col-lg-5 valign md-mb50">
             <div className="mb-50">
-              <h6 className="fw-100 text-u ls10 main-color mb-10">About Us</h6>
+              <h6 className="fw-100 text-u ls10 main-color mb-10">A propos</h6>
               <h3 className="fw-600 text-u ls1 mb-30">Nos Comapny</h3>
               <p>
                 Sed ut perspiciatis unde omnis iste natus error sit voluptatem

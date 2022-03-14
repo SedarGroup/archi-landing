@@ -25,7 +25,7 @@ const AboutUs1 = () => {
           </div>
           <div className="col-lg-7 valign">
             <div className="exp-content wow fadeInUp" data-wow-delay=".3s">
-              <h6 className="sub-title">About Us</h6>
+              <h6 className="sub-title">A propos</h6>
               <h2 className="mb-20 playfont">
                 {aboutUs1Data.title.first} <br /> {aboutUs1Data.title.second}
               </h2>

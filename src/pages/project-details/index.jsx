@@ -16,9 +16,9 @@ const ProjectDetails = () => {
       <PageHeader
         title="Luxury Furniture"
         fullPath={[
-          { id: 1, name: "home", url: "/" },
-          { id: 2, name: "portfolio", url: "/work1" },
-          { id: 3, name: "project details", url: "/project-details" },
+          { id: 1, name: "Accueil", url: "/" },
+          { id: 2, name: "Portfolio", url: "/work1" },
+          { id: 3, name: "Détails du projet", url: "/project-details" },
         ]}
         image="/assets/img/portfolio/project1/bg.jpg"
       />

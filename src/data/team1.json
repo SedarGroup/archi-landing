@@ -6,7 +6,7 @@
     "twitter": "#",
     "behance": "#",
     "linkedin": "#",
-    "username": "Hasib sharif",
+    "username": "Alioune Seydi",
     "usertitle": "General Manager"
   },
   {
@@ -30,21 +30,9 @@
   {
     "id": 4,
     "image": "/assets/img/team/4.jpg",
-    "facebook": "#",
-    "twitter": "#",
-    "behance": "#",
+    "facebook": "https://www.facebook.com/demba.sene.775",
     "linkedin": "#",
-    "username": "Robert Front",
-    "usertitle": "CEO Founder"
-  },
-  {
-    "id": 5,
-    "image": "/assets/img/team/5.jpg",
-    "facebook": "#",
-    "twitter": "#",
-    "behance": "#",
-    "linkedin": "#",
-    "username": "Matt Huk",
-    "usertitle": "3D Visualization"
+    "username": "Demba Sène",
+    "usertitle": "CEO"
   }
 ]
