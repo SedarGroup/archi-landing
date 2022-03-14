@@ -21,7 +21,7 @@
       "id": 1,
       "image": "/assets/img/portfolio/mas/01.jpg",
       "title": "Fantastic interior",
-      "tag": "Interior Design",
+      "tag": "Design d'intérieur",
       "filterClass": "theaters"
     },
     {
@@ -42,7 +42,7 @@
       "id": 4,
       "image": "/assets/img/portfolio/mas/04.jpg",
       "title": "Creative Spaces",
-      "tag": "Interior Design",
+      "tag": "Design d'intérieur",
       "filterClass": "interior theaters"
     }
   ]

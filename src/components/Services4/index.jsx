@@ -73,7 +73,7 @@ const Services4 = () => {
 
           <div className="col-lg-3 col-md-6 item-bx">
             <h2 className="custom-font numb">02</h2>
-            <h6 className="mb-20">Interior Design</h6>
+            <h6 className="mb-20">Design d'intérieur</h6>
             <p>
               Cras mollis turpis a ipsum ultes, nec cond imentum ipsum
               consequat.
@@ -85,7 +85,7 @@ const Services4 = () => {
 
           <div className="col-lg-3 col-md-6 item-bx">
             <h2 className="custom-font numb">03</h2>
-            <h6 className="mb-20">3D Modeling</h6>
+            <h6 className="mb-20">Modélisation 3D</h6>
             <p>
               Cras mollis turpis a ipsum ultes, nec cond imentum ipsum
               consequat.
@@ -97,7 +97,7 @@ const Services4 = () => {
 
           <div className="col-lg-3 col-md-6 item-bx">
             <h2 className="custom-font numb">04</h2>
-            <h6 className="mb-20">Furniture Design</h6>
+            <h6 className="mb-20">Conception de Meubles</h6>
             <p>
               Cras mollis turpis a ipsum ultes, nec cond imentum ipsum
               consequat.

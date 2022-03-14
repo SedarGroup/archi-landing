@@ -24,7 +24,7 @@ const Services5 = () => {
 
           <div className="col-lg-3 col-md-6 item-bx">
             <span className="icon flaticon-kitchen-2"></span>
-            <h6 className="mb-20">Interior Design</h6>
+            <h6 className="mb-20">Design d'intérieur</h6>
             <p>
               Cras mollis turpis a ipsum ultes, nec cond imentum ipsum
               consequat.
@@ -36,7 +36,7 @@ const Services5 = () => {
 
           <div className="col-lg-3 col-md-6 item-bx">
             <span className="icon flaticon-plan"></span>
-            <h6 className="mb-20">3D Modeling</h6>
+            <h6 className="mb-20">Modélisation 3D</h6>
             <p>
               Cras mollis turpis a ipsum ultes, nec cond imentum ipsum
               consequat.

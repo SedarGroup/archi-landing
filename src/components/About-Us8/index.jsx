@@ -34,13 +34,13 @@ import React from "react";
               <div className="item">
                 <div>
                   <h5>02</h5>
-                  <h6>Interior Design</h6>
+                  <h6>Design d'intérieur</h6>
                 </div>
               </div>
               <div className="item">
                 <div>
                   <h5>03</h5>
-                  <h6>3D Modeling</h6>
+                  <h6>Modélisation 3D</h6>
                 </div>
               </div>
             </div>

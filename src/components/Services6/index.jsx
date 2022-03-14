@@ -26,7 +26,7 @@ import React from "react";
               <div className="item">
                 <span className="icon flaticon-living-room"></span>
                 <div>
-                  <h5>Interior Design</h5>
+                  <h5>Design d'intérieur</h5>
                   <p>
                     At vero eos et accusamus et iusto odio dignis simos ducimus
                     qui blanditiis praesnti
@@ -36,7 +36,7 @@ import React from "react";
               <div className="item">
                 <span className="icon flaticon-interior-design"></span>
                 <div>
-                  <h5>3D Modeling</h5>
+                  <h5>Modélisation 3D</h5>
                   <p>
                     At vero eos et accusamus et iusto odio dignis simos ducimus
                     qui blanditiis praesnti

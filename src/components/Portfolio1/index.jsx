@@ -20,7 +20,7 @@ const Portfolio1 = () => {
                     Best Works
                   </h6>
                   <h4 className="playfont wow flipInX" data-wow-delay=".5s">
-                    Nos Portfolio
+                    Portfolio
                   </h4>
                 </div>
               </div>

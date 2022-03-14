@@ -17,13 +17,13 @@ const Skills2 = () => {
                   </div>
                 </div>
                 <div className="skill-item">
-                  <h6>Interior Design</h6>
+                  <h6>Design d'intérieur</h6>
                   <div className="skill-progress">
                     <div className="progres custom-font" data-value="75%"></div>
                   </div>
                 </div>
                 <div className="skill-item">
-                  <h6>3D Modeling</h6>
+                  <h6>Modélisation 3D</h6>
                   <div className="skill-progress">
                     <div className="progres custom-font" data-value="80%"></div>
                   </div>
