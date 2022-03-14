@@ -32,7 +32,7 @@ const Blogs4 = () => {
                   </Link>
                 </h5>
                 <Link href="/blog-details">
-                  <a className="more">Read More</a>
+                  <a className="more">Plus ...</a>
                 </Link>
               </div>
             </div>
@@ -58,7 +58,7 @@ const Blogs4 = () => {
                   </Link>
                 </h5>
                 <Link href="/blog-details">
-                  <a className="more">Read More</a>
+                  <a className="more">Plus ...</a>
                 </Link>
               </div>
             </div>
@@ -84,7 +84,7 @@ const Blogs4 = () => {
                   </Link>
                 </h5>
                 <Link href="/blog-details">
-                  <a className="more">Read More</a>
+                  <a className="more">Plus ...</a>
                 </Link>
               </div>
             </div>

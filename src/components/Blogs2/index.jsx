@@ -14,7 +14,7 @@ const Blogs2 = () => {
                 Latest News
               </h6>
               <h4 className="playfont wow flipInX" data-wow-delay=".5s">
-                Our Blogs
+                Nos Blogs
               </h4>
             </div>
           </div>
@@ -43,7 +43,7 @@ const Blogs2 = () => {
 
                   <Link href="/blog-details">
                     <a className="more">
-                      <span className="custom-font">Read More</span>
+                      <span className="custom-font">Plus ...</span>
                     </a>
                   </Link>
                 </div>

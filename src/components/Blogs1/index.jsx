@@ -11,10 +11,10 @@ const Blogs1 = () => {
           <div className="row justify-content-center">
             <div className="col-lg-6 col-md-8 col-sm-10">
               <h6 className="wow fadeInDown" data-wow-delay=".3s">
-                Latest News
+                Dernières Actualités
               </h6>
               <h4 className="playfont wow flipInX" data-wow-delay=".5s">
-                Our Blogs
+                Nos Blogs
               </h4>
             </div>
           </div>
@@ -43,7 +43,7 @@ const Blogs1 = () => {
 
                   <Link href="/blog-details">
                     <a className="more">
-                      <span>Read More</span>
+                      <span>Plus ...</span>
                     </a>
                   </Link>
                 </div>

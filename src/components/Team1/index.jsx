@@ -35,7 +35,7 @@ class Team1 extends React.Component {
                   Some thoughts from Us
                 </h6>
                 <h3 className="playfont wow flipInX" data-wow-delay=".5s">
-                  Our Employees
+                  Nos Employees
                 </h3>
                 <p className="wow fadeInUp" data-wow-delay=".3s">
                   We feel proud for our expert team members beatae ipsum dolor

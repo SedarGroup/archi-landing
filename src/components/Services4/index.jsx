@@ -67,7 +67,7 @@ const Services4 = () => {
               consequat.
             </p>
             <Link href="#">
-              <a className="more custom-font mt-30">Read More</a>
+              <a className="more custom-font mt-30">Plus ...</a>
             </Link>
           </div>
 
@@ -79,7 +79,7 @@ const Services4 = () => {
               consequat.
             </p>
             <Link href="#">
-              <a className="more custom-font mt-30">Read More</a>
+              <a className="more custom-font mt-30">Plus ...</a>
             </Link>
           </div>
 
@@ -91,7 +91,7 @@ const Services4 = () => {
               consequat.
             </p>
             <Link href="#">
-              <a className="more custom-font mt-30">Read More</a>
+              <a className="more custom-font mt-30">Plus ...</a>
             </Link>
           </div>
 
@@ -103,7 +103,7 @@ const Services4 = () => {
               consequat.
             </p>
             <Link href="#">
-              <a className="more custom-font mt-30">Read More</a>
+              <a className="more custom-font mt-30">Plus ...</a>
             </Link>
           </div>
         </div>

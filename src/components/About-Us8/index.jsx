@@ -9,7 +9,7 @@ import React from "react";
           <div className="col-lg-5 exp">
             <div className="mb-50">
               <h6 className="fw-100 text-u ls10 main-color mb-10">About Us</h6>
-              <h3 className="fw-400 text-u ls4">Our Comapny</h3>
+              <h3 className="fw-400 text-u ls4">Nos Comapny</h3>
             </div>
             <div className="box">
               <h2 className="fz-40 fw-600 ls1 mb-20">

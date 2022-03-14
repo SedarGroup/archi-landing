@@ -39,7 +39,7 @@ const Blogs5 = () => {
                   </h5>
                   <div className="btn-more">
                     <Link href="/blog-details" className="simple-btn">
-                      Read More
+                      Plus ...
                     </Link>
                   </div>
                 </div>
@@ -75,7 +75,7 @@ const Blogs5 = () => {
                   </h5>
                   <div className="btn-more">
                     <Link href="/blog-details" className="simple-btn">
-                      Read More
+                      Plus ...
                     </Link>
                   </div>
                 </div>

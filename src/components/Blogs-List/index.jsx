@@ -58,7 +58,7 @@ const BlogsList = () => {
                           what you are doing.
                         </p>
                         <Link href="/blog-details">
-                          <a className="more">Read More</a>
+                          <a className="more">Plus ...</a>
                         </Link>
                       </div>
                     </div>

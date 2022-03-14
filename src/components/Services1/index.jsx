@@ -10,10 +10,10 @@ const Services1 = () => {
           <div className="row justify-content-center">
             <div className="col-lg-6 col-md-8 col-sm-10">
               <h6 className="wow fadeInDown" data-wow-delay=".3s">
-                Best Features
+               Les meilleures fonctionnalités
               </h6>
               <h4 className="playfont wow flipInX" data-wow-delay=".5s">
-                Our Services
+                Nos Services
               </h4>
             </div>
           </div>
@@ -29,7 +29,7 @@ const Services1 = () => {
               <h6 className="mb-20">{item.title}</h6>
               <p>{item.content}</p>
               <Link href="/about">
-                <a className="more mt-30">Read More</a>
+                <a className="more mt-30">En savoir plus</a>
               </Link>
             </div>
           ))}

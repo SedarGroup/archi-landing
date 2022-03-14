@@ -49,7 +49,7 @@ const Blogs3 = ({ smallTitle }) => {
                 </h6>
                 <div className="btn-more">
                   <Link href="/blog-details">
-                    <a className="simple-btn">Read More</a>
+                    <a className="simple-btn">Plus ...</a>
                   </Link>
                 </div>
               </div>
@@ -88,7 +88,7 @@ const Blogs3 = ({ smallTitle }) => {
                 </h6>
                 <div className="btn-more">
                   <Link href="/blog-details" className="simple-btn">
-                    Read More
+                    Plus ...
                   </Link>
                 </div>
               </div>
@@ -127,7 +127,7 @@ const Blogs3 = ({ smallTitle }) => {
                 </h6>
                 <div className="btn-more">
                   <Link href="/blog-details" className="simple-btn">
-                    Read More
+                    Plus ...
                   </Link>
                 </div>
               </div>

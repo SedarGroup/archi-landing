@@ -107,7 +107,7 @@ const IntroWithHorizontal2 = () => {
                           )}
                           <Link href="/project-details">
                             <a className="btn-curve btn-bord btn-lit mt-30">
-                              <span>Read More</span>
+                              <span>Plus ...</span>
                             </a>
                           </Link>
                         </div>

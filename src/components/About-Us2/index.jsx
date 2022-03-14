@@ -25,7 +25,7 @@ const AboutUs2 = () => {
               </ul>
               <Link href="/about">
                 <a className="btn-curve btn-color mt-30">
-                  <span>Read More</span>
+                  <span>Plus ...</span>
                 </a>
               </Link>
             </div>

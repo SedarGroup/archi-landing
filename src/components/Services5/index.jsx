@@ -18,7 +18,7 @@ const Services5 = () => {
               consequat.
             </p>
             <Link href="/about">
-              <a className="more mt-30">Read More</a>
+              <a className="more mt-30">Plus ...</a>
             </Link>
           </div>
 
@@ -30,7 +30,7 @@ const Services5 = () => {
               consequat.
             </p>
             <Link href="/about">
-              <a className="more mt-30">Read More</a>
+              <a className="more mt-30">Plus ...</a>
             </Link>
           </div>
 
@@ -42,7 +42,7 @@ const Services5 = () => {
               consequat.
             </p>
             <Link href="/about">
-              <a className="more mt-30">Read More</a>
+              <a className="more mt-30">Plus ...</a>
             </Link>
           </div>
 
@@ -54,7 +54,7 @@ const Services5 = () => {
               consequat.
             </p>
             <Link href="/about">
-              <a className="more mt-30">Read More</a>
+              <a className="more mt-30">Plus ...</a>
             </Link>
           </div>
         </div>

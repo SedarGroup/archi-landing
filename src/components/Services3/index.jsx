@@ -18,7 +18,7 @@ const Services3 = ({ bigTitle, grid }) => {
                   Best Features
                 </h6>
                 <h4 className="playfont wow flipInX" data-wow-delay=".5s">
-                  Our Services
+                  Nos Services
                 </h4>
               </div>
             </div>
@@ -43,7 +43,7 @@ const Services3 = ({ bigTitle, grid }) => {
                 <p>{item.content}</p>
                 <Link href="/about">
                   <a className={`more ${!grid ? "custom-font" : ""} mt-30`}>
-                    Read More
+                    Plus ...
                   </a>
                 </Link>
               </div>
