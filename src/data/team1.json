@@ -12,12 +12,10 @@
   {
     "id": 2,
     "image": "/assets/img/team/2.jpg",
-    "facebook": "#",
-    "twitter": "#",
-    "behance": "#",
-    "linkedin": "#",
-    "username": "Jonson Leo",
-    "usertitle": "Founder"
+    "facebook": "https://www.facebook.com/iib0011/",
+    "linkedin": "https://www.linkedin.com/in/iib0011/",
+    "username": "Ibrahima G. Coulibaly",
+    "usertitle": "CTO"
   },
   {
     "id": 3,

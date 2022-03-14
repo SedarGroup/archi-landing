@@ -15,7 +15,7 @@ const Services3 = ({ bigTitle, grid }) => {
             <div className="row justify-content-center">
               <div className="col-lg-6 col-md-8 col-sm-10">
                 <h6 className="custom-font wow fadeInDown" data-wow-delay=".3s">
-                  Best Features
+                  Fonctionnalités
                 </h6>
                 <h4 className="playfont wow flipInX" data-wow-delay=".5s">
                   Nos Services
@@ -25,7 +25,7 @@ const Services3 = ({ bigTitle, grid }) => {
           </div>
         ) : (
           <div className="main-header text-center">
-            <h3>Best Features.</h3>
+            <h3>Fonctionnalités</h3>
             <div className="tex-bg">Services</div>
           </div>
         )}

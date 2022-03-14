@@ -10,28 +10,30 @@ const Footer = ({ classText }) => {
           <div className="col-lg-4">
             <div className="item md-mb50">
               <div className="title">
-                <h5>Contact Us</h5>
+                <h5>Contactez nous</h5>
               </div>
               <ul>
                 <li>
                   <span className="icon pe-7s-map-marker"></span>
                   <div className="cont">
-                    <h6>Officeal Address</h6>
-                    <p>504 White St . Dawsonville, GA 30534 , New York</p>
+                    <h6>Adresse</h6>
+                    <p>Rabat, Agdal</p>
                   </div>
                 </li>
                 <li>
                   <span className="icon pe-7s-mail"></span>
                   <div className="cont">
-                    <h6>Email Us</h6>
-                    <p>support@gmail.com</p>
+                    <h6>Email</h6>
+                    <p><a href="mailto:sedargroup.sn@gmail.com" >
+                    sedargroup.sn@gmail.com
+                    </a></p>
                   </div>
                 </li>
                 <li>
                   <span className="icon pe-7s-call"></span>
                   <div className="cont">
-                    <h6>Call Us</h6>
-                    <p>+87986451666</p>
+                    <h6>Téléphone</h6>
+                    <p> <a href="tel:+212695558308">+212 695 558 308</a></p>
                   </div>
                 </li>
               </ul>
@@ -40,7 +42,7 @@ const Footer = ({ classText }) => {
           <div className="col-lg-4">
             <div className="item md-mb50">
               <div className="title">
-                <h5>Recent News</h5>
+                <h5>Actualités récentes</h5>
               </div>
               <ul>
                 <li>
@@ -86,7 +88,7 @@ const Footer = ({ classText }) => {
                 </li>
                 <li>
                   <div className="subscribe">
-                    <input type="text" placeholder="Type Your Email" />
+                    <input type="text" placeholder="Ecrivez votre mail" />
                     <span className="subs pe-7s-paper-plane"></span>
                   </div>
                 </li>

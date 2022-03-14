@@ -10,7 +10,7 @@
   },
   {
     "id": 2,
-    "title": { "first": "Architecture & intérieur", "second": "Classic and Modern" },
+    "title": { "first": "Architecture & intérieur", "second": "Moderne et classique" },
     "content": {
       "first": "Right design and right ideas matter a lot of in interior design",
       "second": "business. a style that makes a statement."
@@ -19,7 +19,7 @@
   },
   {
     "id": 3,
-    "title": { "first": "Architecture & intérieur", "second": "Elegant & Unique Design" },
+    "title": { "first": "Architecture & intérieur", "second": "Design Elegant & Unique" },
     "content": {
       "first": "Right design and right ideas matter a lot of in interior design",
       "second": "business. a style that makes a statement."
@@ -30,7 +30,7 @@
     "id": 4,
     "title": {
       "first": "Architecture & intérieur",
-      "second": "Design d'intérieur agency"
+      "second": "Design d'intérieur"
     },
     "content": {
       "first": "Right design and right ideas matter a lot of in interior design",

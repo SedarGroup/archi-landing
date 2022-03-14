@@ -32,10 +32,10 @@ class Team1 extends React.Component {
                   className="mb-10 wow fadeInDown"
                   data-wow-delay=".3s"
                 >
-                  Some thoughts from Us
+                  Mots de
                 </h6>
                 <h3 className="playfont wow flipInX" data-wow-delay=".5s">
-                  Nos Employees
+                  Notre équipe
                 </h3>
                 <p className="wow fadeInUp" data-wow-delay=".3s">
                   We feel proud for our expert team members beatae ipsum dolor
@@ -89,12 +89,9 @@ class Team1 extends React.Component {
                         <a href={item.facebook}>
                           <i className="fab fa-facebook-f"></i>
                         </a>
-                        <a href={item.twitter}>
+                        {item.twitter && <a href={item.twitter}>
                           <i className="fab fa-twitter"></i>
-                        </a>
-                        <a href={item.behance}>
-                          <i className="fab fa-behance"></i>
-                        </a>
+                        </a>}
                         <a href={item.linkedin}>
                           <i className="fab fa-linkedin-in"></i>
                         </a>

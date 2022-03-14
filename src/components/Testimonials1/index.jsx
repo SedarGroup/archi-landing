@@ -46,10 +46,10 @@ class Testimonials1 extends React.Component {
                       className="wow fadeInDown"
                       data-wow-delay=".3s"
                     >
-                      Testimonials
+                      Témoignages
                     </h6>
                     <h4 className="playfont wow flipInX" data-wow-delay=".5s">
-                      What People Says?
+                      Ce que des <span>personnes </span>disent
                     </h4>
                   </div>
                 </div>

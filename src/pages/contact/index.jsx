@@ -11,10 +11,10 @@ const Contact = () => {
   return (
     <MainLayout>
       <PageHeader
-        title="Contact Us"
+        title="Contactez nous"
         fullPath={[
-          { id: 1, name: "home", url: "/" },
-          { id: 2, name: "contact us", url: "/contact" },
+          { id: 1, name: "Accueil", url: "/" },
+          { id: 2, name: "contactez nous", url: "/contact" },
         ]}
         image="/assets/img/pg2.jpg"
       />

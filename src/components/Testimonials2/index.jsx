@@ -128,11 +128,11 @@ const Testimonials2 = () => {
           <div className="col-lg-3 offset-lg-1 order1">
             <div className="sec-head mt-80 mb-0">
               <h6 className="wow fadeIn" data-wow-delay=".5s">
-                Testimonials
+              Témoignages
               </h6>
               <Split>
                 <h3 className="wow words chars splitting" data-splitting>
-                  What <br /> People <br /> Says.
+                  Ce que des <br /> Personnes <br /> disent.
                 </h3>
               </Split>
             </div>

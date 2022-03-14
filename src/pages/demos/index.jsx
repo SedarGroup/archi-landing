@@ -292,7 +292,7 @@ const Demos = () => {
                       >
                         <img src="/demos/9.png" alt="image" />
                         <div className="cont">
-                          <h6>Contact Us</h6>
+                          <h6>Contactez nous</h6>
                         </div>
                       </div>
                     </a>
@@ -327,14 +327,14 @@ const Demos = () => {
               <div className="col-lg-4">
                 <div className="item md-mb50">
                   <div className="title">
-                    <h5>Contact Us</h5>
+                    <h5>Contactez nous</h5>
                   </div>
                   <ul>
                     <li>
                       <span className="icon pe-7s-map-marker"></span>
                       <div className="cont">
-                        <h6>Officeal Address</h6>
-                        <p>504 White St . Dawsonville, GA 30534 , New York</p>
+                        <h6>Rabat</h6>
+                        <p>Agdal</p>
                       </div>
                     </li>
                     <li>

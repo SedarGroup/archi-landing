@@ -20,7 +20,7 @@ const AfterBefore = () => {
         >
           <div className="row justify-content-center">
             <div className="col-lg-8 col-md-10">
-              <h6 className="custom-font">Best Works</h6>
+              <h6 className="custom-font">Travaux</h6>
               <h4 className="playfont">
                 Drag the Slider to See the Transformation One of the Interior
               </h4>
