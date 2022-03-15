@@ -38,9 +38,7 @@ class Team1 extends React.Component {
                   Notre équipe
                 </h3>
                 <p className="wow fadeInUp" data-wow-delay=".3s">
-                  We feel proud for our expert team members beatae ipsum dolor
-                  sit amet, consectetur adipisicing elit mauris vitae consequat
-                  nibh, vitae interdum mi.
+                  Nous sommes fiers de notre équipe polyvalente
                 </p>
                 {this.renderArrows()}
               </div>

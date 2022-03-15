@@ -42,50 +42,9 @@ const Footer = ({ classText }) => {
           <div className="col-lg-4">
             <div className="item md-mb50">
               <div className="title">
-                <h5>Actualités récentes</h5>
+                <h5>Abonnez-vous à la newsletter</h5>
               </div>
               <ul>
-                <li>
-                  <div className="img">
-                    <Link href="/blog-details">
-                      <a>
-                        <img src="/assets/img/blog/1.jpg" alt="" />
-                      </a>
-                    </Link>
-                  </div>
-
-                  <div className="sm-post">
-                    <Link href="/blog-details">
-                      <a>
-                        <p>
-                          The Start-Up Ultimate Guide to Make Your WordPress
-                          Journal.
-                        </p>
-                      </a>
-                    </Link>
-                    <span className="date">14 Jan 2022</span>
-                  </div>
-                </li>
-                <li>
-                  <div className="img">
-                    <Link href="/blog-details">
-                      <a>
-                        <img src="/assets/img/blog/2.jpg" alt="" />
-                      </a>
-                    </Link>
-                  </div>
-                  <div className="sm-post">
-                    <Link href="/blog-details">
-                      <a>
-                        <p>
-                          The Start-Up Ultimate Guide to Make Your WordPress
-                          Journal.
-                        </p>
-                      </a>
-                    </Link>
-                    <span className="date">14 Jan 2022</span>
-                  </div>
-                </li>
                 <li>
                   <div className="subscribe">
                     <input type="text" placeholder="Ecrivez votre mail" />
@@ -124,8 +83,8 @@ const Footer = ({ classText }) => {
               </div>
               <div className="copy-right">
                 <p>
-                  © 2022, Arch Template. Made with passion by
-                  <Link href="#">ThemesCamp</Link>.
+                  © 2022,
+                  <Link href="#"> Sedar Group</Link>.
                 </p>
               </div>
             </div>

@@ -422,8 +422,8 @@ const Demos = () => {
                   </div>
                   <div className="copy-right">
                     <p>
-                      © 2022, Arch Template. Made with passion by
-                      <Link href="#">ThemesCamp</Link>.
+                      © 2022,
+                      <Link href="#">Sedar Group</Link>.
                     </p>
                   </div>
                 </div>
