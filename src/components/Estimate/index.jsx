@@ -1,5 +1,4 @@
 import React from "react";
-import appData from "../../data/app.json";
 import estimations from "../../data/estimation.json"
 const Estimate = () => {
   const [estimation, setEstimation] = React.useState(0);

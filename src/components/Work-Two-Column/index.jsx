@@ -16,7 +16,7 @@ export const WorkTwoColumn = () => {
           <div className="row gallery">
             <div className="col-lg-6 items mt-0 interior theaters residential">
               <div className="section-head mb-0">
-                <h3>Works</h3>
+                <h3>Travaux</h3>
 
                 <div className="filtering mt-30">
                   <div className="filter">
