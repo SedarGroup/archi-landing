@@ -5,7 +5,6 @@ const loadingPace = () => {
       preloader.classList.add("isdone");
       loadingText.classList.add("isdone");
     };
-    console.log("gffh",Pace);
     Pace.on("start", function () {
       preloader.classList.remove("isdone");
       loadingText.classList.remove("isdone");

@@ -1,0 +1,10 @@
+[
+    {
+        "name": "Surface",
+        "factor": 500
+    },
+    {
+        "name": "Rénovation",
+        "factor": 300
+    }
+]

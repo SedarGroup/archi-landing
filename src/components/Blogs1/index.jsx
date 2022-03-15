@@ -2,6 +2,7 @@
 import React from "react";
 import Blog1Data from "../../data/blogs1.json";
 import Link from "next/link";
+import Estimate from "../Estimate";
 
 const Blogs1 = () => {
   return (
@@ -11,46 +12,15 @@ const Blogs1 = () => {
           <div className="row justify-content-center">
             <div className="col-lg-6 col-md-8 col-sm-10">
               <h6 className="wow fadeInDown" data-wow-delay=".3s">
-                Dernières Actualités
+                 Nos tarifs
               </h6>
               <h4 className="playfont wow flipInX" data-wow-delay=".5s">
-                Nos Blogs
+                Estimez
               </h4>
             </div>
           </div>
         </div>
-        <div className="row">
-          {Blog1Data.map((blog, index) => (
-            <div className="col-lg-4" key={blog.id}>
-              <div
-                className="item wow fadeInUp"
-                data-wow-delay={index == 0 ? ".3s" : index == 1 ? ".1s" : ".5s"}
-              >
-                <div className="post-img">
-                  <div className="img">
-                    <img src={blog.image} alt="" />
-                  </div>
-                </div>
-                <div className="cont">
-                  <div className="info">
-                    <Link href="#">{blog.by}</Link>
-                    <Link href="#">{blog.date}</Link>
-                  </div>
-
-                  <h5 className="playfont">
-                    <Link href="/blog-details">{blog.title}</Link>
-                  </h5>
-
-                  <Link href="/blog-details">
-                    <a className="more">
-                      <span>Plus ...</span>
-                    </a>
-                  </Link>
-                </div>
-              </div>
-            </div>
-          ))}
-        </div>
+         <Estimate></Estimate>
       </div>
     </section>
   );
