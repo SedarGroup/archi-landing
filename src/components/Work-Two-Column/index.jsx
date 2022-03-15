@@ -23,9 +23,9 @@ export const WorkTwoColumn = () => {
                     <span data-filter="*" className="active">
                       All
                     </span>
-                    <span data-filter=".interior">Interior</span>
-                    <span data-filter=".theaters">Theaters</span>
-                    <span data-filter=".residential">Residential</span>
+                    <span data-filter=".interior">Interieur</span>
+                    <span data-filter=".exterior">Extérieur</span>
+                    <span data-filter=".residential">Residentiel</span>
                   </div>
                 </div>
               </div>
@@ -37,10 +37,10 @@ export const WorkTwoColumn = () => {
                 </div>
                 <div className="cont vis">
                   <h5>
-                    <Link href="/project-details">Modern Townhouse</Link>
+                    <Link href="/project-details">Villa moderne</Link>
                   </h5>
                   <span>Architecture</span>
-                  <span>Modern</span>
+                  <span>Moderne</span>
                 </div>
               </div>
             </div>
@@ -51,10 +51,10 @@ export const WorkTwoColumn = () => {
                 </div>
                 <div className="cont vis">
                   <h5>
-                    <Link href="/project-details">Modern Townhouse</Link>
+                    <Link href="/project-details">Villa moderne</Link>
                   </h5>
                   <span>Architecture</span>
-                  <span>Modern</span>
+                  <span>Moderne</span>
                 </div>
               </div>
             </div>
@@ -65,10 +65,10 @@ export const WorkTwoColumn = () => {
                 </div>
                 <div className="cont vis">
                   <h5>
-                    <Link href="/project-details">Modern Townhouse</Link>
+                    <Link href="/project-details">Villa moderne</Link>
                   </h5>
                   <span>Architecture</span>
-                  <span>Modern</span>
+                  <span>Moderne</span>
                 </div>
               </div>
             </div>
@@ -79,10 +79,10 @@ export const WorkTwoColumn = () => {
                 </div>
                 <div className="cont vis">
                   <h5>
-                    <Link href="/project-details">Modern Townhouse</Link>
+                    <Link href="/project-details">Villa moderne</Link>
                   </h5>
                   <span>Architecture</span>
-                  <span>Modern</span>
+                  <span>Moderne</span>
                 </div>
               </div>
             </div>
@@ -93,10 +93,10 @@ export const WorkTwoColumn = () => {
                 </div>
                 <div className="cont vis">
                   <h5>
-                    <Link href="/project-details">Modern Townhouse</Link>
+                    <Link href="/project-details">Villa moderne</Link>
                   </h5>
                   <span>Architecture</span>
-                  <span>Modern</span>
+                  <span>Moderne</span>
                 </div>
               </div>
             </div>

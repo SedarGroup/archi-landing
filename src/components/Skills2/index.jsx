@@ -33,8 +33,8 @@ const Skills2 = () => {
             <div className="col-lg-6">
               <div className="content">
                 <h4 className="playfont line-height-50 mb-20">
-                  Providing Customized Design Solutions That Fits Every Space .
-                </h4>
+                Des solutions de conception personnalisées qui s'adaptent à tout espace.               
+                 </h4>
                 <p className="mb-10">
                   Beyond more stoic this along goodness hey this this wow ipsum
                   manate far impressive manifest farcrud opened inside.

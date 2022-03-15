@@ -49,7 +49,7 @@ const ProjectIntro = () => {
             <div className="item mt-30">
               <h6>Tags</h6>
               <p>
-                <Link href="#">Minimal</Link> , <Link href="#">Modern</Link> ,
+                <Link href="#">Minimal</Link> , <Link href="#">Moderne</Link> ,
                 <Link href="#">Design</Link>
               </p>
             </div>

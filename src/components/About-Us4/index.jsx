@@ -13,7 +13,7 @@ const AboutUs4 = () => {
                     <h3>
                       <span className="nbr custom-font">352</span>
                     </h3>
-                    <h6>Projects Completed</h6>
+                    <h6>Projets réalisés</h6>
                   </div>
                 </div>
                 <div className="col-sm-6">
@@ -21,7 +21,7 @@ const AboutUs4 = () => {
                     <h3>
                       <span className="nbr custom-font">567</span>
                     </h3>
-                    <h6>Satisfied Clients</h6>
+                    <h6>Clients satisfaits</h6>
                   </div>
                 </div>
                 <div className="col-sm-6">
@@ -30,7 +30,7 @@ const AboutUs4 = () => {
                       <span className="nbr custom-font">656</span>
                       <i>M</i>
                     </h3>
-                    <h6>Monthly Revenue</h6>
+                    <h6>Revenus mensuels</h6>
                   </div>
                 </div>
                 <div className="col-sm-6">
@@ -38,7 +38,7 @@ const AboutUs4 = () => {
                     <h3>
                       <span className="nbr custom-font">17</span>
                     </h3>
-                    <h6>Awards Won</h6>
+                    <h6>Prix gagnés</h6>
                   </div>
                 </div>
               </div>
@@ -47,17 +47,8 @@ const AboutUs4 = () => {
           <div className="col-lg-6">
             <div className="txt-cont">
               <p className="mb-20">
-                Maecenas imperdiet ante eget hendrerit posuere. Nunc urna
-                libero, congue porta nibh a, semper feugiat sem. Sed auctor dui
-                eleifend, scelerisque eros ut.
-              </p>
-              <p>
-                Curabitur sed iaculis dolor, non congue ligula. Maecenas
-                imperdiet ante eget hendrerit posuere. Nunc urna libero, congue
-                porta nibh a, semper feugiat sem. Sed auctor dui eleifend,
-                scelerisque eros ut, pellentesque nibh. Nam lacinia suscipit
-                accumsan. Donec sodales, neque vitae rutrum convallis, nulla
-                tortor pharetra odio, in varius ante ante sed nisi.
+              Sedar est un nom seereer qui signifie quelqu'un qui n’aura jamais honte. Une personne d’honneur.. Sedar se veut être un
+groupe qui vous aide à accéder à une construction de qualité, à un entretien de votre domicile, le tout sans trop dépenser..
               </p>
             </div>
           </div>

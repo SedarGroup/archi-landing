@@ -26,9 +26,9 @@ const WorkWithoutFilter = ({ vis }) => {
                 </div>
                 <div className={`cont ${vis ? "vis" : ""}`}>
                   <span>Architecture</span>
-                  <span>Modern</span>
+                  <span>Moderne</span>
                   <h5>
-                    <Link href="/project-details">Modern Townhouse</Link>
+                    <Link href="/project-details">Villa moderne</Link>
                   </h5>
                 </div>
               </div>
@@ -40,9 +40,9 @@ const WorkWithoutFilter = ({ vis }) => {
                 </div>
                 <div className={`cont ${vis ? "vis" : ""}`}>
                   <span>Architecture</span>
-                  <span>Modern</span>
+                  <span>Moderne</span>
                   <h5>
-                    <Link href="/project-details">Modern Townhouse</Link>
+                    <Link href="/project-details">Villa moderne</Link>
                   </h5>
                 </div>
               </div>
@@ -54,9 +54,9 @@ const WorkWithoutFilter = ({ vis }) => {
                 </div>
                 <div className={`cont ${vis ? "vis" : ""}`}>
                   <span>Architecture</span>
-                  <span>Modern</span>
+                  <span>Moderne</span>
                   <h5>
-                    <Link href="/project-details">Modern Townhouse</Link>
+                    <Link href="/project-details">Villa moderne</Link>
                   </h5>
                 </div>
               </div>
@@ -68,9 +68,9 @@ const WorkWithoutFilter = ({ vis }) => {
                 </div>
                 <div className={`cont ${vis ? "vis" : ""}`}>
                   <span>Architecture</span>
-                  <span>Modern</span>
+                  <span>Moderne</span>
                   <h5>
-                    <Link href="/project-details">Modern Townhouse</Link>
+                    <Link href="/project-details">Villa moderne</Link>
                   </h5>
                 </div>
               </div>
@@ -82,9 +82,9 @@ const WorkWithoutFilter = ({ vis }) => {
                 </div>
                 <div className={`cont ${vis ? "vis" : ""}`}>
                   <span>Architecture</span>
-                  <span>Modern</span>
+                  <span>Moderne</span>
                   <h5>
-                    <Link href="/project-details">Modern Townhouse</Link>
+                    <Link href="/project-details">Villa moderne</Link>
                   </h5>
                 </div>
               </div>

@@ -91,9 +91,9 @@ const Demos = () => {
             <div className="col-lg-12 static text-center">
               <div className="capt mt-50">
                 <div className="parlx">
-                  <h1 className="mb-10">Archo Template</h1>
+                  <h1 className="mb-10">Sedar Group</h1>
                   <p className="ls10 text-u">
-                    Creative Architecture Interior Template.
+                     Architecture créative.
                   </p>
                 </div>
               </div>

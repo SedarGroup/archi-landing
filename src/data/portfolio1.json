@@ -7,8 +7,8 @@
     },
     {
       "id": 2,
-      "name": "theatres",
-      "filterClass": ".theaters"
+      "name": "Extérieur",
+      "filterClass": ".exterior"
     },
     {
       "id": 3,
@@ -22,7 +22,7 @@
       "image": "/assets/img/portfolio/mas/01.jpg",
       "title": "Fantastic interior",
       "tag": "Design d'intérieur",
-      "filterClass": "theaters"
+      "filterClass": "exterior"
     },
     {
       "id": 2,
@@ -43,7 +43,7 @@
       "image": "/assets/img/portfolio/mas/04.jpg",
       "title": "Creative Spaces",
       "tag": "Design d'intérieur",
-      "filterClass": "interior theaters"
+      "filterClass": "interior exterior"
     }
   ]
 }

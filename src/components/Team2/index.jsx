@@ -7,7 +7,7 @@ const Team2 = () => {
     <section className="team bord section-padding">
       <div className="container">
         <div className="main-header text-center">
-          <h3>Creative Team.</h3>
+          <h3>Equipe Créative.</h3>
           <div className="tex-bg">Team</div>
         </div>
       </div>

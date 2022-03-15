@@ -8,7 +8,7 @@ const AboutUs7 = () => {
         <div className="row">
           <div className="col-lg-6">
             <div className="cont">
-              <h2>Creative Solutions by Professional Designers</h2>
+              <h2>Solutions créatives</h2>
               <p>
                 Cras vel cursus libero. Vestibulum porttitor nunc enim, quis
                 congue leo fringilla ut. Quisque in lacus lacus. Nunc malesuada

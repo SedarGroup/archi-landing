@@ -52,12 +52,12 @@ const Portfolio2 = () => {
           <div className="col-lg-3 col-md-6 cluom" data-tab="tab-4">
             <div className="info">
               <h6 className="custom-font">Interior</h6>
-              <h5>Modern Minimalist House</h5>
+              <h5>Maison Moderne Minimaliste</h5>
             </div>
             <div className="more">
               <Link href="/project-details">
                 <a>
-                  View Project <i className="fas fa-chevron-right"></i>
+                  Voir le Projet <i className="fas fa-chevron-right"></i>
                 </a>
               </Link>
             </div>

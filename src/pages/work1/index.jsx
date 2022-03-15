@@ -12,8 +12,8 @@ const Work1 = () => {
     <MainLayout>
       <WorkHeader
         title={{
-          first: "Architecture is a visual art,",
-          second: "and the building speak for themeselves",
+          first: "L'architecture est un art visuel,",
+          second: "et les constructions parlent d'elles même",
         }}
         // title = "text",
         content="Architecture bibendum pharetra eleifend. Suspendisse vel volutpat purus, sit amet bibendum nisl. Cras mollis turpis a ipsum ultes, nec condimentum ipsum consequat. Mauris vitae consequat nibh, vitae interdum mi."
