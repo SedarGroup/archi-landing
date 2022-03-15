@@ -1,8 +1,18 @@
-/* eslint-disable @next/next/no-img-element */
 import React from "react";
 import Link from "next/link";
-
+import { validateEmail } from "../../utils";
 const Footer = ({ classText }) => {
+  const [email, setEmail] = React.useState('');
+  const onEmailChange = (event) => {
+    setEmail(event.target.value);
+  }
+  const onSubmit = (event)=>{
+    event.preventDefault();
+    if (validateEmail(email)){
+      fetch(`.netlify/functions/saveMail?email=${email}`);
+      alert("Mail enregistré pour de prochaines newsletters")
+    }
+}
   return (
     <footer className={`${classText ? classText : ""}`}>
       <div className="container">
@@ -25,7 +35,7 @@ const Footer = ({ classText }) => {
                   <div className="cont">
                     <h6>Email</h6>
                     <p><a href="mailto:sedargroup.sn@gmail.com" >
-                    sedargroup.sn@gmail.com
+                      sedargroup.sn@gmail.com
                     </a></p>
                   </div>
                 </li>
@@ -46,10 +56,10 @@ const Footer = ({ classText }) => {
               </div>
               <ul>
                 <li>
-                  <div className="subscribe">
-                    <input type="text" placeholder="Ecrivez votre mail" />
-                    <span className="subs pe-7s-paper-plane"></span>
-                  </div>
+                  <form className="subscribe">
+                    <input type={'email'} onChange={onEmailChange} placeholder="Ecrivez votre mail" />
+                    <button type="submit" onClick={onSubmit} className="subs pe-7s-paper-plane"></button>
+                  </form>
                 </li>
               </ul>
             </div>
@@ -94,5 +104,4 @@ const Footer = ({ classText }) => {
     </footer>
   );
 };
-
 export default Footer;
