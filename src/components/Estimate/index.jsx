@@ -16,7 +16,7 @@ const Estimate = () => {
         <div className="container">
           <div className="row">
             <div
-              className="col-lg-5 col-md-6 contact-form wow fadeInDown"
+              className="col-lg-5 col-md-6 contact-form wow fadeInLeft"
               data-wow-delay=".3s"
             >
               <form id="estimate-form" onSubmit={calculate}>
@@ -42,7 +42,7 @@ const Estimate = () => {
                   <button type="submit" className="btn-curve btn-color">
                     <span>Calculer</span>
                   </button>
-                  <p className="mt-20">              {estimation} CFA
+                  <p className="nbr mt-20">              {estimation} CFA
                   </p>
                 </div>
               </form>
