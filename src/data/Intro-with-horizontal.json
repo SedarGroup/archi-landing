@@ -10,32 +10,29 @@
   },
   {
     "id": 2,
-    "title": { "first": "Architecture & intérieur", "second": "Moderne et classique" },
+    "title": { "first": "Architecture & intérieur", "second": "Architecture innovative" },
     "content": {
-      "first": "Right design and right ideas matter a lot of in interior design",
-      "second": "business. a style that makes a statement."
-    },
-    "image": "/assets/img/slid/n/3.jpg"
-  },
-  {
-    "id": 3,
-    "title": { "first": "Architecture & intérieur", "second": "Design Elegant & Unique" },
-    "content": {
-      "first": "Right design and right ideas matter a lot of in interior design",
-      "second": "business. a style that makes a statement."
+      "first": "Un bon design et de bonnes idées comptent beaucoup en architecture",
+      "second": "Le Business. Un style avant tout."
     },
     "image": "/assets/img/slid/n/2.jpg"
   },
   {
-    "id": 4,
-    "title": {
-      "first": "Architecture & intérieur",
-      "second": "Design d'intérieur"
-    },
+    "id": 3,
+    "title": { "first": "Architecture & intérieur", "second": "Architecture innovative" },
     "content": {
-      "first": "Right design and right ideas matter a lot of in interior design",
-      "second": "business. a style that makes a statement."
+      "first": "Un bon design et de bonnes idées comptent beaucoup en architecture",
+      "second": "Le Business. Un style avant tout."
     },
-    "image": "/assets/img/slid/n/04.jpg"
+    "image": "/assets/img/slid/n/3.jpg"
+  },
+  {
+    "id": 4,
+    "title": { "first": "Architecture & intérieur", "second": "Architecture innovative" },
+    "content": {
+      "first": "Un bon design et de bonnes idées comptent beaucoup en architecture",
+      "second": "Le Business. Un style avant tout."
+    },
+    "image": "/assets/img/slid/n/4.jpg"
   }
 ]
