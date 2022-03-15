@@ -27,21 +27,21 @@
     {
       "id": 2,
       "image": "/assets/img/portfolio/mas/02.jpg",
-      "title": "Choose Your Dream",
+      "title": "Choisissez vos rêves",
       "tag": "Architecture",
       "filterClass": "interior"
     },
     {
       "id": 3,
       "image": "/assets/img/portfolio/mas/03.jpg",
-      "title": "Luxury Villa",
+      "title": "Villa luxueuse",
       "tag": "Architecture",
       "filterClass": "residential"
     },
     {
       "id": 4,
       "image": "/assets/img/portfolio/mas/04.jpg",
-      "title": "Creative Spaces",
+      "title": "Espaces créatives",
       "tag": "Design d'intérieur",
       "filterClass": "interior exterior"
     }

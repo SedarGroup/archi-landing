@@ -42,8 +42,8 @@ const Estimate = () => {
                   <button type="submit" className="btn-curve btn-color">
                     <span>Calculer</span>
                   </button>
-                  <p className="nbr mt-20">              {estimation} CFA
-                  </p>
+                  {estimation !=0 &&<p className="nbr mt-20">              {estimation} CFA
+                  </p>}
                 </div>
               </form>
             </div>
