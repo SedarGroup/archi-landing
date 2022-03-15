@@ -32,7 +32,7 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
     <>
       <nav className="navbar change navbar-expand-lg" ref={navbarRef}>
         <div className="container">
-          <Link href="/demos">
+          <Link href="/">
             <a className={`logo ${logoClass && logoClass}`}>
               <img src={appData.lightLogo} alt="logo" ref={logoRef} />
             </a>
@@ -65,51 +65,10 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
                   <a className="nav-link">A propos</a>
                 </Link>
               </li>
-              <li className="nav-item dropdown" onClick={handleDropdown}>
-                <span
-                  className="nav-link dropdown-toggle"
-                  data-toggle="dropdown"
-                  href="#"
-                  role="button"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                >
-                  Portfolio
-                </span>
-                <div className="dropdown-menu">
-                  <Link href="/work1">
-                    <a className="dropdown-item">Two Column</a>
-                  </Link>
-                  <Link href="/work2">
-                    <a className="dropdown-item">Three Column</a>
-                  </Link>
-                  <Link href="/work3">
-                    <a className="dropdown-item">Four Column</a>
-                  </Link>
-                  <Link href="/project-details">
-                    <a className="dropdown-item">Single Project</a>
-                  </Link>
-                </div>
-              </li>
-              <li className="nav-item dropdown" onClick={handleDropdown}>
-                <span
-                  className="nav-link dropdown-toggle"
-                  data-toggle="dropdown"
-                  href="#"
-                  role="button"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                >
-                  Blog
-                </span>
-                <div className="dropdown-menu">
-                  <Link href="/blogs">
-                    <a className="dropdown-item">Blogs</a>
-                  </Link>
-                  <Link href="/blog-details">
-                    <a className="dropdown-item">Post Details</a>
-                  </Link>
-                </div>
+              <li className="nav-item">
+                <Link href="/work1">
+                  <a className="nav-link">Portfolio</a>
+                </Link>
               </li>
               <li className="nav-item">
                 <Link href="/contact">

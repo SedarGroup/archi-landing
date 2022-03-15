@@ -347,8 +347,8 @@ const Demos = () => {
                     <li>
                       <span className="icon pe-7s-call"></span>
                       <div className="cont">
-                        <h6>Call Us</h6>
-                        <p>+87986451666</p>
+                        <h6>Téléphone</h6>
+                        <p><a href="tel:+212695558308">+212 695 558 308</a></p>
                       </div>
                     </li>
                   </ul>

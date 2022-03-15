@@ -9,9 +9,8 @@ const ContactInfo = () => {
             <div className="item">
               <span className="icon pe-7s-phone"></span>
               <div className="cont">
-                <h6 className="custom-font">Call Us</h6>
-                <p>+7 (111) 1234 56789</p>
-                <p>+1 (000) 9876 54321</p>
+                <h6 className="custom-font">Téléphone</h6>
+                <p><a href="tel:+212695558308">+212 695 558 308</a></p>
               </div>
             </div>
           </div>
@@ -19,9 +18,8 @@ const ContactInfo = () => {
             <div className="item">
               <span className="icon pe-7s-mail-open"></span>
               <div className="cont">
-                <h6 className="custom-font">Email Us</h6>
-                <p>contact@Archo.com</p>
-                <p>Username@website.com</p>
+                <h6 className="custom-font">Email</h6>
+                <p><a href="mailto:sedargroup.sn@gmail.com">sedargroup.sn@gmail.com</a></p>
               </div>
             </div>
           </div>
@@ -29,10 +27,9 @@ const ContactInfo = () => {
             <div className="item">
               <span className="icon pe-7s-map"></span>
               <div className="cont">
-                <h6 className="custom-font">Address</h6>
+                <h6 className="custom-font">Adresse</h6>
                 <p>
-                  B17 Princess Road, London, Greater London NW18JR, United
-                  Kingdom
+                 Rabat, Agdal
                 </p>
               </div>
             </div>
