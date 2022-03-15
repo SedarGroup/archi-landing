@@ -1,9 +1,7 @@
-/* eslint-disable @next/next/no-img-element */
 import React from "react";
 import Link from "next/link";
 import appData from "../../data/app.json";
 import getSiblings from '../../common/getSiblings'
-
 const Navbar = ({ navbarRef, logoRef, logoClass }) => {
   const handleDropdown = (e) => {
     getSiblings(e.target.parentElement)
@@ -21,13 +19,11 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
     e.target.setAttribute("aria-expanded", true);
     e.target.parentElement.childNodes[1].classList.toggle("show");
   };
-
   const handleMobileDropdown = (e) => {
     document
       .getElementById("navbarSupportedContent")
       .classList.toggle("show-with-trans");
   };
-
   return (
     <>
       <nav className="navbar change navbar-expand-lg" ref={navbarRef}>
@@ -37,7 +33,6 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
               <img src={appData.lightLogo} alt="logo" ref={logoRef} />
             </a>
           </Link>
-
           <button
             className="navbar-toggler"
             type="button"
@@ -52,10 +47,9 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
               <i className="fas fa-bars"></i>
             </span>
           </button>
-
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ml-auto">
-            <li className="nav-item">
+              <li className="nav-item">
                 <Link href="/">
                   <a className="nav-link">Accueil</a>
                 </Link>
@@ -75,6 +69,13 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
                   <a className="nav-link">Contact</a>
                 </Link>
               </li>
+              <li className="nav-item">
+              <Link href='estimate'>
+                <button className="btn-curve btn-color mt-5 nav-link">
+                  <span>Estimer</span>
+                </button>
+                </Link>
+              </li>
             </ul>
           </div>
         </div>
@@ -82,5 +83,4 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
     </>
   );
 };
-
 export default Navbar;

@@ -21,9 +21,9 @@ const Home1 = () => {
       <AboutUs1 />
       <Services1 />
       <Portfolio1 />
-      <SkillsCircle />
+      {/* <SkillsCircle /> */}
       {/* <Testimonials /> */}
-      <Blogs1 />
+      {/* <Blogs1 /> */}
       <Team1 />
       <Contact />
     </LightLayout>
