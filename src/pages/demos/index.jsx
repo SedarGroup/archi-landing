@@ -220,7 +220,7 @@ const Demos = () => {
                 </div>
 
                 <div className="col-lg-4 col-md-6 items">
-                  <Link href="/work1">
+                  <Link href="/work">
                     <a target="_blank">
                       <div
                         className="item-img wow fadeInUp"

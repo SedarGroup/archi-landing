@@ -21,7 +21,7 @@ export const WorkTwoColumn = () => {
                 <div className="filtering mt-30">
                   <div className="filter">
                     <span data-filter="*" className="active">
-                      All
+                      Tout
                     </span>
                     <span data-filter=".interior">Interieur</span>
                     <span data-filter=".exterior">Extérieur</span>

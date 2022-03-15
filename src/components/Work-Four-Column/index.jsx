@@ -16,7 +16,7 @@ const WorkFourColumn = () => {
           <div className="filtering text-center mb-30">
             <div className="filter">
               <span data-filter="*" className="active">
-                All
+                Tout
               </span>
               <span data-filter=".interior">Interior</span>
               <span data-filter=".theaters">Theaters</span>

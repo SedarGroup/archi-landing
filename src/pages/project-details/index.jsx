@@ -17,7 +17,7 @@ const ProjectDetails = () => {
         title="Luxury Furniture"
         fullPath={[
           { id: 1, name: "Accueil", url: "/" },
-          { id: 2, name: "Portfolio", url: "/work1" },
+          { id: 2, name: "Portfolio", url: "/work" },
           { id: 3, name: "Détails du projet", url: "/project-details" },
         ]}
         image="/assets/img/portfolio/project1/bg.jpg"
