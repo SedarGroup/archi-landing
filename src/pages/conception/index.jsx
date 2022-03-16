@@ -10,10 +10,10 @@ const Renovate = () => {
     return (
         <LightLayout footerClass={"mt-30"}>
             <PageHeader
-                title="Estimez le coût de la rénovation"
+                title="Estimez le coût de la conception"
                 fullPath={[
                     { id: 1, name: "Accueil", url: "/" },
-                    { id: 2, name: "Rénovation", url: "/renovation" },
+                    { id: 2, name: "Conception", url: "/conception" },
                 ]}
             />
             <GuideProcess></GuideProcess>

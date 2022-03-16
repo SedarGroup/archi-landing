@@ -1,6 +1,6 @@
 import React from "react";
 
-const Process = () => {
+const GuideProcess = () => {
   return (
     <section
       className="process section-padding bg-img bg-repeat"
@@ -78,4 +78,4 @@ const Process = () => {
   );
 };
 
-export default Process;
+export default GuideProcess;

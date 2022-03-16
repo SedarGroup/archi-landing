@@ -90,7 +90,7 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
                   <Link href="/renovation">
                     <a className="dropdown-item">Rénovation</a>
                   </Link>
-                  <Link href="/about">
+                  <Link href="/conception">
                     <a className="dropdown-item">Conception</a>
                   </Link>
 
