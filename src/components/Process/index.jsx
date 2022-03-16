@@ -11,10 +11,10 @@ const Process = () => {
           <div className="row justify-content-center">
             <div className="col-lg-6 col-md-8 col-sm-10">
               <h6 className="custom-font wow fadeInDown" data-wow-delay=".3s">
-                How We Do It
+                Comment ça marche?
               </h6>
               <h4 className="playfont wow flipInX" data-wow-delay=".5s">
-                Work Process
+                Processus
               </h4>
             </div>
           </div>
@@ -32,8 +32,9 @@ const Process = () => {
                 <h3 className="numb custom-font">01</h3>
               </div>
               <div className="cont">
-                <h6 className="mb-10">Concept</h6>
-                <p>Nulla metus metus ullamcorper vel tincidunt sed euismod.</p>
+                <h6 className="mb-10">Confiez votre projet</h6>
+                <p>Complétez le formulaire en moins d’1 minute avec les informations de votre projet et en nous transmettant tout document utile (photos, plans, référence, etc…).</p>
+                <p> Vous êtes pressés? Appelez nous au <a href="tel:0000"><span>01 84 23 41 14</span></a></p>
               </div>
             </div>
           </div>
@@ -50,7 +51,9 @@ const Process = () => {
               </div>
               <div className="cont">
                 <h6 className="mb-10">Design Process</h6>
-                <p>Nulla metus metus ullamcorper vel tincidunt sed euismod.</p>
+                <p> 
+
+Votre expert habitat vous contacte afin de bien comprendre les spécificités de votre projet et vos attentes. Il vous donnera les vrais délais et prix du marché pour votre projet en fonction de votre région et vous proposera les meilleurs choix en fonction de votre budget.</p>
               </div>
             </div>
           </div>
@@ -67,7 +70,7 @@ const Process = () => {
               </div>
               <div className="cont">
                 <h6 className="mb-10">Supervision</h6>
-                <p>Nulla metus metus ullamcorper vel tincidunt sed euismod.</p>
+                <p>Votre expert habitat sélectionne pour vous le professionnel proche de chez vous le plus adapté à votre projet. Il négocie ensuite pour vous le devis afin de vous faire profiter d’un prix ultra compétitif grâce à notre pouvoir de négociation.</p>
               </div>
             </div>
           </div>
