@@ -22,7 +22,7 @@ const Works1 = () => {
                   Travaux
                 </h6>
                 <h4 className="playfont wow flipInX" data-wow-delay=".5s">
-                  Portfolio
+                  Réalisations
                 </h4>
               </div>
             </div>
