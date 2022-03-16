@@ -1,21 +1,19 @@
-/* eslint-disable @next/next/no-img-element */
 import React from "react";
 import aboutUs2Data from "../../data/about-us2.json";
 import Link from 'next/link'
-
-const Card = ({title, showButton=false, tags=false, children, animation="fadeInUp"}) => {
+const Card = ({ title, showButton = false, tags = false, children, animation = "fadeInUp", linkTo = "/about", buttonTitle = 'Plus...', imgLeft }) => {
   return (
     <section className="about section-padding">
       <div className="container">
         <div className="row">
-          <div className="col-lg-6 valign">
+          <div style={imgLeft && { left: '50%' }} className="col-lg-6 valign">
             <div
               className={`exp-content nopat wow ${animation}`}
               data-wow-delay=".3s"
             >
-             {/* / <h6 className="sub-title">{title}</h6> */}
+              { }
               <h2 className="mb-20 playfont">
-              {title} <br />
+                {title} <br />
               </h2>
               <p>{children}</p>
               {tags && <ul>
@@ -23,17 +21,17 @@ const Card = ({title, showButton=false, tags=false, children, animation="fadeInU
                   <li key={item.id}>{item.name}</li>
                 ))}
               </ul>}
-              {showButton && <Link href="/about">
+              {showButton && <Link href={linkTo}>
                 <a className="btn-curve btn-color mt-30">
-                  <span>Plus ...</span>
+                  <span>{buttonTitle}</span>
                 </a>
               </Link>}
             </div>
           </div>
-          <div className="col-lg-6">
+          <div style={imgLeft && { right: '50%' }} className="col-lg-6">
             <div className="ab-exp">
               <div className="row">
-                <div className="col-md-4 mb-20">
+                <div className="col-md-4">
                   <div
                     className="pattern bg-img bg-repeat"
                     style={{
@@ -46,19 +44,6 @@ const Card = ({title, showButton=false, tags=false, children, animation="fadeInU
                     <img src={aboutUs2Data.image1} alt="" />
                   </div>
                 </div>
-                <div className="col-md-7 wow fadeInUp" data-wow-delay=".3s">
-                  <div className="img wow imago">
-                    <img src={aboutUs2Data.image2} alt="" />
-                  </div>
-                </div>
-                <div className="col-md-5">
-                  <div className="years-exp">
-                    <div className="exp-text">
-                      <h2 className="custom-font">{aboutUs2Data.exp}</h2>
-                      <h6>Years Of Experience</h6>
-                    </div>
-                  </div>
-                </div>
               </div>
             </div>
           </div>
@@ -67,5 +52,4 @@ const Card = ({title, showButton=false, tags=false, children, animation="fadeInU
     </section>
   );
 };
-
 export default Card;

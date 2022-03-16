@@ -109,7 +109,7 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
               <li className="nav-item">
               <Link href='estimate'>
                 <button className="btn-curve btn-color mt-5 nav-link">
-                  <span>Estimer</span>
+                  <span>Estimez votre projet</span>
                 </button>
                 </Link>
               </li>

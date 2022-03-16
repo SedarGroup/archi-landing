@@ -13,15 +13,30 @@ const Renovate = () => {
                 title="Estimez le coût de la rénovation"
                 fullPath={[
                     { id: 1, name: "Accueil", url: "/" },
-                    { id: 2, name: "Rénovation", url: "/renovate" },
+                    { id: 2, name: "Rénovation", url: "/renovation" },
                 ]}
             />
             <RenovationProcess></RenovationProcess>
-            <Card title={"1-Confiez votre projet"}>
-                Complétez le formulaire en moins d’1 minute avec les informations de votre projet et en nous transmettant tout document utile (photos, plans, référence, etc…).Vous êtes pressés? Appelez nous au: <a href="">01 84 23 41 14</a>
+            <Card linkTo={'quote'} title={"Notre mission, transformer votre rénovation d'appartement en succès"} showButton buttonTitle="Confier un devis">
+                Chez Sedar, nous sommes convaincus que votre projet sera un succès uniquement si vous avez anticipé les prix, les délais et les étapes de votre rénovation. En présentant votre projet sur Archionline, nos experts habitats vous donnent gratuitement le coup d’avance sur vos travaux. Nous vous accompagnons des premiers plans au dernier coup de peinture avec nos architectes et entreprises triés sur le volet.
+                <p><b>Pourquoi faire confiance à Sedar pour votre projet ?</b></p>
+                <ol>
+                    <li> <b>- </b>+ 950 projets de rénovation réalisés et 98% de satisfaction</li>
+                    <li> <b>- </b> Accompagnement sur-mesure par un architecte  </li>
+                    <li> <b>- </b>Les meilleurs architectes et entreprises pour votre rénovation </li>
+                    <li> <b>- </b>Travaux avec prix & délais garantis par contrat </li>
+                    <li> <b>- </b>Garantie de bonne fin de chantier AXA </li>
+                </ol> Ici, nous partageons notre savoir sous la forme d’un dossier complet sur la réhabilitation afin que vous ayez accès à une information fiable.
             </Card>
-            <Card title={"2-Votre expert habitat vous contacte sous 24H / 48H"} animation={"fadeInLeft"} >
-                Votre expert habitat vous contacte afin de bien comprendre les spécificités de votre projet et vos attentes. Il vous donnera les vrais délais et prix du marché pour votre projet en fonction de votre région et vous proposera les meilleurs choix en fonction de votre budget.            </Card>
+            <Card title={"Rénovation d’appartement: quels sont les prix au m² ?"} imgLeft animation={"fadeInLeft"} showButton linkTo={'quote'} buttonTitle={"Demander une estimation personnalisée"}>
+                <p>Fixer un budget pour <b>sa rénovation d’appartement</b> n’est pas chose facile puisque de nombreux paramètres entrent en jeu. Parmi les travaux que vous souhaitez réaliser dans votre appartement, le prix de la rénovation ne sera pas le même et variera selon les matériaux et la complexité des travaux.</p>
+                <p>Le prix de la rénovation d’un appartement doit prendre en compte la nature de chaque tâche à prévoir, du gros œuvre aux finitions. Les travaux peuvent concerner :</p>
+                <ol>
+                    <li>- un simple rafraîchissement</li>
+                    <li> - une rénovation simple</li>
+                    <li>- une grosse rénovation ou rénovation lourde</li>
+                </ol>Le prix d’une rénovation d’appartement varie largement selon les caractéristiques de votre appartement, le type de travaux et la localisation du chantier. Enfin, le choix du professionnel, le niveau de gamme des matériaux et équipements sont également des variables pouvant influer sur le coût des travaux de rénovation d’appartement.
+            </Card>
             <Card title={"3-Vous recevez votre devis"} animation={"fadeInRight"} >
                 Votre expert habitat sélectionne pour vous le professionnel proche de chez vous le plus adapté à votre projet. Il négocie ensuite pour vous le devis afin de vous faire profiter d’un prix ultra compétitif grâce à notre pouvoir de négociation.            </Card>
             <Card title={"4-Vous acceptez et signez le devis"} animation={"fadeInDown"} >

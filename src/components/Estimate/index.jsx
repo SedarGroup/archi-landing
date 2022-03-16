@@ -21,7 +21,7 @@ const Estimate = () => {
               <form id="estimate-form" onSubmit={calculate}>
                 <div className="section-head">
                  <h6  style={{ color: 'black' }}>Nos tarifs</h6>
-                  <h4 style={{ color: 'black' }} className="playfont"><span>Estimez</span></h4> 
+                  <h4 style={{ color: 'black' }} className="playfont"><span>Estimez votre projet</span></h4> 
                 </div>
                 <div className="messages"></div>
                 <div className="controls">
