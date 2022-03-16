@@ -96,6 +96,29 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
 
                 </div>
               </li>
+              <li className="nav-item dropdown" onClick={handleDropdown}>
+                <span
+                  className="nav-link dropdown-toggle"
+                  data-toggle="dropdown"
+                  href="#"
+                  role="button"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                 Nos offres et services
+                </span>
+                <div className="dropdown-menu">
+                  <Link href="/services/find-architect">
+                    <a className="dropdown-item">Trouver un architecte</a>
+                  </Link>
+                  <Link href="/services/conception">
+                    <a className="dropdown-item">Conception et plans</a>
+                  </Link>
+                  <Link href="/services/pricing">
+                    <a className="dropdown-item">Prix et tarifs</a>
+                  </Link>
+                </div>
+              </li>
               <li className="nav-item">
                 <Link href="/work">
                   <a className="nav-link">Réalisations</a>

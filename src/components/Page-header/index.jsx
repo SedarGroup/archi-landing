@@ -16,7 +16,7 @@ const PageHeader = ({ title, fullPath, image }) => {
         <div className="row">
           <div className="col-lg-12">
             <div className="cont text-center">
-              <h1>{title}</h1>
+              <h2>{title}</h2>
               <div className="path">
                 {fullPath.map((item, index) => (
                   <React.Fragment key={item.id}>
