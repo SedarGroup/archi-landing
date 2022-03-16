@@ -18,7 +18,7 @@ const Renovate = () => {
             />
             <GuideProcess></GuideProcess>
             <Card linkTo={'quote'} title={"Notre mission, transformer votre rénovation de maison en succès"} showButton buttonTitle="Confier un devis">
-                Chez Sedar, nous sommes convaincus que votre projet sera un succès uniquement si vous avez anticipé les prix, les délais et les étapes de votre rénovation. En présentant votre projet sur Archionline, nos experts habitats vous donnent gratuitement le coup d’avance sur vos travaux. Nous vous accompagnons des premiers plans au dernier coup de peinture avec nos architectes et entreprises triés sur le volet.
+                Chez Sedar, nous sommes convaincus que votre projet sera un succès uniquement si vous avez anticipé les prix, les délais et les étapes de votre rénovation. En présentant votre projet sur Sedar, nos experts habitats vous donnent gratuitement le coup d’avance sur vos travaux. Nous vous accompagnons des premiers plans au dernier coup de peinture avec nos architectes et entreprises triés sur le volet.
                 <p><b>Pourquoi faire confiance à Sedar pour votre projet ?</b></p>
                 <ol>
                     <li> <b>- </b>+ 950 projets de rénovation réalisés et 98% de satisfaction</li>
@@ -32,8 +32,8 @@ const Renovate = () => {
                 <p>Selon le type de bien et l’ampleur des travaux, plusieurs paramètres sont à considérer avant de se projeter dans les travaux de rénovation et en déduire le budget à consacrer.
                     <p>Les travaux de rénovation sont généralement classés en trois catégories principales :</p>
                     <ol><li>-  les <b>rafraîchissements</b> : peinture, revêtements de sols et muraux (parquet, moquette, carrelage, faïence)…</li>
-                        <li>- la <b>rénovation</b> simple: rénovation de la cuisine et des salles de bains, menuiseries, modifications en électricité et en plomberie… </li>
-                        <li>- la <b>rénovation</b> lourde ou grosse rénovation : toiture, murs porteurs, cloisons, planchers, isolation, évacuations, remise à neuf totale de l’électricité et de la plomberie…</li>
+                        <li>- la <b>rénovation simple</b>: rénovation de la cuisine et des salles de bains, menuiseries, modifications en électricité et en plomberie… </li>
+                        <li>- la <b>rénovation lourde ou grosse rénovation </b>: toiture, murs porteurs, cloisons, planchers, isolation, évacuations, remise à neuf totale de l’électricité et de la plomberie…</li>
                     </ol></p><p> Le coût des travaux varie selon la catégorie dans laquelle vous vous situez. En règle générale, vous pouvez vous baser sur les montants moyens suivants afin de prévoir votre budget.</p>
             </Card>
             <Card title={"Rénovation de maison: quel prix pour un simple rafraîchissement ?"} animation={"fadeInRight"} >

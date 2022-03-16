@@ -20,7 +20,7 @@ const Renovate = () => {
             />
             <GuideProcess></GuideProcess>
             <Card linkTo={'quote'} title={"Notre mission, transformer votre rénovation d'appartement en succès"} showButton buttonTitle="Confier un devis">
-                Chez Sedar, nous sommes convaincus que votre projet sera un succès uniquement si vous avez anticipé les prix, les délais et les étapes de votre rénovation. En présentant votre projet sur Archionline, nos experts habitats vous donnent gratuitement le coup d’avance sur vos travaux. Nous vous accompagnons des premiers plans au dernier coup de peinture avec nos architectes et entreprises triés sur le volet.
+                Chez Sedar, nous sommes convaincus que votre projet sera un succès uniquement si vous avez anticipé les prix, les délais et les étapes de votre rénovation. En présentant votre projet sur Sedar, nos experts habitats vous donnent gratuitement le coup d’avance sur vos travaux. Nous vous accompagnons des premiers plans au dernier coup de peinture avec nos architectes et entreprises triés sur le volet.
                 <p><b>Pourquoi faire confiance à Sedar pour votre projet ?</b></p>
                 <ol>
                     <li> <b>- </b>+ 950 projets de rénovation réalisés et 98% de satisfaction</li>
