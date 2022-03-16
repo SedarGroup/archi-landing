@@ -17,7 +17,7 @@ const Renovate = () => {
                 ]}
             />
             <GuideProcess></GuideProcess>
-            <Card linkTo={'quote'} title={"Notre mission, transformer votre rénovation d'appartement en succès"} showButton buttonTitle="Confier un devis">
+            <Card linkTo={'quote'} title={"Notre mission, transformer votre rénovation de maison en succès"} showButton buttonTitle="Confier un devis">
                 Chez Sedar, nous sommes convaincus que votre projet sera un succès uniquement si vous avez anticipé les prix, les délais et les étapes de votre rénovation. En présentant votre projet sur Archionline, nos experts habitats vous donnent gratuitement le coup d’avance sur vos travaux. Nous vous accompagnons des premiers plans au dernier coup de peinture avec nos architectes et entreprises triés sur le volet.
                 <p><b>Pourquoi faire confiance à Sedar pour votre projet ?</b></p>
                 <ol>
@@ -28,21 +28,50 @@ const Renovate = () => {
                     <li> <b>- </b>Garantie de bonne fin de chantier AXA </li>
                 </ol> Ici, nous partageons notre savoir sous la forme d’un dossier complet sur la réhabilitation afin que vous ayez accès à une information fiable.
             </Card>
-            <Card title={"Rénovation d’appartement: quels sont les prix au m² ?"} imgLeft animation={"fadeInLeft"} showButton linkTo={'quote'} buttonTitle={"Demander une estimation personnalisée"}>
-                <p>Fixer un budget pour <b>sa rénovation d’appartement</b> n’est pas chose facile puisque de nombreux paramètres entrent en jeu. Parmi les travaux que vous souhaitez réaliser dans votre appartement, le prix de la rénovation ne sera pas le même et variera selon les matériaux et la complexité des travaux.</p>
-                <p>Le prix de la rénovation d’un appartement doit prendre en compte la nature de chaque tâche à prévoir, du gros œuvre aux finitions. Les travaux peuvent concerner :</p>
-                <ol>
-                    <li>- un simple rafraîchissement</li>
-                    <li> - une rénovation simple</li>
-                    <li>- une grosse rénovation ou rénovation lourde</li>
-                </ol>Le prix d’une rénovation d’appartement varie largement selon les caractéristiques de votre appartement, le type de travaux et la localisation du chantier. Enfin, le choix du professionnel, le niveau de gamme des matériaux et équipements sont également des variables pouvant influer sur le coût des travaux de rénovation d’appartement.
+            <Card title={"Quel prix pour la rénovation d’une maison ?"} imgLeft animation={"fadeInLeft"} showButton linkTo={'quote'} buttonTitle={"Demander une estimation personnalisée"}>
+                <p>Selon le type de bien et l’ampleur des travaux, plusieurs paramètres sont à considérer avant de se projeter dans les travaux de rénovation et en déduire le budget à consacrer.
+                    <p>Les travaux de rénovation sont généralement classés en trois catégories principales :</p>
+                    <ol><li>-  les <b>rafraîchissements</b> : peinture, revêtements de sols et muraux (parquet, moquette, carrelage, faïence)…</li>
+                        <li>- la <b>rénovation</b> simple: rénovation de la cuisine et des salles de bains, menuiseries, modifications en électricité et en plomberie… </li>
+                        <li>- la <b>rénovation</b> lourde ou grosse rénovation : toiture, murs porteurs, cloisons, planchers, isolation, évacuations, remise à neuf totale de l’électricité et de la plomberie…</li>
+                    </ol></p><p> Le coût des travaux varie selon la catégorie dans laquelle vous vous situez. En règle générale, vous pouvez vous baser sur les montants moyens suivants afin de prévoir votre budget.</p>
             </Card>
-            <Card title={"3-Vous recevez votre devis"} animation={"fadeInRight"} >
-                Votre expert habitat sélectionne pour vous le professionnel proche de chez vous le plus adapté à votre projet. Il négocie ensuite pour vous le devis afin de vous faire profiter d’un prix ultra compétitif grâce à notre pouvoir de négociation.            </Card>
-            <Card title={"4-Vous acceptez et signez le devis"} animation={"fadeInDown"} >
-                Après avoir réglé l’acompte en ligne, la mission est lancée. Nous faisons déplacer chez vous dans la semaine les architectes et entreprises pour prendre en considération tous vos besoins et vos contraintes. Ensuite ils travaillent à la réalisation de votre projet jusqu’à sa livraison en toute conformité.            </Card>
-            <Card title={"5-Votre projet se réalise"} >
-                L’architecte et l’entreprise sélectionnée réalisent votre projet avec prix et délais garantis. Vous pouvez suivre l’avancement du projet et échanger avec votre expert habitat tout au long de la mission. Votre projet bénéficie de la garantie décennale et de la protection juridique AXA. </Card>
+            <Card title={"Rénovation de maison: quel prix pour un simple rafraîchissement ?"} animation={"fadeInRight"} >
+                Les <b>travaux de rafraîchissement </b>concernent essentiellement le second oeuvre, des petits travaux que vous pouvez faire vous même sans la présence d’un architecte. Pour rafraîchir votre maison, vous serez amené à <b>repeindre les murs, changer la moquette ou le carrelage</b>… Rafraîchir sa maison peut poursuivre un objectif de décoration ou d’amélioration des performances énergétiques, afin d’améliorer le confort de la maison.
+                <p>Comptez entre <b>200 et 800 € TTC </b>le m² pour des travaux de rafraîchissement  tels :</p>
+                <ol><li> - La peinture</li>
+                    <li> - Le changement de papier peint</li>
+                    <li> - Le carrelage</li>
+                    <li> - La réfection de sol, de mur et plafond</li>
+                    <li> - La décoration</li>
+                </ol>
+                Les prix varieront évidemment en fonction de la surface et des matériaux que vous aurez choisis.
+            </Card>
+            <Card title={"Rénovation de maison: quel prix pour une rénovation simple ?"} >
+                Une <b> rénovation simple </b>est le type de rénovation que l’on peut faire soi-même sans forcément faire appel à un architecte. Cependant faire appel à un professionnel serait un plus quand il s’agit de rénover la cuisine, la salle de bains, revoir les menuiseries, rafraîchir les cloisons, modifier l’électricité et la plomberie…
+                <p>Comptez entre <b>800 et 1200 € TTC </b> le m² pour des travaux de rénovation simple qui consistent à :</p>
+                <ol><li> - Rénover la cuisine et salle de bain</li>
+                    <li> - Rénover  l’électricité</li>
+                    <li> - Rénover la plomberie</li>
+                    <li> - Remplacer les fenêtres</li>
+                    <li> - Ajouter ou modifier des cloisons</li>
+                </ol>
+                Ces prix représentent une moyenne pratiquée sur le marché. Chaque chantier étant spécifique, nous vous invitons à faire estimer votre projet et réaliser des devis pour un projet plus personnalisé.                </Card>
+            <Card title={"Rénovation de maison: quel prix pour une rénovation complète ?"} imgLeft>
+                <p>La grosse rénovation concerne les travaux plus complexes pour lesquels on fait appel à des professionnels, tels l’abattement des murs, la création de cloisons, la plomberie, la maçonnerie…Tous travaux qui nécessitent des transformations significatives de l’habitat.
+                </p><p>Comptez en moyenne entre <b>900 euros et 2000 euros </b>le mètre carré pour un travail de qualité  pour réaliser une rénovation conséquente.
+                </p>
+                <p> Comptez entre <b>1000 et 2000 € TTC </b>le m² pour des travaux de grosse rénovation qui consistent à :
+                </p>
+                <ol><li> - Modifier ou détruire les murs porteurs</li>
+                    <li> - Modifier de la structure du plancher</li>
+                    <li> - Changer les fenêtres</li>
+                    <li> - Refaire complément l’électricité, la plomberie, et l’isolation</li>
+                </ol>
+                <p>Pour aller plus loin : Voir un exemple de prix et tarifs au m2 d’une rénovation de maison ancienne
+                    Si vous souhaitez rénover une ancienne bâtisse, vous devrez probablement remettre l’électricité et/ou l’isolation aux normes, sachant qu’elles évoluent sans cesse.
+                    Lisez notre dossier Prix d’une rénovation complète pour découvrir le « Guide des prix poste par poste d’une rénovation complète de maison ».
+                </p> </Card>
         </LightLayout>
     );
 };
