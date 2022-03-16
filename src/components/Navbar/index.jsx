@@ -75,6 +75,27 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
                   </Link>
                 </div>
               </li>
+              <li className="nav-item dropdown" onClick={handleDropdown}>
+                <span
+                  className="nav-link dropdown-toggle"
+                  data-toggle="dropdown"
+                  href="#"
+                  role="button"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                 Votre projet
+                </span>
+                <div className="dropdown-menu">
+                  <Link href="/renovation">
+                    <a className="dropdown-item">Rénovation</a>
+                  </Link>
+                  <Link href="/about">
+                    <a className="dropdown-item">Conception</a>
+                  </Link>
+
+                </div>
+              </li>
               <li className="nav-item">
                 <Link href="/work">
                   <a className="nav-link">Réalisations</a>
