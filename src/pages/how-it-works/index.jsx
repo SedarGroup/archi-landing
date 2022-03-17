@@ -13,7 +13,7 @@ const HowItWorks = () => {
                 title="La solution la plus simple !"
                 fullPath={[
                     { id: 1, name: "Accueil", url: "/" },
-                    { id: 2, name: "Comment ça marche?", url: "/how-it-woks" },
+                    { id: 2, name: "Comment ça marche?", url: "/how-it-works" },
                 ]}
             />
             <Card title={"1-Confiez votre projet"}>

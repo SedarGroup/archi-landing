@@ -1,7 +1,6 @@
 import React from "react";
 import WorkHeader from "../../components/Work-header";
 import MainLayout from "../../layouts/main";
-import { WorkTwoColumn } from "../../components/Work-Two-Column";
 import Estimate from "../../components/Estimate";
 const Work1 = () => {
     React.useEffect(() => {
@@ -17,6 +16,7 @@ const Work1 = () => {
                 content="Choisissez Sedar pour faire chiffrer et réaliser votre projet en toute sérénité !."
             />
             <Estimate />
+
         </MainLayout>
     );
 };
