@@ -1,11 +1,11 @@
 import React from "react";
 import Link from "next/link";
-const ImgCard = ({ children }) => {
+const ImgCard = ({ children, imgSrc }) => {
     return (
         <div className="col-lg-4">
             <div className="item md-mb50 wow fadeInUp" data-wow-delay=".5s">
                 <div className="img">
-                    <img src="/assets/img/blog/02.jpg" alt="" />
+                    <img src={imgSrc} alt="" />
                 </div>
                 <div className="cont">
                     {children}

@@ -27,7 +27,7 @@ const GuideProcess = () => {
             <div className="item">
               <div
                 className="bg-img"
-                style={{ backgroundImage: `url(/assets/img/process/01.jpg)` }}
+                style={{ backgroundImage: `url(/assets/img/how-it-works/1.jpg)` }}
               >
                 <h3 className="numb custom-font">01</h3>
               </div>
@@ -44,7 +44,7 @@ const GuideProcess = () => {
             <div className="item">
               <div
                 className="bg-img"
-                style={{ backgroundImage: `url(/assets/img/process/02.jpg)` }}
+                style={{ backgroundImage: `url(/assets/img/how-it-works/2.jpg)` }}
               >
                 <h3 className="numb custom-font">02</h3>
               </div>
@@ -62,7 +62,7 @@ const GuideProcess = () => {
             <div className="item">
               <div
                 className="bg-img"
-                style={{ backgroundImage: `url(/assets/img/process/03.jpg)` }}
+                style={{ backgroundImage: `url(/assets/img/how-it-works/5.jpg)` }}
               >
                 <h3 className="numb custom-font">03</h3>
               </div>
