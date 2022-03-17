@@ -100,9 +100,9 @@ const IntroWithHorizontal = () => {
                               {slide.content.second}
                             </p>
                           )}
-                          <Link href="/about">
+                          <Link href="/quote">
                             <a className="btn-curve btn-bord btn-lit mt-30">
-                              <span>Plus</span>
+                              <span>Demander un devis</span>
                             </a>
                           </Link>
                         </div>
