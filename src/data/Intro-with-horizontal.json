@@ -1,38 +1,21 @@
 [
   {
     "id": 1,
-    "title": { "first": "Architecture & intérieur", "second": "Architecture innovative" },
+    "title": { "first": "Architecture & intérieur", "second": "Vos projets d'architecture et de travaux en toute sérénité" },
     "content": {
-      "first": "Un bon design et de bonnes idées comptent beaucoup en architecture",
-      "second": "Le Business. Un style avant tout."
+      "first": "Accompagnement sur-mesure ",
+      "second": "pour vos plans, permis de construire et travaux"
     },
     "image": "/assets/img/slid/n/1.jpg"
   },
   {
     "id": 2,
-    "title": { "first": "Architecture & intérieur", "second": "Architecture innovative" },
+    "title": { "first": "Architecture & intérieur", "second": "La solution la plus simple pour faire de vos travaux des réussites !  " },
     "content": {
-      "first": "Un bon design et de bonnes idées comptent beaucoup en architecture",
-      "second": "Le Business. Un style avant tout."
+      "first": "Accompagnement sur-mesure ",
+      "second": "pour vos plans, permis de construire et travaux"
     },
-    "image": "/assets/img/slid/n/2.jpg"
-  },
-  {
-    "id": 3,
-    "title": { "first": "Architecture & intérieur", "second": "Architecture innovative" },
-    "content": {
-      "first": "Un bon design et de bonnes idées comptent beaucoup en architecture",
-      "second": "Le Business. Un style avant tout."
-    },
-    "image": "/assets/img/slid/n/3.jpg"
-  },
-  {
-    "id": 4,
-    "title": { "first": "Architecture & intérieur", "second": "Architecture innovative" },
-    "content": {
-      "first": "Un bon design et de bonnes idées comptent beaucoup en architecture",
-      "second": "Le Business. Un style avant tout."
-    },
-    "image": "/assets/img/slid/n/4.jpg"
+    "image": "/assets/img/slid/n/1.jpg"
   }
+  
 ]

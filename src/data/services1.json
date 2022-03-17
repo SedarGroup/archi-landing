@@ -3,23 +3,23 @@
   "services": [
     {
       "id": "01",
-      "title": "Architecture",
-      "content": "Cras mollis turpis a ipsum ultes, nec cond imentum ipsum consequat."
+      "title": "Analyse",
+      "content": "Analyse sur-mesure de votre projet"
     },
     {
       "id": "02",
-      "title": "Design d'intérieur",
-      "content": "Cras mollis turpis a ipsum ultes, nec cond imentum ipsum consequat."
+      "title": "Chiffrage",
+      "content": " Chiffrage précis avec les vrais prix et délais pour votre projet"
     },
     {
       "id": "03",
-      "title": "Modélisation 3D",
-      "content": "Cras mollis turpis a ipsum ultes, nec cond imentum ipsum consequat."
+      "title": "Devis",
+      "content": "Réalisation de votre devis"
     },
     {
       "id": "04",
-      "title": "Conception de Meubles",
-      "content": "Cras mollis turpis a ipsum ultes, nec cond imentum ipsum consequat."
+      "title": "Accompagnement",
+      "content": "Accompagnement jusqu’à la fin des travaux"
     }
   ]
 }
