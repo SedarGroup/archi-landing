@@ -8,8 +8,8 @@ const HowItWorks = () => {
     }, []);
     return (
         <LightLayout footerClass={"mt-30"}>
-            <PageHeader 
-            imgSrc={"/assets/img/pg1.jpg"}
+            <PageHeader
+                imgSrc={"/assets/img/pg2.jpg"}
                 title="La solution la plus simple !"
                 fullPath={[
                     { id: 1, name: "Accueil", url: "/" },
