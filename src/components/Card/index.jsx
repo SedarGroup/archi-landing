@@ -1,7 +1,7 @@
 import React from "react";
 import aboutUs2Data from "../../data/about-us2.json";
 import Link from 'next/link'
-const Card = ({ title, showButton = false, tags = false, children, noImg = false, animation = "fadeInUp", linkTo = "/about", buttonTitle = 'Plus...', imgLeft }) => {
+const Card = ({ title, showButton = false, tags = false, children, noImg = false, imgSrc=aboutUs2Data.image1, animation = "fadeInUp", linkTo = "/about", buttonTitle = 'Plus...', imgLeft }) => {
   return (
     <section className="about p-3">
       <div className="container">
@@ -41,7 +41,7 @@ const Card = ({ title, showButton = false, tags = false, children, noImg = false
                 </div>
                 <div className="col-md-8 wow fadeInUp" data-wow-delay=".3s">
                   <div className="img mb-20 wow imago">
-                    <img src={aboutUs2Data.image1} alt="" />
+                    <img src={imgSrc} alt="" />
                   </div>
                 </div>
               </div>

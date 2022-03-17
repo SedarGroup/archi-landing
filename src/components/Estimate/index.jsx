@@ -53,7 +53,7 @@ const Estimate = () => {
                             </form>
                             <form id="quote-form" onSubmit={onSubmitQuote}>
                                 <div className="mt-20">
-                                    <h6 style={{ color: 'black' }}>Ou</h6>
+                                    <h6 style={{ color: 'black' }}>Ensuite</h6>
                                     <h4 style={{ color: 'black' }} className="playfont"><span>Demandez un devis</span></h4>
                                 </div>
                                 <div className="messages"></div>
