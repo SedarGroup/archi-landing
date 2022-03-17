@@ -2,7 +2,6 @@
 import React from "react";
 import Blog1Data from "../../data/blogs1.json";
 import Link from "next/link";
-import Estimate from "../Estimate";
 
 const Blogs1 = () => {
   return (

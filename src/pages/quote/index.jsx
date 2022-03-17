@@ -14,7 +14,7 @@ const Work1 = () => {
                     first: "Nous offrons des services à des prix abordables",
                     second: "",
                 }}
-                content="Architecture bibendum pharetra eleifend. Suspendisse vel volutpat purus, sit amet bibendum nisl. Cras mollis turpis a ipsum ultes, nec condimentum ipsum consequat. Mauris vitae consequat nibh, vitae interdum mi."
+                content="Choisissez Sedar pour faire chiffrer et réaliser votre projet en toute sérénité !."
             />
             <Estimate />
         </MainLayout>

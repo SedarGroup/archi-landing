@@ -130,7 +130,7 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
                 </Link>
               </li>
               <li className="nav-item">
-              <Link href='estimate'>
+              <Link href='/quote'>
                 <button className="btn-curve btn-color mt-5 nav-link">
                   <span>Estimez votre projet</span>
                 </button>
