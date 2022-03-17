@@ -25,8 +25,8 @@ const AboutUs7 = () => {
           <div className="col-lg-6">
             <div className="exp">
               <h4>25</h4>
-              <h5>Years Of Experience</h5>
-              <span>Since 1996</span>
+              <h5>Années d'Experience</h5>
+              <span>Depuis 2020</span>
             </div>
           </div>
         </div>

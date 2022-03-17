@@ -55,7 +55,7 @@ const AboutUs2 = () => {
                   <div className="years-exp">
                     <div className="exp-text">
                       <h2 className="custom-font">{aboutUs2Data.exp}</h2>
-                      <h6>Years Of Experience</h6>
+                      <h6>Années d'Experience</h6>
                     </div>
                   </div>
                 </div>

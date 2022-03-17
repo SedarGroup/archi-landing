@@ -16,7 +16,7 @@ const Work1 = () => {
           second: "et les constructions parlent d'elles même",
         }}
         // title = "text",
-        content="Architecture bibendum pharetra eleifend. Suspendisse vel volutpat purus, sit amet bibendum nisl. Cras mollis turpis a ipsum ultes, nec condimentum ipsum consequat. Mauris vitae consequat nibh, vitae interdum mi."
+        content="Découvrez nos réalisations"
       />
       <WorkTwoColumn />
     </MainLayout>
