@@ -19,9 +19,9 @@ const Renovate = () => {
             />
             <section className="blog section-padding">
                 <div className="container">
-                    <div className="section-head">
+                    {/* <div className="section-head">
                         <h3>Tarifs</h3>
-                    </div>
+                    </div> */}
                     <div className="row">
                         <ImgCard>
                             <p>Une terrasse peut avoir subie quelques dommages pendant l’hiver et faire un peu grise mine.</p>
