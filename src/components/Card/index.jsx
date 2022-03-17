@@ -1,12 +1,12 @@
 import React from "react";
 import aboutUs2Data from "../../data/about-us2.json";
 import Link from 'next/link'
-const Card = ({ title, showButton = false, tags = false, children, animation = "fadeInUp", linkTo = "/about", buttonTitle = 'Plus...', imgLeft }) => {
+const Card = ({ title, showButton = false, tags = false, children, noImg = false, animation = "fadeInUp", linkTo = "/about", buttonTitle = 'Plus...', imgLeft }) => {
   return (
     <section className="about section-padding">
       <div className="container">
         <div className="row">
-          <div style={imgLeft && { left: '50%' }} className="col-lg-6 valign">
+          <div style={imgLeft && { left: '50%' }} className={`col-lg-${noImg ? 12 : 6} valign`}>
             <div
               className={`exp-content nopat wow ${animation}`}
               data-wow-delay=".3s"
@@ -28,7 +28,7 @@ const Card = ({ title, showButton = false, tags = false, children, animation = "
               </Link>}
             </div>
           </div>
-          <div style={imgLeft && { right: '50%' }} className="col-lg-6">
+          {!noImg && <div style={imgLeft && { right: '50%' }} className="col-lg-6">
             <div className="ab-exp">
               <div className="row">
                 <div className="col-md-4">
@@ -46,7 +46,7 @@ const Card = ({ title, showButton = false, tags = false, children, animation = "
                 </div>
               </div>
             </div>
-          </div>
+          </div>}
         </div>
       </div>
     </section>
