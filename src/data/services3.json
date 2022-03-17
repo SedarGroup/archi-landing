@@ -4,20 +4,20 @@
     "image": "/assets/img/01.jpg",
     "icon": "icon flaticon-home-1",
     "title": "Architecture",
-    "content": "Cras mollis turpis a ipsum ultes, nec cond imentum ipsum consequat."
+    "content": "Analyse sur-mesure de votre projet"
   },
   {
     "id": 2,
     "image": "/assets/img/02.jpg",
     "icon": "icon flaticon-living-room",
     "title": "Design d'intérieur",
-    "content": "Cras mollis turpis a ipsum ultes, nec cond imentum ipsum consequat."
+    "content": "Scénographie, décorations."
   },
   {
     "id": 3,
     "image": "/assets/img/03.jpg",
     "icon": "icon flaticon-interior-design",
     "title": "Modélisation 3D",
-    "content": "Cras mollis turpis a ipsum ultes, nec cond imentum ipsum consequat."
+    "content": "Avec des logiciels performants."
   }
 ]

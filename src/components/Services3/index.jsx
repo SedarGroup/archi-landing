@@ -25,7 +25,7 @@ const Services3 = ({ bigTitle, grid }) => {
           </div>
         ) : (
           <div className="main-header text-center">
-            <h3>Fonctionnalités</h3>
+            <h3>Nos services</h3>
             <div className="tex-bg">Services</div>
           </div>
         )}
