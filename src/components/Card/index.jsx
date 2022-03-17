@@ -3,7 +3,7 @@ import aboutUs2Data from "../../data/about-us2.json";
 import Link from 'next/link'
 const Card = ({ title, showButton = false, tags = false, children, noImg = false, animation = "fadeInUp", linkTo = "/about", buttonTitle = 'Plus...', imgLeft }) => {
   return (
-    <section className="about section-padding">
+    <section className="about p-3">
       <div className="container">
         <div className="row">
           <div style={imgLeft && { left: '50%' }} className={`col-lg-${noImg ? 12 : 6} valign`}>
