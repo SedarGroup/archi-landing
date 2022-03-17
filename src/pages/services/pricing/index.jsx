@@ -30,8 +30,12 @@ const Renovate = () => {
                                 En moyenne, il faut compter un budget pouvant aller de <b>16 à 155 euros / m²</b> pour les matériaux.
                                 À ceci, il faudra ajouter les frais de pose (à faire chiffrer sur un devis) : comptez en moyenne une fourchette comprise entre <b>30 et 60 euros / m²</b>.
                             </p></ImgCard>
-                        <ImgCard ></ImgCard>
-                        <ImgCard ></ImgCard>
+                        <ImgCard >
+                            <p><b>Changer une vasque</b> ou faire installer une <b>douche italienne </b>permettent de donner un petit coup de neuf à une salle de bain. Mais pour celles et ceux qui veulent refaire complètement cette pièce d’eau, les prix peuvent varier du simple au triple, selon le type de travaux à prévoir et la <b>qualité des matériaux</b> choisis. Pour les rénovations d’une <b>petite surface </b> (inférieure à 6 m²) : <b>entre 5 100 et 7 200 euros TTC </b>(exemple : installation lavabo + WC). Une rénovation d’une SDB moyenne (8-9 m²) se situe entre 6 100 et 10 200 euros TTC (exemple : remplacement d’une ancienne baignoire). Le prix de la rénovation d’une grande surface de salle de bain (plus de 9 m²) est entre 8 100 et 15 200 euros TTC (exemple :  installation d’une double vasque).</p></ImgCard>
+                        <ImgCard ><p>Le budget de la rénovation complète d’un appartement ou d’une maison va surtout dépendre de la nature des travaux et de l’état du bien.
+                            Si vous souhaitez rénover complètement un appartement déjà habité pour le rafraîchir, vous pouvez compter un budget entre 250€ TTC / m2 et 500€ TTC / m2.
+                            Cependant, si vous voulez déplacer des cloisons, refaire les salles de bains, les sanitaires, les peintures, le sol et la cuisine, il faudra compter 1000€ TTC minimum par mètre carré.
+                            En ce qui concerne la rénovation d’une maison, les mêmes ratios au m2 sont applicables mais il ne faut pas oublier le budget de démolition et le prix d’une potentielle rénovation de toiture ou la réalisation d’une nouvelle isolation.</p></ImgCard>
                     </div>
                 </div>
             </section>
