@@ -9,7 +9,7 @@ const Renovate = () => {
     }, []);
     return (
         <LightLayout footerClass={"mt-30"}>
-            <PageHeader
+            <PageHeader imgSrc={"/assets/img/pg1.jpg"}
                 title="Estimez le coût de la conception"
                 fullPath={[
                     { id: 1, name: "Accueil", url: "/" },

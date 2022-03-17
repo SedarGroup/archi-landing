@@ -13,7 +13,7 @@ const ProjectDetails = () => {
   }, []);
   return (
     <MainLayout>
-      <PageHeader
+      <PageHeader imgSrc={"/assets/img/pg1.jpg"}
         title="Luxury Furniture"
         fullPath={[
           { id: 1, name: "Accueil", url: "/" },

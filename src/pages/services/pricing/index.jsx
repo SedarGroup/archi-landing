@@ -9,7 +9,7 @@ const Renovate = () => {
     }, []);
     return (
         <LightLayout footerClass={"mt-30"}>
-            <PageHeader
+            <PageHeader imgSrc={"/assets/img/pg1.jpg"}
                 title="Vos travaux n’ont jamais été aussi simples"
                 fullPath={[
                     { id: 1, name: "Accueil", url: "/" },

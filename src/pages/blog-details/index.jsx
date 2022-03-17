@@ -9,7 +9,7 @@ const BlogDetails = () => {
   }, [])
   return (
     <MainLayout>
-      <PageHeader
+      <PageHeader imgSrc={"/assets/img/pg1.jpg"}
         title="post details"
         fullPath={[
           { id: 1, name: "Accueil", url: "/" },

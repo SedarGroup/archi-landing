@@ -14,7 +14,7 @@ const About = () => {
 
   return (
     <MainLayout>
-      <PageHeader
+      <PageHeader imgSrc={"/assets/img/pg1.jpg"}
         title="A propos"
         fullPath={[
           { id: 1, name: "Accueil", url: "/" },
