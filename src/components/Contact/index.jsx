@@ -1,7 +1,23 @@
 import React from "react";
+import { useState } from "react";
 import appData from "../../data/app.json";
-
 const Contact = () => {
+  const [email, setEmail] = useState();
+  const [subject, setSubject] = useState();
+  const [message, setMessage] = useState();
+  const onSubmit = (event)=>{
+    event.preventDefault();
+    fetch('/.netlify/functions/sendMail',{
+      method:'POST',
+      body:JSON.stringify({
+        email,
+        subject,
+        message
+      })
+    })
+    alert("Message envoyé avec succès");
+    window.location.href="/"
+  }
   return (
     <>
       <section className="contact cont-map">
@@ -11,45 +27,43 @@ const Contact = () => {
               className="col-lg-5 col-md-6 contact-form wow fadeInDown"
               data-wow-delay=".3s"
             >
-              <form id="contact-form" method="post" action="contact.php">
+              <form onSubmit={onSubmit} id="contact-form">
                 <div className="section-head">
                   <h6>Contactez nous</h6>
                   <h4 className="playfont">Collaborons</h4>
                 </div>
-
                 <div className="messages"></div>
-
                 <div className="controls">
                   <div className="form-group">
                     <input
-                      id="form_name"
+                      id="form_subject"
                       type="text"
-                      name="name"
-                      placeholder="Nom"
+                      name="subject"
+                      onChange={(event) => setSubject(event.target.value)}
+                      placeholder="Objet"
                       required="required"
                     />
                   </div>
-
                   <div className="form-group">
                     <input
                       id="form_email"
+                      onChange={(event) => setEmail(event.target.value)}
                       type="email"
                       name="email"
                       placeholder="Email"
                       required="required"
                     />
                   </div>
-
                   <div className="form-group">
                     <textarea
                       id="form_message"
                       name="message"
+                      onChange={(event) => setMessage(event.target.value)}
                       placeholder="Message"
                       rows="4"
                       required="required"
                     ></textarea>
                   </div>
-
                   <button type="submit" className="btn-curve btn-color">
                     <span>Envoyer</span>
                   </button>
@@ -69,5 +83,4 @@ const Contact = () => {
     </>
   );
 };
-
 export default Contact;
