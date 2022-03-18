@@ -1,21 +1,21 @@
 [
   {
     "id": 1,
-    "image": "/assets/img/01.jpg",
+    "image": "/assets/img/works/61.jpg",
     "icon": "icon flaticon-home-1",
     "title": "Architecture",
     "content": "Analyse sur-mesure de votre projet"
   },
   {
     "id": 2,
-    "image": "/assets/img/02.jpg",
+    "image": "/assets/img/works/63.jpg",
     "icon": "icon flaticon-living-room",
     "title": "Design d'intérieur",
     "content": "Scénographie, décorations."
   },
   {
     "id": 3,
-    "image": "/assets/img/03.jpg",
+    "image": "/assets/img/works/68.jpg",
     "icon": "icon flaticon-interior-design",
     "title": "Modélisation 3D",
     "content": "De qualité avec des logiciels performants."
