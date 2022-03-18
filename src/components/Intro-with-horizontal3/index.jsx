@@ -79,7 +79,7 @@ const IntroWithHorizontal = () => {
                 <div
                   className="bg-img valign"
                   style={{ backgroundImage: `url(${slide.image})` }}
-                  data-overlay-dark="1"
+                  data-overlay-dark="2"
                 >
                   <div className="container">
                     <div className="row">
