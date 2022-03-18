@@ -23,7 +23,7 @@ const About = () => {
       />
       <AboutUs4 />
       <Services3 bigTitle grid />
-      <Testimonials1 bigTitle />
+      {/* <Testimonials1 bigTitle /> */}
       <Team2 />
       <Skills2 />
     </MainLayout>

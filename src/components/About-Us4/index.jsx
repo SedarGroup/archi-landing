@@ -10,7 +10,7 @@ const AboutUs4 = () => {
                 <div className="col-sm-6">
                   <div className="item mb-50">
                     <h3>
-                      <span className="nbr custom-font">352</span>
+                      <span className="nbr custom-font">33</span>
                     </h3>
                     <h6>Projets réalisés</h6>
                   </div>
@@ -18,28 +18,13 @@ const AboutUs4 = () => {
                 <div className="col-sm-6">
                   <div className="item mb-50">
                     <h3>
-                      <span className="nbr custom-font">567</span>
+                      <span className="nbr custom-font">101</span>
                     </h3>
                     <h6>Clients satisfaits</h6>
                   </div>
                 </div>
-                <div className="col-sm-6">
-                  <div className="item">
-                    <h3>
-                      <span className="nbr custom-font">656</span>
-                      <i>M</i>
-                    </h3>
-                    <h6>Revenus mensuels</h6>
-                  </div>
-                </div>
-                <div className="col-sm-6">
-                  <div className="item">
-                    <h3>
-                      <span className="nbr custom-font">17</span>
-                    </h3>
-                    <h6>Prix gagnés</h6>
-                  </div>
-                </div>
+               
+               
               </div>
             </div>
           </div>
