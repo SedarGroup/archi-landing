@@ -25,13 +25,6 @@ const Estimate = () => {
     }
     const onSubmitQuote = (event) => {
         event.preventDefault();
-        console.log({
-            email,
-            conception,
-            renovation,
-            name,
-            phone
-        })
         fetch(`/.netlify/functions/saveQuote`, {
             method: 'POST',
             body: JSON.stringify( {
