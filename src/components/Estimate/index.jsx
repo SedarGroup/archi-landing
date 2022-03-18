@@ -78,7 +78,10 @@ const Estimate = () => {
                                     </p>}
                                 </div>
                             </form>
-                            <form id="quote-form" onSubmit={onSubmitQuote}>
+                        </div>
+                        <div className="col-lg-5 col-md-6 contact-form wow fadeInLeft ml-5 mt-5"
+                            data-wow-delay=".3s">
+                        <form id="quote-form" onSubmit={onSubmitQuote}>
                                 <div className="mt-20">
                                     <h6 style={{ color: 'black' }}>Ensuite</h6>
                                     <h4 style={{ color: 'black' }} className="playfont"><span>Demandez un devis</span></h4>
