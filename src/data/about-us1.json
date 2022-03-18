@@ -6,13 +6,13 @@
   "image": "/assets/img/exp.jpg",
   "content": "Nos experts habitat vous accompagnent sur-mesure pour tous vos travaux de rénovation, construction et extension",
   "exp": {
-    "nmb": 2,
+    "nmb": "02",
     "since": 2020
   },
   "numbers": [
     {
       "id": 1,
-      "number": 352,
+      "number": 1,
       "name": "PROJETS REALISES"
     },
     {

@@ -24,6 +24,12 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
       .getElementById("navbarSupportedContent")
       .classList.toggle("show-with-trans");
   };
+  const onCallCLick=()=>{
+    const number=+221761539635;
+    const message = "Bonjour. J'aimerai avoir un devis"
+
+    window.location.href=`https://wa.me/${number}?text=${message}`;
+  }
   return (
     <>
       <nav className="navbar change navbar-expand-lg" ref={navbarRef}>
@@ -49,17 +55,82 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ml-auto">
-              <li className="nav-item">
-                <Link href="tel:+221761539635">
+              <li onClick={onCallCLick}className="nav-item">
                   <div className="nav-link justify-content-center">
-                    <a  style={{ fontSize: 16,}}>                    <div className="icon pe-7s-call"></div>
+                    <a>                    <div className="icon pe-7s-call"></div>
                       <b> +221 76 153 96 35</b></a>
                   </div>
-                </Link>
+              </li>
+              <li className="nav-item dropdown" onClick={handleDropdown}>
+                <span
+                  className="nav-link dropdown-toggle"
+                  data-toggle="dropdown"
+                  href="#"
+                  role="button"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  A propos
+                </span>
+                <div className="dropdown-menu">
+                  <Link href="/how-it-works">
+                    <a className="dropdown-item">Comment ça marche?</a>
+                  </Link>
+                  <Link href="/about">
+                    <a className="dropdown-item">Qui sommes-nous?</a>
+                  </Link>
+                  <Link href="/work">
+                    <a className="dropdown-item">Nos réalisations</a>
+                  </Link>
+                </div>
+              </li>
+              <li className="nav-item dropdown" onClick={handleDropdown}>
+                <span
+                  className="nav-link dropdown-toggle"
+                  data-toggle="dropdown"
+                  href="#"
+                  role="button"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                 Votre projet
+                </span>
+                <div className="dropdown-menu">
+                  <Link href="/renovation">
+                    <a className="dropdown-item">Rénovation</a>
+                  </Link>
+                  <Link href="/conception">
+                    <a className="dropdown-item">Conception</a>
+                  </Link>
+
+                </div>
+              </li>
+              <li className="nav-item dropdown" onClick={handleDropdown}>
+                <span
+                  className="nav-link dropdown-toggle"
+                  data-toggle="dropdown"
+                  href="#"
+                  role="button"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                 Nos offres et services
+                </span>
+                <div className="dropdown-menu">
+                  <Link href="/services/find-architect">
+                    <a className="dropdown-item">Trouver un architecte</a>
+                  </Link>
+                  <Link href="/services/conception">
+                    <a className="dropdown-item">Conception et plans</a>
+                  </Link>
+                  <Link href="/services/pricing">
+                    <a className="dropdown-item">Prix et tarifs</a>
+                  </Link>
+                </div>
               </li>
               <li className="nav-item">
-                <Link href="/how-it-works">
-                  <a className="nav-link">Comment ça marche?</a>
+                <Link href="/contact">
+                  <a className="nav-link">Contact</a>
                 </Link>
               </li>
               <li className="nav-item">
