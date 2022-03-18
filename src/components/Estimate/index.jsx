@@ -51,7 +51,7 @@ const Estimate = () => {
                             <form id="estimate-form" onSubmit={calculate}>
                                 <div className="section-head">
                                     <h6 style={{ color: 'black' }}>Nos tarifs</h6>
-                                    <h4 style={{ color: 'black' }} className="playfont"><span>Estimez votre projet</span></h4>
+                                    <h4 style={{ color: 'black' }} className="playfont"><span>Je veux une ...</span></h4>
                                 </div>
                                 <div className="messages"></div>
                                 <div className="controls">
@@ -84,7 +84,7 @@ const Estimate = () => {
                         <form id="quote-form" onSubmit={onSubmitQuote}>
                                 <div className="mt-20">
                                     <h6 style={{ color: 'black' }}>Ensuite</h6>
-                                    <h4 style={{ color: 'black' }} className="playfont"><span>Demandez un devis</span></h4>
+                                    <h4 style={{ color: 'black' }} className="playfont"><span>Je demande un devis</span></h4>
                                 </div>
                                 <div className="messages"></div>
                                 <div className="controls">

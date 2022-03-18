@@ -1,0 +1,61 @@
+[
+  {
+    "id": 1,
+    "title": { "first": "Spa", "second": "INTERIEUR" },
+    "content": {
+      "first": "",
+      "second": ""
+    },
+    "image": "/assets/img/works/65.jpg"
+  },{
+    "id": 2,
+    "title": { "first": "Arène de lutte", "second": "DESIGN" },
+    "content": {
+      "first": "",
+      "second": ""
+    },
+    "image": "/assets/img/works/61.jpg"
+  },{
+    "id": 3,
+    "title": { "first": "Villa", "second": "EXTERIEUR" },
+    "content": {
+      "first": "",
+      "second": ""
+    },
+    "image": "/assets/img/works/68.jpg"
+  },{
+    "id": 4,
+    "title": { "first": "Arène de lutte", "second": "EXTERIEUR" },
+    "content": {
+      "first": "",
+      "second": ""
+    },
+    "image": "/assets/img/works/62.jpg"
+  },{
+    "id": 5,
+    "title": { "first": "SPA", "second": "CREATIVITE" },
+    "content": {
+      "first": "",
+      "second": ""
+    },
+    "image": "/assets/img/works/66.jpg"
+  },
+  {
+    "id": 6,
+    "title": { "first": "Villa", "second": "QUALITE" },
+    "content": {
+      "first": "",
+      "second": ""
+    },
+    "image": "/assets/img/works/69.jpg"
+  },
+  {
+    "id": 7,
+    "title": { "first": "SPA", "second": "DESIGN" },
+    "content": {
+      "first": "",
+      "second": ""
+    },
+    "image": "/assets/img/works/63.jpg"
+  }
+]

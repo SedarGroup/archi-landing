@@ -1,29 +1,56 @@
 [
   {
     "id": 1,
-    "title": { "first": "interior", "second": "design agency" },
+    "title": { "first": "Arène de lutte", "second": "Design" },
     "content": {
-      "first": "Right design and right ideas matter a lot of in interior design",
-      "second": "business. a style that makes a statement."
+      "first": "Arène de lutte",
+      "second": ""
     },
-    "image": "/assets/img/slid/n/01.jpg"
+    "image": "/assets/img/works/61.jpg"
   },
   {
     "id": 2,
-    "title": { "first": "Innovative", "second": "Design d'intérieur" },
+    "title": { "first": "Spa", "second": "Business" },
     "content": {
-      "first": "Right design and right ideas matter a lot of in interior design",
-      "second": "business. a style that makes a statement."
+      "first": "Spa",
+      "second": ""
     },
-    "image": "/assets/img/slid/n/02.jpg"
+    "image": "/assets/img/works/65.jpg"
   },
   {
     "id": 3,
-    "title": { "first": "Elegant &", "second": "Unique Design" },
+    "title": { "first": "Villa", "second": "Unique" },
     "content": {
       "first": "Right design and right ideas matter a lot of in interior design",
       "second": "business. a style that makes a statement."
     },
-    "image": "/assets/img/slid/n/03.jpg"
+    "image": "/assets/img/works/68.jpg"
+  },
+  {
+    "id": 4,
+    "title": { "first": "Arène de lutte", "second": "Design" },
+    "content": {
+      "first": "Arène de lutte",
+      "second": ""
+    },
+    "image": "/assets/img/works/61.jpg"
+  },
+  {
+    "id": 5,
+    "title": { "first": "Spa", "second": "Business" },
+    "content": {
+      "first": "Spa",
+      "second": ""
+    },
+    "image": "/assets/img/works/65.jpg"
+  },
+  {
+    "id": 6,
+    "title": { "first": "Villa", "second": "Unique" },
+    "content": {
+      "first": "Right design and right ideas matter a lot of in interior design",
+      "second": "business. a style that makes a statement."
+    },
+    "image": "/assets/img/works/68.jpg"
   }
 ]

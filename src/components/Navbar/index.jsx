@@ -79,8 +79,8 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
                   <Link href="/about">
                     <a className="dropdown-item">Qui sommes-nous?</a>
                   </Link>
-                  <Link href="/work">
-                    <a className="dropdown-item">Nos réalisations</a>
+                  <Link href="/contact">
+                    <a className="dropdown-item">Contact</a>
                   </Link>
                 </div>
               </li>
@@ -129,8 +129,8 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
                 </div>
               </li>
               <li className="nav-item">
-                <Link href="/contact">
-                  <a className="nav-link">Contact</a>
+                <Link href="/work">
+                  <a className="nav-link">Réalisations</a>
                 </Link>
               </li>
               <li className="nav-item">

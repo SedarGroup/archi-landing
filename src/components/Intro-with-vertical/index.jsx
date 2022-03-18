@@ -91,7 +91,7 @@ const IntroWithVertical = () => {
                     <div
                       className="bg-img"
                       style={{ backgroundImage: `url(${slide.image})` }}
-                      data-overlay-dark="5"
+                      data-overlay-dark="1"
                     ></div>
                     <div className="container">
                       <div className="row">
@@ -118,11 +118,11 @@ const IntroWithVertical = () => {
                                 {slide.content.second}
                               </p>
                             )}
-                            <Link href="/work">
+                            {slide.showButton&&<Link href="/work">
                               <a className="btn-curve btn-color mt-30">
-                                <span>Discover Work</span>
+                                <span></span>
                               </a>
-                            </Link>
+                            </Link>}
                           </div>
                         </div>
                       </div>
