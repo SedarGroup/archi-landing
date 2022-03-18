@@ -51,9 +51,9 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">
                 <Link href="tel:+221761539635">
-                  <div className="row">                
-                    <div style={{ fontSize: 17, alignSelf:"center"}} className="icon col lg-3 pe-7s-call nav-link"></div>
-                    <a className="nav-link " style={{ fontSize: 16,  alignSelf:"center"}}><b>+221 76 153 96 35</b></a>
+                  <div className="nav-link justify-content-center">
+                    <a  style={{ fontSize: 16,}}>                    <div className="icon pe-7s-call"></div>
+                      <b> +221 76 153 96 35</b></a>
                   </div>
                 </Link>
               </li>
