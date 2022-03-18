@@ -50,90 +50,23 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">
-                <Link href="/">
-                  <a className="nav-link">Accueil</a>
-                </Link>
-              </li>
-      
-              <li className="nav-item dropdown" onClick={handleDropdown}>
-                <span
-                  className="nav-link dropdown-toggle"
-                  data-toggle="dropdown"
-                  href="#"
-                  role="button"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                >
-                  A propos
-                </span>
-                <div className="dropdown-menu">
-                  <Link href="/how-it-works">
-                    <a className="dropdown-item">Comment ça marche?</a>
-                  </Link>
-                  <Link href="/about">
-                    <a className="dropdown-item">Qui sommes-nous?</a>
-                  </Link>
-                </div>
-              </li>
-              <li className="nav-item dropdown" onClick={handleDropdown}>
-                <span
-                  className="nav-link dropdown-toggle"
-                  data-toggle="dropdown"
-                  href="#"
-                  role="button"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                >
-                 Votre projet
-                </span>
-                <div className="dropdown-menu">
-                  <Link href="/renovation">
-                    <a className="dropdown-item">Rénovation</a>
-                  </Link>
-                  <Link href="/conception">
-                    <a className="dropdown-item">Conception</a>
-                  </Link>
-
-                </div>
-              </li>
-              <li className="nav-item dropdown" onClick={handleDropdown}>
-                <span
-                  className="nav-link dropdown-toggle"
-                  data-toggle="dropdown"
-                  href="#"
-                  role="button"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                >
-                 Nos offres et services
-                </span>
-                <div className="dropdown-menu">
-                  <Link href="/services/find-architect">
-                    <a className="dropdown-item">Trouver un architecte</a>
-                  </Link>
-                  <Link href="/services/conception">
-                    <a className="dropdown-item">Conception et plans</a>
-                  </Link>
-                  <Link href="/services/pricing">
-                    <a className="dropdown-item">Prix et tarifs</a>
-                  </Link>
-                </div>
-              </li>
-              <li className="nav-item">
-                <Link href="/work">
-                  <a className="nav-link">Réalisations</a>
+                <Link href="tel:+221761539635">
+                  <div className="row">                
+                    <div style={{ fontSize: 17, alignSelf:"center"}} className="icon col lg-3 pe-7s-call nav-link"></div>
+                    <a className="nav-link " style={{ fontSize: 16,  alignSelf:"center"}}><b>+221 76 153 96 35</b></a>
+                  </div>
                 </Link>
               </li>
               <li className="nav-item">
-                <Link href="/contact">
-                  <a className="nav-link">Contact</a>
+                <Link href="/how-it-works">
+                  <a className="nav-link">Comment ça marche?</a>
                 </Link>
               </li>
               <li className="nav-item">
-              <Link href='/quote'>
-                <button className="btn-curve btn-color mt-5 nav-link">
-                  <span>Estimez votre projet</span>
-                </button>
+                <Link href='/quote'>
+                  <button className="btn-curve btn-color mt-5 nav-link">
+                    <span>Estimez votre projet</span>
+                  </button>
                 </Link>
               </li>
             </ul>

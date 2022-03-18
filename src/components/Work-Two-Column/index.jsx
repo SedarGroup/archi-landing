@@ -30,14 +30,14 @@ export const WorkTwoColumn = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-6 items theaters">
+            <div className="col-lg-6 items exterior">
               <div className="item">
                 <div className="img">
-                  <img src="/assets/img/works/2.jpg" alt="" />
+                  <img src="/assets/img/works/61.jpg" alt="" />
                 </div>
                 <div className="cont vis">
                   <h5>
-                    <Link href="/project-details">Villa moderne</Link>
+                    <Link href="/project-details">Arène de lutte</Link>
                   </h5>
                   <span>Architecture</span>
                   <span>Moderne</span>
@@ -47,11 +47,39 @@ export const WorkTwoColumn = () => {
             <div className="col-lg-6 items residential interior">
               <div className="item">
                 <div className="img">
-                  <img src="/assets/img/works/1.jpg" alt="" />
+                  <img src="/assets/img/works/63.jpg" alt="" />
+                </div>
+                <div className="cont vis">
+                  <h5>
+                    <Link href="/project-details">Spa</Link>
+                  </h5>
+                  <span>Architecture</span>
+                  <span>Moderne</span>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-6 items interior residential">
+              <div className="item">
+                <div className="img">
+                  <img src="/assets/img/works/68.jpg" alt="" />
                 </div>
                 <div className="cont vis">
                   <h5>
                     <Link href="/project-details">Villa moderne</Link>
+                  </h5>
+                  <span>Architecture</span>
+                  <span>Moderne</span>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-6 items exterior">
+              <div className="item">
+                <div className="img">
+                  <img src="/assets/img/works/62.jpg" alt="" />
+                </div>
+                <div className="cont vis">
+                  <h5>
+                    <Link href="/project-details">Arène de lutte</Link>
                   </h5>
                   <span>Architecture</span>
                   <span>Moderne</span>
@@ -61,39 +89,11 @@ export const WorkTwoColumn = () => {
             <div className="col-lg-6 items interior">
               <div className="item">
                 <div className="img">
-                  <img src="/assets/img/works/5.jpg" alt="" />
+                  <img src="/assets/img/works/65.jpg" alt="" />
                 </div>
                 <div className="cont vis">
                   <h5>
-                    <Link href="/project-details">Villa moderne</Link>
-                  </h5>
-                  <span>Architecture</span>
-                  <span>Moderne</span>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-6 items residential">
-              <div className="item">
-                <div className="img">
-                  <img src="/assets/img/works/3.jpg" alt="" />
-                </div>
-                <div className="cont vis">
-                  <h5>
-                    <Link href="/project-details">Villa moderne</Link>
-                  </h5>
-                  <span>Architecture</span>
-                  <span>Moderne</span>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-6 items theaters">
-              <div className="item">
-                <div className="img">
-                  <img src="/assets/img/works/4.jpg" alt="" />
-                </div>
-                <div className="cont vis">
-                  <h5>
-                    <Link href="/project-details">Villa moderne</Link>
+                    <Link href="/project-details">Spa</Link>
                   </h5>
                   <span>Architecture</span>
                   <span>Moderne</span>
