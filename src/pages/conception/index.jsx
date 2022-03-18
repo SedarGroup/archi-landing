@@ -17,7 +17,7 @@ const Renovate = () => {
                 ]}
             />
             <GuideProcess></GuideProcess>
-            <Card imgSrc={"/assets/img/conception/21.jpg"} linkTo={'quote'} title={"Votre construction de maison sereinement avec un architecte"} showButton buttonTitle="Confier un devis">
+            <Card imgSrc={"/assets/img/conception/21.jpg"} linkTo={'/quote'} title={"Votre construction de maison sereinement avec un architecte"} showButton buttonTitle="Confier un devis">
                 Chez Sedar, nous sommes convaincus que votre projet sera un succès uniquement si vous avez anticipé les prix, les délais et les étapes de votre rénovation. En présentant votre projet sur Sedar, nos experts habitats vous donnent gratuitement le coup d’avance sur vos travaux. Nous vous accompagnons des premiers plans au dernier coup de peinture avec nos architectes et entreprises triés sur le volet.
                 <p><b>Pourquoi faire confiance à Sedar pour votre projet ?</b></p>
                 <ol>
@@ -28,7 +28,7 @@ const Renovate = () => {
                     <li> <b>- </b>Garantie de bonne fin de chantier AXA </li>
                 </ol> Ici, nous partageons notre savoir sous la forme d’un dossier complet sur la réhabilitation afin que vous ayez accès à une information fiable.
             </Card>
-            <Card imgSrc={"/assets/img/conception/22.jpg"} title={"Quels sont les prix au m² pour la construction d’une maison neuve ?"} imgLeft animation={"fadeInLeft"} showButton linkTo={'quote'} buttonTitle={"Demander une estimation personnalisée"}>
+            <Card imgSrc={"/assets/img/conception/22.jpg"} title={"Quels sont les prix au m² pour la construction d’une maison neuve ?"} imgLeft animation={"fadeInLeft"} showButton linkTo={'/quote'} buttonTitle={"Demander une estimation personnalisée"}>
                 De la conception à la remise des clés, en passant par l’obtention du permis de construire, plusieurs étapes vont succéder pour la construction de votre maison. S’il est difficile d’établir précisément le coût de construction d’une maison, on peut estimer un budget global pour chacune des étapes de la construction, tel le gros œuvre, le second œuvre et les finitions.
                 Le coût de construction d’une maison individuelle variera ainsi en fonction du type de construction, l’emplacement, la taille et les types de matériaux. Pour que vous ayez accès aux prix transparents dans la construction de maison, voici les moyennes réelles du marché:
                 <ol><li> <b>- 1000€ TTC par m2 </b> pour une construction en gros oeuvre</li>

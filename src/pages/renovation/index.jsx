@@ -17,7 +17,7 @@ const Renovate = () => {
                 ]}
             />
             <GuideProcess></GuideProcess>
-            <Card linkTo={'quote'} imgSrc={"/assets/img/renovation/11.jpg"} title={"Notre mission, transformer votre rénovation de maison en succès"} showButton buttonTitle="Confier un devis">
+            <Card linkTo={'/quote'} imgSrc={"/assets/img/renovation/11.jpg"} title={"Notre mission, transformer votre rénovation de maison en succès"} showButton buttonTitle="Confier un devis">
                 Chez Sedar, nous sommes convaincus que votre projet sera un succès uniquement si vous avez anticipé les prix, les délais et les étapes de votre rénovation. En présentant votre projet sur Sedar, nos experts habitats vous donnent gratuitement le coup d’avance sur vos travaux. Nous vous accompagnons des premiers plans au dernier coup de peinture avec nos architectes et entreprises triés sur le volet.
                 <p><b>Pourquoi faire confiance à Sedar pour votre projet ?</b></p>
                 <ol>
@@ -28,7 +28,7 @@ const Renovate = () => {
                     <li> <b>- </b>Garantie de bonne fin de chantier AXA </li>
                 </ol> Ici, nous partageons notre savoir sous la forme d’un dossier complet sur la réhabilitation afin que vous ayez accès à une information fiable.
             </Card>
-            <Card imgSrc={"/assets/img/renovation/12.jpg"} title={"Quel prix pour la rénovation d’une maison ?"} imgLeft animation={"fadeInLeft"} showButton linkTo={'quote'} buttonTitle={"Demander une estimation personnalisée"}>
+            <Card imgSrc={"/assets/img/renovation/12.jpg"} title={"Quel prix pour la rénovation d’une maison ?"} imgLeft animation={"fadeInLeft"} showButton linkTo={'/quote'} buttonTitle={"Demander une estimation personnalisée"}>
                 <p>Selon le type de bien et l’ampleur des travaux, plusieurs paramètres sont à considérer avant de se projeter dans les travaux de rénovation et en déduire le budget à consacrer.
                     <p>Les travaux de rénovation sont généralement classés en trois catégories principales :</p>
                     <ol><li>-  les <b>rafraîchissements</b> : peinture, revêtements de sols et muraux (parquet, moquette, carrelage, faïence)…</li>
