@@ -2,15 +2,49 @@ import React from "react";
 import estimations from "../../data/estimation.json"
 const Estimate = () => {
     const [estimation, setEstimation] = React.useState(0);
+    const [email, setEmail] = React.useState();
+    const [name, setName] = React.useState();
+    const [phone, setPhone] = React.useState();
+    const [renovation, setRenovation] = React.useState(0);
+    const [conception, setConception] = React.useState(0);
     const [step, setStep] = React.useState(0);
     const [selectedOption, setSelectedOption] = React.useState();
     const calculate = (event) => {
         event.preventDefault()
         const selectedOptionData = estimations.find((item) => item.id === selectedOption);
-        setEstimation(selectedOptionData.factor * document.getElementById(selectedOptionData.name).value)
+        const value = document.getElementById(selectedOptionData.name).value
+        setEstimation(selectedOptionData.factor * value);
+        switch (selectedOptionData.title) {
+            case 'Rénovation':
+                setRenovation(value);
+                break;
+            case 'Conception':
+                setConception(value);
+                break;
+        }
     }
     const onSubmitQuote = (event) => {
-        event.preventDefault()
+        event.preventDefault();
+        console.log({
+            email,
+            conception,
+            renovation,
+            name,
+            phone
+        })
+        fetch(`/.netlify/functions/saveQuote`, {
+            method: 'POST',
+            body: JSON.stringify( {
+                'email':email,
+                'conception':conception,
+                'renovation':renovation,
+                'name':name,
+                'phone':phone
+            })
+        });
+
+        alert("Devis envoyé avec succès. Un expert vous contactera d'ici peu.");
+        window.location.href = '/'
     }
     return (
         <div>
@@ -31,7 +65,7 @@ const Estimate = () => {
                                     {estimations.map(feat =>
                                         <div className="form-group" key={feat.name}
                                         >
-                                            {step === 0 && <button onClick={() => { setStep(1); setSelectedOption(feat.id) }} className="btn-curve btn-color">{feat.title} </button>}
+                                            {step === 0 && <button onClick={() => { setStep(1); setSelectedOption(feat.id); }} className="btn-curve btn-color">{feat.title} </button>}
                                             {step === 1 && selectedOption === feat.id && <input
                                                 key={feat.name}
                                                 id={feat.name}
@@ -62,11 +96,13 @@ const Estimate = () => {
                                         <input
                                             id={"name"}
                                             name={"name"}
+                                            onChange={(event)=>setName(event.target.value)}
                                             placeholder={"Votre nom"}
                                             required="required"
                                         />
                                         <input
                                             id={"email"}
+                                            onChange={(event)=>setEmail(event.target.value)}
                                             name={"email"}
                                             type={"email"}
                                             placeholder={"Votre email"}
@@ -75,13 +111,14 @@ const Estimate = () => {
                                         <input
                                             id={"phone"}
                                             name={"phone"}
+                                            onChange={(event)=>setPhone(event.target.value)}
                                             type={"number"}
                                             placeholder={"Votre téléphone"}
                                             required="required"
                                         />
                                     </div>
-                                    <button type="submit" className="btn-curve btn-color m-2">
-                                       Obtenir un devis
+                                    <button onClick={onSubmitQuote} type="submit" className="btn-curve btn-color m-2">
+                                        Obtenir un devis
                                     </button>
                                 </div>
                             </form>

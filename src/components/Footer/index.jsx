@@ -9,7 +9,7 @@ const Footer = ({ classText }) => {
   const onSubmit = (event)=>{
     event.preventDefault();
     if (validateEmail(email)){
-      fetch(`.netlify/functions/saveMail?email=${email}`);
+      fetch(`/.netlify/functions/saveMail?email=${email}`);
       alert("Mail enregistré pour de prochaines newsletters")
     }
 }
