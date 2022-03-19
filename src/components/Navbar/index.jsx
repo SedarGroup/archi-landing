@@ -1,7 +1,8 @@
 import React from "react";
 import Link from "next/link";
 import appData from "../../data/app.json";
-import getSiblings from '../../common/getSiblings'
+import getSiblings from '../../common/getSiblings';
+import { onCallClick } from "../../utils";
 const Navbar = ({ navbarRef, logoRef, logoClass }) => {
   const handleDropdown = (e) => {
     getSiblings(e.target.parentElement)
@@ -24,12 +25,7 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
       .getElementById("navbarSupportedContent")
       .classList.toggle("show-with-trans");
   };
-  const onCallCLick=()=>{
-    const number=+221761539635;
-    const message = "Bonjour. J'aimerai avoir un devis"
-
-    window.location.href=`https://wa.me/${number}?text=${message}`;
-  }
+ 
   return (
     <>
       <nav className="navbar change navbar-expand-lg" ref={navbarRef}>
@@ -55,7 +51,7 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ml-auto">
-              <li onClick={onCallCLick}className="nav-item">
+              <li onClick={onCallClick}className="nav-item">
                   <div className="nav-link justify-content-center">
                     <a>                    <div className="icon pe-7s-call"></div>
                       <b> +221 76 153 96 35</b></a>

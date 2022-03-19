@@ -1,4 +1,5 @@
 import React from "react";
+import { onCallClick } from "../../utils";
 
 const ContactInfo = () => {
   return (
@@ -10,7 +11,7 @@ const ContactInfo = () => {
               <span className="icon pe-7s-phone"></span>
               <div className="cont">
                 <h6 className="custom-font">Téléphone</h6>
-                <p><a href="tel:+212695558308">+212 695 558 308</a></p>
+                <p onClick={onCallClick}><a>+221 76 153 96 35</a></p>
               </div>
             </div>
           </div>

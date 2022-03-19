@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import { validateEmail } from "../../utils";
+import { validateEmail, onCallClick } from "../../utils";
 const Footer = ({ classText }) => {
   const [email, setEmail] = React.useState('');
   const onEmailChange = (event) => {
@@ -41,9 +41,9 @@ const Footer = ({ classText }) => {
                 </li>
                 <li>
                   <span className="icon pe-7s-call"></span>
-                  <div className="cont">
+                  <div onClick={onCallClick} className="cont">
                     <h6>Téléphone</h6>
-                    <p> <a href="tel:+212695558308">+212 695 558 308</a></p>
+                    <p > <a>+221 76 153 96 35</a></p>
                   </div>
                 </li>
               </ul>

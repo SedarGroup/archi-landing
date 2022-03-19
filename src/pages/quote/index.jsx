@@ -13,7 +13,7 @@ const Work1 = () => {
                     first: "Nous offrons des services à des prix abordables",
                     second: "",
                 }}
-                content="Choisissez Sedar pour faire chiffrer et réaliser votre projet en toute sérénité !."
+                content="Choisissez Sedar pour faire chiffrer et réaliser votre projet en toute sérénité!"
             />
             <Estimate />
 
