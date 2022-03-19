@@ -19,13 +19,13 @@ const ProjectDetails = () => {
           { id: 3, name: "Villa de luxe", url: "/project-details/spa" },
         ]}
       />
-      <ProjectIntro client={"df"} desc={"La villa"} categories={"Extérieur, Intérieur"} date={"6 Aout 2020"} />
+      <ProjectIntro client={"df"} desc={"La villa"} categories={"Extérieur, Intérieur"} date={"2020"} />
       <FourPics img1={"/assets/img/works/63.jpg"}
         img2={"/assets/img/works/64.jpg"}
         img3={"/assets/img/works/65.jpg"}
         img4={"/assets/img/works/66.jpg"}></FourPics>
       { }
-      <NextProject bold={"Arène"} backgroundImage={"/assets/img/works/61.jpg"} text={"de lutte"} href={"arena"} />
+      <NextProject bold={"Immeuble"} backgroundImage={"/assets/img/works/76.jpg"} text={"d'hébergement"} href={"lodging"} />
     </MainLayout>
   );
 };
