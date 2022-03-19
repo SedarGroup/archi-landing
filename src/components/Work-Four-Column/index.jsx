@@ -31,7 +31,7 @@ const WorkFourColumn = () => {
                 </div>
                 <div className="cont">
                   <h5>
-                    <Link href="/project-details">Villa moderne</Link>
+                    <Link href="/project-details/arena">Villa moderne</Link>
                   </h5>
                   <span>Architecture</span>
                   <span>Moderne</span>
@@ -45,7 +45,7 @@ const WorkFourColumn = () => {
                 </div>
                 <div className="cont">
                   <h5>
-                    <Link href="/project-details">Villa moderne</Link>
+                    <Link href="/project-details/arena">Villa moderne</Link>
                   </h5>
                   <span>Architecture</span>
                   <span>Moderne</span>
@@ -59,7 +59,7 @@ const WorkFourColumn = () => {
                 </div>
                 <div className="cont">
                   <h5>
-                    <Link href="/project-details">Villa moderne</Link>
+                    <Link href="/project-details/arena">Villa moderne</Link>
                   </h5>
                   <span>Architecture</span>
                   <span>Moderne</span>
@@ -73,7 +73,7 @@ const WorkFourColumn = () => {
                 </div>
                 <div className="cont">
                   <h5>
-                    <Link href="/project-details">Villa moderne</Link>
+                    <Link href="/project-details/arena">Villa moderne</Link>
                   </h5>
                   <span>Architecture</span>
                   <span>Moderne</span>
@@ -87,7 +87,7 @@ const WorkFourColumn = () => {
                 </div>
                 <div className="cont">
                   <h5>
-                    <Link href="/project-details">Villa moderne</Link>
+                    <Link href="/project-details/arena">Villa moderne</Link>
                   </h5>
                   <span>Architecture</span>
                   <span>Moderne</span>
@@ -101,7 +101,7 @@ const WorkFourColumn = () => {
                 </div>
                 <div className="cont">
                   <h5>
-                    <Link href="/project-details">Villa moderne</Link>
+                    <Link href="/project-details/arena">Villa moderne</Link>
                   </h5>
                   <span>Architecture</span>
                   <span>Moderne</span>
@@ -115,7 +115,7 @@ const WorkFourColumn = () => {
                 </div>
                 <div className="cont">
                   <h5>
-                    <Link href="/project-details">Villa moderne</Link>
+                    <Link href="/project-details/arena">Villa moderne</Link>
                   </h5>
                   <span>Architecture</span>
                   <span>Moderne</span>
@@ -129,7 +129,7 @@ const WorkFourColumn = () => {
                 </div>
                 <div className="cont">
                   <h5>
-                    <Link href="/project-details">Villa moderne</Link>
+                    <Link href="/project-details/arena">Villa moderne</Link>
                   </h5>
                   <span>Architecture</span>
                   <span>Moderne</span>
@@ -143,7 +143,7 @@ const WorkFourColumn = () => {
                 </div>
                 <div className="cont">
                   <h5>
-                    <Link href="/project-details">Villa moderne</Link>
+                    <Link href="/project-details/arena">Villa moderne</Link>
                   </h5>
                   <span>Architecture</span>
                   <span>Moderne</span>

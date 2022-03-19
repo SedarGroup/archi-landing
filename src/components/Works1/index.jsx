@@ -85,7 +85,7 @@ const Works1 = () => {
                           <Link href="/project-detLinkils">{slide.title}</Link>
                         </h6>
                         <h4>
-                          <Link href="/project-details">{slide.secTex}</Link>
+                          <Link href="/project-details/arena">{slide.secTex}</Link>
                         </h4>
                       </div>
                     </div>

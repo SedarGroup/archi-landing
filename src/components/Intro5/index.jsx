@@ -23,7 +23,7 @@ const Intro5 = () => {
                 Right design and right ideas matter a lot of in interior design
                 business. <br /> a style that makes a statement.
               </p>
-              <Link href="/project-details">
+              <Link href="/project-details/arena">
                 <a className="btn-curve btn-bord btn-lit mt-30">
                   <span>Plus ...</span>
                 </a>

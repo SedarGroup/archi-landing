@@ -2,21 +2,21 @@ import React from "react";
 import Split from "../Split";
 import Link from "next/link";
 
-const NextProject = () => {
+const NextProject = ({backgroundImage, bold, text, href}) => {
   return (
     <section className="call-action nogif next">
       <div className="container">
         <div className="row">
           <div className="col-md-12">
             <div className="content text-center">
-              <Link href="/project-details">
+              <Link href={`/project-details/${href}`}>
                 <a>
                   <Split>
                     <h6
                       className="wow txt words chars splitting"
                       data-splitting
                     >
-                      Next Project
+                      Prochain Projet
                     </h6>
                   </Split>
 
@@ -25,7 +25,7 @@ const NextProject = () => {
                       className="wow txt words chars splitting"
                       data-splitting
                     >
-                      <b> Luxury </b> Furniture
+                      <b> {bold} </b> {text}
                     </h2>
                   </Split>
                 </a>
@@ -36,7 +36,7 @@ const NextProject = () => {
       </div>
       <div
         className="nxt-img bg-img"
-        data-background="img/portfolio/project1/bg.jpg"
+       style={{backgroundImage:`url(${backgroundImage})`}}
       ></div>
     </section>
   );

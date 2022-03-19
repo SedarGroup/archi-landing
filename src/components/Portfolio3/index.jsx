@@ -89,7 +89,7 @@ const Portfolio3 = () => {
                     </div>
                     <div className="cont">
                       <h5>
-                        <Link href="/project-details">{slide.title}</Link>
+                        <Link href="/project-details/arena">{slide.title}</Link>
                       </h5>
                       {slide.tags.map((tag) => (
                         <span key={tag.id}>{tag.name}</span>

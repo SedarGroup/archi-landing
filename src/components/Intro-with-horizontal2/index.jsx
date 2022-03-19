@@ -105,7 +105,7 @@ const IntroWithHorizontal2 = () => {
                               {slide.content.second}
                             </p>
                           )}
-                          <Link href="/project-details">
+                          <Link href="/project-details/arena">
                             <a className="btn-curve btn-bord btn-lit mt-30">
                               <span>Plus ...</span>
                             </a>

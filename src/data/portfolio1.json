@@ -19,24 +19,24 @@
   "portfolio": [
     {
       "id": 1,
-      "image": "/assets/img/portfolio/mas/01.jpg",
-      "title": "Interieur fantastique",
-      "tag": "Design d'intérieur",
+      "image": "/assets/img/works/61.jpg",
+      "title": "Arène de lutte",
+      "tag": "Design d'extérieur",
       "filterClass": "exterior"
     },
     {
       "id": 2,
-      "image": "/assets/img/portfolio/mas/02.jpg",
-      "title": "Choisissez vos rêves",
+      "image": "/assets/img/works/69.jpg",
+      "title": "Villa moderne",
       "tag": "Architecture",
-      "filterClass": "interior"
+      "filterClass": "residential"
     },
     {
       "id": 3,
-      "image": "/assets/img/portfolio/mas/03.jpg",
-      "title": "Villa luxueuse",
-      "tag": "Architecture",
-      "filterClass": "residential"
+      "image": "/assets/img/works/63.jpg",
+      "title": "SPA",
+      "tag": "Design d'intérieur",
+      "filterClass": "interior"
     },
     {
       "id": 4,

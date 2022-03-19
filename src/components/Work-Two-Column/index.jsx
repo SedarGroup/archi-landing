@@ -37,7 +37,7 @@ export const WorkTwoColumn = () => {
                 </div>
                 <div className="cont vis">
                   <h5>
-                    <Link href="/project-details">Arène de lutte</Link>
+                    <Link href="/project-details/arena">Arène de lutte</Link>
                   </h5>
                   <span>Architecture</span>
                   <span>Moderne</span>
@@ -51,7 +51,7 @@ export const WorkTwoColumn = () => {
                 </div>
                 <div className="cont vis">
                   <h5>
-                    <Link href="/project-details">Spa</Link>
+                    <Link href="/project-details/arena">Spa</Link>
                   </h5>
                   <span>Architecture</span>
                   <span>Moderne</span>
@@ -65,7 +65,7 @@ export const WorkTwoColumn = () => {
                 </div>
                 <div className="cont vis">
                   <h5>
-                    <Link href="/project-details">Villa moderne</Link>
+                    <Link href="/project-details/arena">Villa moderne</Link>
                   </h5>
                   <span>Architecture</span>
                   <span>Moderne</span>
@@ -79,7 +79,7 @@ export const WorkTwoColumn = () => {
                 </div>
                 <div className="cont vis">
                   <h5>
-                    <Link href="/project-details">Arène de lutte</Link>
+                    <Link href="/project-details/arena">Arène de lutte</Link>
                   </h5>
                   <span>Architecture</span>
                   <span>Moderne</span>
@@ -93,7 +93,7 @@ export const WorkTwoColumn = () => {
                 </div>
                 <div className="cont vis">
                   <h5>
-                    <Link href="/project-details">Spa</Link>
+                    <Link href="/project-details/arena">Spa</Link>
                   </h5>
                   <span>Architecture</span>
                   <span>Moderne</span>

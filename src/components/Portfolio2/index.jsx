@@ -16,7 +16,7 @@ const Portfolio2 = () => {
               <h5>Exterior Designs</h5>
             </div>
             <div className="more">
-              <Link href="/project-details">
+              <Link href="/project-details/arena">
                 <a>
                   View Project <i className="fas fa-chevron-right"></i>
                 </a>
@@ -29,7 +29,7 @@ const Portfolio2 = () => {
               <h5>Maroon Beach Hotel</h5>
             </div>
             <div className="more">
-              <Link href="/project-details">
+              <Link href="/project-details/arena">
                 <a>
                   View Project <i className="fas fa-chevron-right"></i>
                 </a>
@@ -42,7 +42,7 @@ const Portfolio2 = () => {
               <h5>Apartment Renovation</h5>
             </div>
             <div className="more">
-              <Link href="/project-details">
+              <Link href="/project-details/arena">
                 <a>
                   View Project <i className="fas fa-chevron-right"></i>
                 </a>
@@ -55,7 +55,7 @@ const Portfolio2 = () => {
               <h5>Maison Moderne Minimaliste</h5>
             </div>
             <div className="more">
-              <Link href="/project-details">
+              <Link href="/project-details/arena">
                 <a>
                   Voir le Projet <i className="fas fa-chevron-right"></i>
                 </a>
