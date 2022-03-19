@@ -10,10 +10,10 @@ exports.handler = (event, context, callback) => {
       },
     });
     let mailOptions = {
-      from: email,
+      from: `Formulaire accueil <${email}>`,
       to: ["ibracool99@gmail.com","sedargroup.sn@gmail.com"],
       subject: subject,
-      html: message,
+      html: `Message envoyé par ${email}.\n${message}`,
     };
     transporter.sendMail(mailOptions, function (err, info) {
       if (err) {

@@ -1,7 +1,24 @@
 import React from "react";
+import { useState } from "react";
 import appData from '../../data/app.json'
 
 const ContactWithMap = () => {
+  const [email, setEmail] = useState();
+  const [subject, setSubject] = useState();
+  const [message, setMessage] = useState();
+  const onSubmit = (event)=>{
+    event.preventDefault();
+    fetch('/.netlify/functions/sendMail',{
+      method:'POST',
+      body:JSON.stringify({
+        email,
+        subject,
+        message
+      })
+    })
+    alert("Message envoyé avec succès");
+    window.location.href="/"
+  }
   return (
     <div className="container-fluid">
       <div className="row">
@@ -9,16 +26,17 @@ const ContactWithMap = () => {
           <iframe src={appData.mapIframe}></iframe>
         </div>
         <div className="col-lg-6 form">
-          <form id="contact-form" method="post">
+          <form id="contact-form" onSubmit={onSubmit}>
             <div className="messages"></div>
 
             <div className="controls">
               <div className="form-group">
                 <input
-                  id="form_name"
+                  id="form_subject"
                   type="text"
-                  name="name"
-                  placeholder="Nom"
+                  onChange={(event) => setSubject(event.target.value)}
+                  name="subject"
+                  placeholder="Objet"
                   required="required"
                 />
               </div>
@@ -28,6 +46,7 @@ const ContactWithMap = () => {
                   id="form_email"
                   type="email"
                   name="email"
+                  onChange={(event) => setEmail(event.target.value)}
                   placeholder="Email"
                   required="required"
                 />
@@ -38,6 +57,7 @@ const ContactWithMap = () => {
                   id="form_message"
                   name="message"
                   placeholder="Message"
+                  onChange={(event) => setMessage(event.target.value)}
                   rows="4"
                   required="required"
                 ></textarea>
