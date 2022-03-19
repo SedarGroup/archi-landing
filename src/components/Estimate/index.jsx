@@ -25,19 +25,28 @@ const Estimate = () => {
     }
     const onSubmitQuote = (event) => {
         event.preventDefault();
-        fetch(`/.netlify/functions/saveQuote`, {
-            method: 'POST',
-            body: JSON.stringify( {
-                'email':email,
-                'conception':conception,
-                'renovation':renovation,
-                'name':name,
-                'phone':phone
-            })
-        });
-
-        alert("Devis envoyé avec succès. Un expert vous contactera d'ici peu.");
-        window.location.href = '/'
+        if (email && name && phone) {
+            fetch(`/.netlify/functions/saveQuote`, {
+                method: 'POST',
+                body: JSON.stringify({
+                    'email': email,
+                    'conception': conception,
+                    'renovation': renovation,
+                    'name': name,
+                    'phone': phone
+                })
+            });
+            alert("Devis envoyé avec succès. Un expert vous contactera d'ici peu.");
+            window.location.href = '/'
+        }
+        else {
+            alert("Veuillez remplir tous les champs")
+        }
+    }
+    const handleKeyPress = (event) => {
+        if (event.key === 'Enter') {
+            calculate(event)
+        }
     }
     return (
         <div>
@@ -63,6 +72,7 @@ const Estimate = () => {
                                                 key={feat.name}
                                                 id={feat.name}
                                                 min={0}
+                                                onKeyPress={handleKeyPress}
                                                 type="number"
                                                 name={feat.name}
                                                 placeholder={feat.name}
@@ -81,7 +91,7 @@ const Estimate = () => {
                         </div>
                         <div className="col-lg-5 col-md-6 contact-form wow fadeInLeft ml-5 mt-5"
                             data-wow-delay=".3s">
-                        <form id="quote-form" onSubmit={onSubmitQuote}>
+                            <form id="quote-form" onSubmit={onSubmitQuote}>
                                 <div className="mt-20">
                                     <h6 style={{ color: 'black' }}>Ensuite</h6>
                                     <h4 style={{ color: 'black' }} className="playfont"><span>Je demande un devis</span></h4>
@@ -92,13 +102,13 @@ const Estimate = () => {
                                         <input
                                             id={"name"}
                                             name={"name"}
-                                            onChange={(event)=>setName(event.target.value)}
+                                            onChange={(event) => setName(event.target.value)}
                                             placeholder={"Votre nom"}
                                             required="required"
                                         />
                                         <input
                                             id={"email"}
-                                            onChange={(event)=>setEmail(event.target.value)}
+                                            onChange={(event) => setEmail(event.target.value)}
                                             name={"email"}
                                             type={"email"}
                                             placeholder={"Votre email"}
@@ -107,7 +117,7 @@ const Estimate = () => {
                                         <input
                                             id={"phone"}
                                             name={"phone"}
-                                            onChange={(event)=>setPhone(event.target.value)}
+                                            onChange={(event) => setPhone(event.target.value)}
                                             type={"number"}
                                             placeholder={"Votre téléphone"}
                                             required="required"

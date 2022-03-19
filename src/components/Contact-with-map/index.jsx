@@ -17,7 +17,6 @@ const ContactWithMap = () => {
       })
     })
     alert("Message envoyé avec succès");
-    window.location.href="/"
   }
   return (
     <div className="container-fluid">

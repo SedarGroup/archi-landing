@@ -16,7 +16,6 @@ const Contact = () => {
       })
     })
     alert("Message envoyé avec succès");
-    window.location.href="/"
   }
   return (
     <>
