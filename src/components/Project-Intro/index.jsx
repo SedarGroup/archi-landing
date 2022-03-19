@@ -1,7 +1,6 @@
 import React from "react";
 import Link from "next/link";
-
-const ProjectIntro = () => {
+const ProjectIntro = ({ desc, date, categories, tags, client }) => {
   return (
     <section className="intro-section section-padding">
       <div className="container">
@@ -14,40 +13,35 @@ const ProjectIntro = () => {
           <div className="col-lg-8 offset-lg-1 col-md-8 mb-30">
             <div className="text">
               <p>
-               L'arène de lutte
-              </p>
+                {desc}              </p>
             </div>
           </div>
-
           <div className="col-lg-3">
             <div className="item mt-30">
               <h6>Client</h6>
               <p>
-                <Link href="#">C'est qui</Link>
+                <Link href="#">{client}</Link>
               </p>
             </div>
           </div>
           <div className="col-lg-3">
             <div className="item mt-30">
               <h6>Date</h6>
-              <p>6 Aout 2022</p>
+              <p>{date}</p>
             </div>
           </div>
           <div className="col-lg-3">
             <div className="item mt-30">
               <h6>Categories</h6>
               <p>
-                <Link href="#">Extérieur</Link>, 
-                <Link href="#"> Intérieur</Link>
-              </p>
+                {categories}              </p>
             </div>
           </div>
           <div className="col-lg-3">
             <div className="item mt-30">
               <h6>Tags</h6>
               <p>
-                <Link href="#">Minimal</Link> , <Link href="#">Moderne</Link> ,
-                <Link href="#">Design</Link>
+                {tags}
               </p>
             </div>
           </div>
@@ -56,5 +50,4 @@ const ProjectIntro = () => {
     </section>
   );
 };
-
 export default ProjectIntro;

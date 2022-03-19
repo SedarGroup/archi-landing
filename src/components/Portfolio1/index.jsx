@@ -59,7 +59,7 @@ const Portfolio1 = () => {
                       backgroundImage: `url(${item.image})`,
                     }}
                   >
-                    <Link href="/project-details/arena">
+                    <Link href={`/project-details/${item.url}`}>
                       <a>
                         <div className="item-img-overlay valign"></div>
                       </a>

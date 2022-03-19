@@ -22,28 +22,33 @@
       "image": "/assets/img/works/61.jpg",
       "title": "Arène de lutte",
       "tag": "Design d'extérieur",
-      "filterClass": "exterior"
+      "filterClass": "exterior",
+      "url":"arena"
     },
     {
       "id": 2,
       "image": "/assets/img/works/69.jpg",
       "title": "Villa moderne",
       "tag": "Architecture",
-      "filterClass": "residential"
+      "filterClass": "residential",
+      "url":"villa"
+
     },
     {
       "id": 3,
       "image": "/assets/img/works/63.jpg",
       "title": "SPA",
       "tag": "Design d'intérieur",
-      "filterClass": "interior"
+      "filterClass": "interior",
+      "url":"spa"
     },
     {
       "id": 4,
-      "image": "/assets/img/portfolio/mas/04.jpg",
-      "title": "Espaces créatives",
+      "image": "/assets/img/works/76.jpg",
+      "title": "Immeuble d'hébergement",
       "tag": "Design d'intérieur",
-      "filterClass": "interior exterior"
+      "filterClass": "interior exterior",
+      "url":"lodging"
     }
   ]
 }

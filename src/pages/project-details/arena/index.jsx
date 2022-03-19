@@ -19,7 +19,7 @@ const ProjectDetails = () => {
           { id: 3, name: "Arène de lutte", url: "/project-details/arena" },
         ]}
       />
-      <ProjectIntro />
+      <ProjectIntro client={"j"}/>
       <FourPics img1={"/assets/img/works/61.jpg"}
         img2={"/assets/img/works/62.jpg"}
         img3={"/assets/img/works/70.jpg"}
