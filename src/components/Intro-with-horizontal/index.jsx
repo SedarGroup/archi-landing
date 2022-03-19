@@ -91,7 +91,7 @@ const IntroWithHorizontal = () => {
                               data-splitting
                               className="words chars splitting"
                             >
-                              <Link href="#">{slide.title.second}</Link>
+                             {slide.title.second}
                             </h1>
                           </Split>
                           {slide?.content && (
