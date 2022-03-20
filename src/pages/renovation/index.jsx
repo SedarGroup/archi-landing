@@ -21,11 +21,10 @@ const Renovate = () => {
                 Chez Sedar, nous sommes convaincus que votre projet sera un succès uniquement si vous avez anticipé les prix, les délais et les étapes de votre rénovation. En présentant votre projet sur Sedar, nos experts habitats vous donnent gratuitement le coup d’avance sur vos travaux. Nous vous accompagnons des premiers plans au dernier coup de peinture avec nos architectes et entreprises triés sur le volet.
                 <p><b>Pourquoi faire confiance à Sedar pour votre projet ?</b></p>
                 <ol>
-                    <li> <b>- </b>+ 950 projets de rénovation réalisés et 98% de satisfaction</li>
+                <li> <b>- </b> Prix abordables  </li>
                     <li> <b>- </b> Accompagnement sur-mesure par un architecte  </li>
                     <li> <b>- </b>Les meilleurs architectes et entreprises pour votre rénovation </li>
                     <li> <b>- </b>Travaux avec prix & délais garantis par contrat </li>
-                    <li> <b>- </b>Garantie de bonne fin de chantier AXA </li>
                 </ol> Ici, nous partageons notre savoir sous la forme d’un dossier complet sur la réhabilitation afin que vous ayez accès à une information fiable.
             </Card>
             <Card imgSrc={"/assets/img/renovation/12.jpg"} title={"Quel prix pour la rénovation d’une maison ?"} imgLeft animation={"fadeInLeft"} showButton linkTo={'/quote'} buttonTitle={"Demander une estimation personnalisée"}>

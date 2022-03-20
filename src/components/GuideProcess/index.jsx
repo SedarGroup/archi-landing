@@ -1,5 +1,4 @@
 import React from "react";
-
 const GuideProcess = () => {
   return (
     <section
@@ -33,7 +32,8 @@ const GuideProcess = () => {
               </div>
               <div className="cont">
                 <h6 className="mb-10">Commencez</h6>
-                <p>Complétez notre formulaire en quelques clics avec les informations de votre projet pour obtenir un devis. Nous vous rappelons sous 24h.</p>
+                <p>Estimez-votre projet et obtenez un devis détaillé en quelques clics. Nous vous rappelons sous les 24h.
+                </p>
               </div>
             </div>
           </div>
@@ -50,9 +50,8 @@ const GuideProcess = () => {
               </div>
               <div className="cont">
                 <h6 className="mb-10">Echangez avec nos experts</h6>
-                <p> 
-
-                Nos experts vous apportent des conseils sur-mesure, réalisent un devis à tarif négocié avec des professionnels de confiance proches de chez vous.        </p>      </div>
+                <p>
+                  Nos experts vous apportent des conseils sur-mesure, réalisent un devis à tarif négocié avec des professionnels de confiance.        </p>      </div>
             </div>
           </div>
           <div
@@ -69,7 +68,7 @@ const GuideProcess = () => {
               <div className="cont">
                 <h6 className="mb-10">Lancez la mission</h6>
                 <p>
-                Après acceptation du devis, les professionnels réalisent votre projet et votre expert habitat vous accompagne jusqu'à la livraison de vos travaux.</p>              </div>
+                  Après acceptation du devis, les professionnels réalisent votre projet et votre expert habitat vous accompagne jusqu'à la livraison de vos travaux.</p>              </div>
             </div>
           </div>
         </div>
@@ -77,5 +76,4 @@ const GuideProcess = () => {
     </section>
   );
 };
-
 export default GuideProcess;
