@@ -1,4 +1,22 @@
 var mysql = require('mysql');
+const nodemailer = require('nodemailer');
+function sendMail(email,name,phone,renovation,conception){
+  let transporter = nodemailer.createTransport({
+    service: 'gmail',
+    auth: {
+      user: process.env.APP_EMAIL,
+      pass: process.env.APP_EMAIL_PASS,
+    },
+  });
+  let mailOptions = {
+    from: `Sedar <${email}>`,
+    to: ["ibracool99@gmail.com","sedargroup.sn@gmail.com"],
+    subject: "Nouvelle demande de devis",
+    html: `${name} souhaite avoir un devis.\nTéléphone: ${phone}\nMail: ${email}\nRenovation: ${renovation} m2\nConception: ${conception} m2`,
+  };
+  transporter.sendMail(mailOptions, function (err, info) {
+  });
+}
 exports.handler = (event, context, callback) => {
   if (event.httpMethod === 'POST') {
     const {
@@ -9,6 +27,7 @@ exports.handler = (event, context, callback) => {
       conception
     } = JSON.parse(event.body);
     if (email && name && phone) {
+      sendMail(email,name,phone,renovation,conception)
       var con = mysql.createConnection({
         host: process.env.MYSQLHOSTNAME,
         user: process.env.USER,

@@ -35,9 +35,9 @@ const Renovate = () => {
                         <li>- la <b>rénovation lourde ou grosse rénovation </b>: toiture, murs porteurs, cloisons, planchers, isolation, évacuations, remise à neuf totale de l’électricité et de la plomberie…</li>
                     </ol></p><p> Le coût des travaux varie selon la catégorie dans laquelle vous vous situez. En règle générale, vous pouvez vous baser sur les montants moyens suivants afin de prévoir votre budget.</p>
             </Card>
-            <Card imgSrc={"/assets/img/renovation/13.jpg"} title={"Rénovation de maison: quel prix pour un simple rafraîchissement ?"} animation={"fadeInRight"} >
+            <Card imgSrc={"/assets/img/renovation/13.jpg"} title={"Rénovation de maison: quel prix pour un simple rafraîchissement ?"} animation={"fadeInRight"} showButton buttonTitle="Demander un devis" >
                 Les <b>travaux de rafraîchissement </b>concernent essentiellement le second oeuvre, des petits travaux que vous pouvez faire vous même sans la présence d’un architecte. Pour rafraîchir votre maison, vous serez amené à <b>repeindre les murs, changer la moquette ou le carrelage</b>… Rafraîchir sa maison peut poursuivre un objectif de décoration ou d’amélioration des performances énergétiques, afin d’améliorer le confort de la maison.
-                <p>Comptez entre <b>200 et 800 € TTC </b>le m² pour des travaux de rafraîchissement  tels :</p>
+                <p>Comptez entre <b>1000 FCFA et 2500 FCFA TTC </b>le m² pour des travaux de rafraîchissement  tels :</p>
                 <ol><li> - La peinture</li>
                     <li> - Le changement de papier peint</li>
                     <li> - Le carrelage</li>
@@ -46,7 +46,7 @@ const Renovate = () => {
                 </ol>
                 Les prix varieront évidemment en fonction de la surface et des matériaux que vous aurez choisis.
             </Card>
-            <Card imgSrc={"/assets/img/renovation/14.jpg"} title={"Rénovation de maison: quel prix pour une rénovation simple ?"} >
+            {/* <Card imgSrc={"/assets/img/renovation/14.jpg"} title={"Rénovation de maison: quel prix pour une rénovation simple ?"} >
                 Une <b> rénovation simple </b>est le type de rénovation que l’on peut faire soi-même sans forcément faire appel à un architecte. Cependant faire appel à un professionnel serait un plus quand il s’agit de rénover la cuisine, la salle de bains, revoir les menuiseries, rafraîchir les cloisons, modifier l’électricité et la plomberie…
                 <p>Comptez entre <b>800 et 1200 € TTC </b> le m² pour des travaux de rénovation simple qui consistent à :</p>
                 <ol><li> - Rénover la cuisine et salle de bain</li>
@@ -70,7 +70,7 @@ const Renovate = () => {
                 <p>Pour aller plus loin : Voir un exemple de prix et tarifs au m2 d’une rénovation de maison ancienne
                     Si vous souhaitez rénover une ancienne bâtisse, vous devrez probablement remettre l’électricité et/ou l’isolation aux normes, sachant qu’elles évoluent sans cesse.
                     Lisez notre dossier Prix d’une rénovation complète pour découvrir le « Guide des prix poste par poste d’une rénovation complète de maison ».
-                </p> </Card>
+                </p> </Card> */}
         </LightLayout>
     );
 };
