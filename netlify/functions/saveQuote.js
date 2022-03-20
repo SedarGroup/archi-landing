@@ -1,6 +1,9 @@
 var mysql = require('mysql');
 const nodemailer = require('nodemailer');
-function sendMail(email,name,phone,renovation,conception){
+
+function sendMail(email, name, phone, option1,
+  option2,
+  surface, other) {
   let transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
@@ -10,12 +13,11 @@ function sendMail(email,name,phone,renovation,conception){
   });
   let mailOptions = {
     from: `Sedar <${email}>`,
-    to: ["ibracool99@gmail.com","sedargroup.sn@gmail.com"],
+    to: ["ibracool99@gmail.com", "sedargroup.sn@gmail.com"],
     subject: "Nouvelle demande de devis",
-    html: `${name} souhaite avoir un devis.\nTéléphone: ${phone}\nMail: ${email}\nRenovation: ${renovation} m2\nConception: ${conception} m2`,
+    html: `${name} souhaite avoir un devis.\nTéléphone: ${phone?phone:'N/A'}\nMail: ${email?email:'N/A'}\n Option 1: ${option1?option1:'N/A'}\nOption2: ${option2?option2:'N/A'} ${other?other:''}\nSurface: ${surface?surface:'N/A'} m2\n `,
   };
-  transporter.sendMail(mailOptions, function (err, info) {
-  });
+  transporter.sendMail(mailOptions, function (err, info) {});
 }
 exports.handler = (event, context, callback) => {
   if (event.httpMethod === 'POST') {
@@ -23,11 +25,13 @@ exports.handler = (event, context, callback) => {
       email,
       name,
       phone,
-      renovation,
-      conception
+      option1,
+      option2,
+      surface,
+      other
     } = JSON.parse(event.body);
     if (email && name && phone) {
-      sendMail(email,name,phone,renovation,conception)
+      sendMail(email, name, phone, option1, option2, surface, other)
       var con = mysql.createConnection({
         host: process.env.MYSQLHOSTNAME,
         user: process.env.USER,
@@ -42,7 +46,7 @@ exports.handler = (event, context, callback) => {
           })
         }
         console.log("Connected!");
-        var sql = `INSERT INTO quotes ( email, name, phone, renovation, conception) VALUES ('${email}','${name}','${phone}','${renovation?renovation:0}','${conception?conception:0}')`;
+        var sql = `INSERT INTO quotes ( email, name, phone, option1, option2, surface, other) VALUES ('${email}','${name}','${phone}','${option1}','${option2}','${surface?surface:0}','${other}')`;
         con.query(sql, function (err, result) {
           if (err) {
             callback(null, {
