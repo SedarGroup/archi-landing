@@ -10,6 +10,7 @@ import Testimonials from "../../components/Testimonials1";
 import Team1 from "../../components/Team1";
 import Blogs1 from "../../components/Blogs1";
 import Contact from "../../components/Contact";
+import Offers from "../../components/Offers";
 
 const Home1 = () => {
   React.useEffect(() => {
@@ -18,6 +19,7 @@ const Home1 = () => {
   return (
     <LightLayout footerClass={"mt-30"}>
       <IntroWithHorizontal />
+      <Offers/>
       <AboutUs1 />
       <Services1 />
       <Portfolio1 />
