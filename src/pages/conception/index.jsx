@@ -21,19 +21,18 @@ const Renovate = () => {
                 Chez Sedar, nous sommes convaincus que votre projet sera un succès uniquement si vous avez anticipé les prix, les délais et les étapes de votre rénovation. En présentant votre projet sur Sedar, nos experts habitats vous donnent gratuitement le coup d’avance sur vos travaux. Nous vous accompagnons des premiers plans au dernier coup de peinture avec nos architectes et entreprises triés sur le volet.
                 <p><b>Pourquoi faire confiance à Sedar pour votre projet ?</b></p>
                 <ol>
-                    <li> <b>- </b> Prix abordables  </li>
+                    <li> <b>- </b> Des prix imbattables  </li>
                     <li> <b>- </b> Accompagnement sur-mesure par un architecte  </li>
                     <li> <b>- </b>Les meilleurs architectes et entreprises pour votre rénovation </li>
                     <li> <b>- </b>Travaux avec prix & délais garantis par contrat </li>
                 </ol> Ici, nous partageons notre savoir sous la forme d’un dossier complet sur la réhabilitation afin que vous ayez accès à une information fiable.
             </Card>
-            <Card imgSrc={"/assets/img/conception/22.jpg"} title={"Quels sont les prix au m² pour la construction d’une maison neuve ?"} imgLeft animation={"fadeInLeft"} showButton linkTo={'/quote'} buttonTitle={"Demander une estimation personnalisée"}>
-                De la conception à la remise des clés, en passant par l’obtention du permis de construire, plusieurs étapes vont succéder pour la construction de votre maison. S’il est difficile d’établir précisément le coût de construction d’une maison, on peut estimer un budget global pour chacune des étapes de la construction, tel le gros œuvre, le second œuvre et les finitions.
-                Le coût de construction d’une maison individuelle variera ainsi en fonction du type de construction, l’emplacement, la taille et les types de matériaux. Pour que vous ayez accès aux prix transparents dans la construction de maison, voici les moyennes réelles du marché:
-                <ol><li> <b>- 1000€ TTC par m2 </b> pour une construction en gros oeuvre</li>
-                    <li> <b>- 1200€ TTC – 1500€</b> TTC par m2 pour une construction traditionnelle</li>
-                    <li> <b>- 1800€ TTC – 2500€</b> TTC par m2 pour une construction moderne</li>
-                    <li> <b>- 1600€ TTC – 2500€</b>TTC par m2 pour une construction en ossature bois ou passive</li>
+            <Card imgSrc={"/assets/img/conception/22.jpg"} title={"Quels sont les prix au m² pour la conception d’un habitat ? "} imgLeft animation={"fadeInLeft"} showButton linkTo={'/quote'} buttonTitle={"Demander une estimation personnalisée"}>
+            La conception d’une maison neuve passe par plusieurs étapes, l’étude du site: voirie, bruits, orientations. Il est donc difficile d’établir précisément le coût de conception d’une maison. Le coût de la conception d’une maison variera ainsi en fonction du type de construction, l’emplacement, la taille et les contraintes du site. Mais Sedar Group vous propose des prix moins cher que partout ailleurs.  
+            <ol>
+                    <li> <b>- 500 fcfa TTC </b>par m2 pour une conception de maison simple </li>
+                    <li> <b>- 700 fcfa - 1000 fcfa TTC</b>  par m2 pour une villa moderne</li>
+                    <li> <b>- 1200 fcfa et 1700 fcfa TTC</b> par m2 pour un habitant collectif </li>
                 </ol>Chez Sedar, nous pensons que chaque projet mérite un architecte. Il faut savoir cependant que les honoraires des architectes sont entre 3% à 10% du coût de la construction et contrairement aux idées reçues, ces coûts ne sont pas plus élevés que lorsque l’on fait appel à un constructeur de maisons individuelles.
                 L’un des services les plus essentiels apportés par l’architecte consiste à adapter le projet au budget. Pour cela, il réalise un appel d’offres aux différents entreprises générales du bâtiment ou artisans afin de connaître leur prix pour chaque étape de la construction, et optimise les dépenses en fonction.
             </Card>

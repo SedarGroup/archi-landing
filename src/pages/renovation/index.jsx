@@ -21,7 +21,7 @@ const Renovate = () => {
                 Chez Sedar, nous sommes convaincus que votre projet sera un succès uniquement si vous avez anticipé les prix, les délais et les étapes de votre rénovation. En présentant votre projet sur Sedar, nos experts habitats vous donnent gratuitement le coup d’avance sur vos travaux. Nous vous accompagnons des premiers plans au dernier coup de peinture avec nos architectes et entreprises triés sur le volet.
                 <p><b>Pourquoi faire confiance à Sedar pour votre projet ?</b></p>
                 <ol>
-                <li> <b>- </b> Prix abordables  </li>
+                <li> <b>- </b> Des prix imbattables   </li>
                     <li> <b>- </b> Accompagnement sur-mesure par un architecte  </li>
                     <li> <b>- </b>Les meilleurs architectes et entreprises pour votre rénovation </li>
                     <li> <b>- </b>Travaux avec prix & délais garantis par contrat </li>

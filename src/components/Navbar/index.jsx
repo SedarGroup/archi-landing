@@ -126,7 +126,7 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
               </li>
               <li className="nav-item">
                 <Link href="/work">
-                  <a className="nav-link">Réalisations</a>
+                  <a className="nav-link">Nos réalisations</a>
                 </Link>
               </li>
               <li className="nav-item">
