@@ -27,21 +27,22 @@ const Offers = () => {
             </div>
           </div>
           <div className="row">
-
             <div className="gallery twsty full-width">
               {offersData.map((item) => (
                 <div
                   key={item.id}
-                  className={`items mt-50 wow fadeInUp`}
+                  className={`items mt-50 wow fadeInUp `}
                   data-wow-delay=".3s"
                 >
                   <div
-                    className="item-img bg-img wow imago"
+                    className="item-img bg-img wow imago s"
                     style={{
                       backgroundImage: `url(${item.image})`,
                     }}
                   >
-                    <a href={item.url} style={{position:"absolute", top:"40%", left:"40%",alignSelf:"center"}}className="btn-curve btn-color"> {item.title}</a>
+                    <a href={item.url} style={{ position: "absolute", top: "40%", left: "40%", alignSelf: "center",zIndex:5 }} className="btn-curve btn-color "> {item.title}</a>
+                    <div className="item-img-overlay">
+                    </div>
                   </div>
                 </div>
               ))}
@@ -52,5 +53,4 @@ const Offers = () => {
     </>
   );
 };
-
 export default Offers;

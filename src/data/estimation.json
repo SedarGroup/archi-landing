@@ -1,12 +1,48 @@
 [
-    {   "title":"Conception",
+    {
+        "title": "Conception",
         "name": "Surface (m2)",
-        "id":1,
-        "factor": 500
+        "id": 1,
+        "children": [
+            {
+                "title": "Maison simple",
+                "factor": 500
+            },
+            {
+                "title": "Villa",
+                "factor": 500
+            },
+            {
+                "title": "Immeuble",
+                "factor": 500
+            },
+            {
+                "title": "Autre",
+                "factor": 500
+            }
+        ]
     },
-    {        "id":2,
-        "title":"Rénovation",
+    {
+        "id": 2,
+        "title": "Rénovation",
         "name": "Surface (m2)",
-        "factor": 300
+        "children": [
+            {
+                "title": "Peinture",
+                "factor": 2000
+            },
+            {
+                "title": "Plomberie",
+                "factor": 1700
+            },
+            {
+                "title": "Carrelage",
+                "factor": 2500
+            },
+            {
+                "title": "Autre",
+                "factor": 500
+            }
+        ]
     }
 ]

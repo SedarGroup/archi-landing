@@ -8,20 +8,20 @@ const Estimate = () => {
     const [renovation, setRenovation] = React.useState(0);
     const [conception, setConception] = React.useState(0);
     const [step, setStep] = React.useState(0);
-    const [selectedOption, setSelectedOption] = React.useState();
+    const [selectedOption, setSelectedOption] = React.useState({});
     const calculate = (event) => {
         event.preventDefault()
-        const selectedOptionData = estimations.find((item) => item.id === selectedOption);
-        const value = document.getElementById(selectedOptionData.name).value
+        const selectedOptionData= estimations[selectedOption[0]].children[selectedOption[1]]
+        const value = document.getElementById("surface").value
         setEstimation(selectedOptionData.factor * value);
-        switch (selectedOptionData.title) {
-            case 'Rénovation':
-                setRenovation(value);
-                break;
-            case 'Conception':
-                setConception(value);
-                break;
-        }
+        // switch (selectedOptionData.title) {
+        //     case 'Rénovation':
+        //         setRenovation(value);
+        //         break;
+        //     case 'Conception':
+        //         setConception(value);
+        //         break;
+        // }
     }
     const onSubmitQuote = (event) => {
         event.preventDefault();
@@ -48,6 +48,12 @@ const Estimate = () => {
             calculate(event)
         }
     }
+    const renderOptions = (feat, index, step) => {
+        return (<div className="form-group" key={feat.name}
+        >
+            <button onClick={() => { setStep(step + 1); setSelectedOption({ ...selectedOption,[step]: index }); }} className="btn-curve btn-color">{feat.title} </button>
+        </div>)
+    }
     return (
         <div>
             <section className="contact cont-map">
@@ -64,26 +70,24 @@ const Estimate = () => {
                                 </div>
                                 <div className="messages"></div>
                                 <div className="controls">
-                                    {estimations.map(feat =>
-                                        <div className="form-group" key={feat.name}
-                                        >
-                                            {step === 0 && <button onClick={() => { setStep(1); setSelectedOption(feat.id); }} className="btn-curve btn-color">{feat.title} </button>}
-                                            {step === 1 && selectedOption === feat.id && <input
-                                                key={feat.name}
-                                                id={feat.name}
-                                                min={0}
-                                                onKeyPress={handleKeyPress}
-                                                type="number"
-                                                name={feat.name}
-                                                placeholder={feat.name}
-                                                required="required"
-                                            />}
-                                        </div>)}
-                                    {step === 1 && <div className="row justify-content-center">
-                                        <button onClick={() => { setStep(step - 1); setEstimation(0) }} className="btn-curve m-2">Retour</button>
-                                        <button type="submit" className="btn-curve btn-color m-2">
+                                    {step === 0 && estimations.map((feat, index) => renderOptions(feat, index, 0))}
+                                    {step === 1 && estimations[selectedOption[0]].children.map((feat, index) =>
+                                        renderOptions(feat, index, 1))}
+                                    {step === 2 && <input
+                                        id="surface"
+                                        min={0}
+                                        onKeyPress={handleKeyPress}
+                                        type="number"
+                                        name={"surface"}
+                                        placeholder={"Surface (m2)"}
+                                        required="required"
+                                    />}
+                                    <div className="row justify-content-center">
+                                        {step > 0 && <button onClick={() => { setSelectedOption({ ...selectedOption, [step]: null }); setStep(step - 1); setEstimation(0) }} className="btn-curve m-2">Retour</button>
+                                        }
+                                        {step === 2 && <button type="submit" className="btn-curve btn-color m-2">
                                             <span>Calculer</span>
-                                        </button></div>}
+                                        </button>}</div>
                                     {estimation != 0 && <p className="nbr mt-20">              {estimation} CFA
                                     </p>}
                                 </div>
