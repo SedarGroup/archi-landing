@@ -22,7 +22,6 @@ const Estimate = () => {
         else { setMessage() }
     }, [step])
     const calculate = (event) => {
-        console.log(event)
         event.preventDefault();
         const selectedOptionData = estimations[selectedOption[0]].children[selectedOption[1]];
         if (selectedOptionData.title === 'Autre') {
@@ -82,7 +81,9 @@ const Estimate = () => {
                                 <div className="section-head">
                                     <h6 style={{ color: 'black' }}>Nos tarifs</h6>
                                     <h4 style={{ color: 'black' }} className="playfont"><span>Je veux une ...</span></h4>
-                                    <h5 style={{ color: 'black' }} className="playfont"><span>{message}</span></h5>
+                                    <h6 style={{ color: 'black' }}><span>{message}</span></h6>
+                                    {estimation != 0 && <p><h5  style={{ color: 'black' }} className="playfont mt-30"> <b>Estimation</b>: {estimation} CFA
+                                    </h5></p>}
                                 </div>
                                 <div className="messages"></div>
                                 <div className="controls">
@@ -111,8 +112,7 @@ const Estimate = () => {
                                         {step === 2 && <button type="submit" className="btn-curve btn-color m-2">
                                             {estimations[selectedOption[0]].children[selectedOption[1]].title !== 'Autre' ? "Calculer" : "Demander un devis"}
                                         </button>}</div>
-                                    {estimation != 0 && <p className="nbr mt-20">              {estimation} CFA
-                                    </p>}
+                                    
                                 </div>
                             </form>
                         </div>
