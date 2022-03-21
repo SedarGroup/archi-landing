@@ -11,14 +11,16 @@ const Estimate = () => {
     const [step, setStep] = React.useState(0);
     const [selectedOption, setSelectedOption] = React.useState({});
     useEffect(() => {
-        if (estimations[selectedOption[0]]?.title) {
-            setMessage(`${estimations[selectedOption[0]]?.title}`)
+        if (step > 0) {
+            if (estimations[selectedOption[0]]?.title) {
+                setMessage(`${estimations[selectedOption[0]]?.title}`)
+            }
+            if (estimations[selectedOption[0]]?.children[selectedOption[1]]?.title) {
+                setMessage(`${estimations[selectedOption[0]]?.title}/${estimations[selectedOption[0]]?.children[selectedOption[1]]?.title}`)
+            }
         }
-        if(estimations[selectedOption[0]]?.children[selectedOption[1]]?.title){
-            setMessage(`${estimations[selectedOption[0]]?.title}/${ estimations[selectedOption[0]]?.children[selectedOption[1]]?.title}`)
-
-        }
-    }, [selectedOption])
+        else { setMessage() }
+    }, [step])
     const calculate = (event) => {
         console.log(event)
         event.preventDefault();
@@ -104,7 +106,7 @@ const Estimate = () => {
                                         required="required"
                                     />)}
                                     <div className="row justify-content-center">
-                                        {step > 0 && <button type="button" onClick={() => { setSelectedOption({ ...selectedOption, [step]: null }); setStep(step - 1); setEstimation(0) }} className="btn-curve m-2">Retour</button>
+                                        {step > 0 && <button type="button" onClick={() => { setSelectedOption({ ...selectedOption, [step - 1]: null }); setStep(step - 1); setEstimation(0) }} className="btn-curve m-2">Retour</button>
                                         }
                                         {step === 2 && <button type="submit" className="btn-curve btn-color m-2">
                                             {estimations[selectedOption[0]].children[selectedOption[1]].title !== 'Autre' ? "Calculer" : "Demander un devis"}
