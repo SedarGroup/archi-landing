@@ -40,7 +40,7 @@ const Offers = () => {
                     style={{
                       backgroundImage: `url(${item.image})`,
                     }}
-                  >                  <a id={"a-center"} href={item.url} style={{ width:"30%",top: "45%", left: "40%", alignSelf: "center", alignContent:'center',zIndex: 5, padding:8}} className="btn-curve btn-color "> <span>{item.title}</span></a>
+                  >                  <a id={"a-center"} href={item.url} style={{ width:"35%",top: "45%", left: "40%", alignSelf: "center", alignContent:'center',zIndex: 5, padding:8}} className="btn-curve btn-color "> <span>{item.title}</span></a>
                     <div className="item-img-overlay">
                     </div>
                   </div>
