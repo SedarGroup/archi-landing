@@ -8,6 +8,7 @@ const Offers = () => {
       if (window.Isotope) initIsotope();
     }, 1000);
   }, []);
+
   return (
     <>
       <section className="portfolio section-padding">
@@ -39,8 +40,7 @@ const Offers = () => {
                     style={{
                       backgroundImage: `url(${item.image})`,
                     }}
-                  >
-                    <a href={item.url} style={{ position: "absolute", top: "40%", left: "40%", alignSelf: "center",zIndex:5 }} className="btn-curve btn-color "> <span>{item.title}</span></a>
+                  >                  <a id={"a-center"} href={item.url} style={{ width:"30%",top: "45%", left: "40%", alignSelf: "center", alignContent:'center',zIndex: 5, padding:8}} className="btn-curve btn-color "> <span>{item.title}</span></a>
                     <div className="item-img-overlay">
                     </div>
                   </div>
