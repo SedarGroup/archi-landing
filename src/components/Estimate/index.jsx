@@ -9,6 +9,8 @@ const Estimate = () => {
     const [surface, setSurface] = React.useState(0);
     const [message, setMessage] = React.useState();
     const [step, setStep] = React.useState(0);
+    const [selectedRegion, setSelectedRegion] = React.useState("Dakar");
+    const regions = ["Dakar", "Ziguinchor", "Diourbel", "Saint-Louis", "Tambacounda", "Kaolack", "Thiès", "Louga", "Fatick", "Kolda", "Matam", "Kaffrine", "Kédougou", "Sédhiou"]
     const [selectedOption, setSelectedOption] = React.useState({});
     useEffect(() => {
         if (step > 0) {
@@ -27,9 +29,8 @@ const Estimate = () => {
             const value = document.getElementById("other").value;
             if (value) {
                 setStep(3);
-            }else{
+            } else {
                 alert('Veuillez préciser')
-
             }
         }
         else {
@@ -58,7 +59,8 @@ const Estimate = () => {
                     surface,
                     name,
                     phone,
-                    other
+                    other,
+                    region: selectedRegion
                 })
             });
             alert("Devis envoyé avec succès. Un expert vous contactera d'ici peu.");
@@ -72,6 +74,9 @@ const Estimate = () => {
         if (event.key === 'Enter') {
             goToStep3();
         }
+    }
+    const handleRegionSelectChange = (e) => {
+        setSelectedRegion(e.target.value);
     }
     const renderOptions = (feat, index, step) => {
         return (<div className="form-group" key={feat.title}
@@ -140,6 +145,10 @@ const Estimate = () => {
                                                 placeholder={"Votre téléphone"}
                                                 required="required"
                                             />
+                                            <p>Sélectionnez votre région</p>
+                                            <select name="regions" value={selectedRegion} onChange={handleRegionSelectChange}>
+                                                {regions.sort().map(region => (<option value={region}>{region}</option>))}
+                                            </select>
                                         </div>
                                     }
                                     <div className="row justify-content-center">
