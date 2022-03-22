@@ -90,7 +90,7 @@ const Estimate = () => {
                 <div className="container">
                     <div className="row">
                         <div
-                            className="col-lg-6 col-md-6 contact-form wow fadeInLeft"
+                            className="col-lg-6 col-md-6 contact-form wow "
                             data-wow-delay=".3s"
                         >
                             <form id="estimate-form">
