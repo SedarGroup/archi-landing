@@ -39,6 +39,8 @@ const Offers = () => {
                     className="item-img bg-img wow imago s"
                     style={{
                       backgroundImage: `url(${item.image})`,
+                      height:175,
+                      margin:10
                     }}
                   >                  <a id={"a-center"} href={item.url} style={{ width:"35%",top: "45%", left: "40%", alignSelf: "center", alignContent:'center',zIndex: 5, padding:8}} className="btn-curve btn-color "> <span>{item.title}</span></a>
                     <div className="item-img-overlay">
