@@ -21,15 +21,26 @@ const Estimate = () => {
         }
         else { setMessage() }
     }, [step])
-    const calculate = (event) => {
-        event.preventDefault();
+    const goToStep3 = () => {
         const selectedOptionData = estimations[selectedOption[0]].children[selectedOption[1]];
         if (selectedOptionData.title === 'Autre') {
-            document.getElementById("name").focus()
+            const value = document.getElementById("other").value;
+            if (value) {
+                setStep(3);
+            }else{
+                alert('Veuillez préciser')
+
+            }
         }
         else {
-            const value = document.getElementById("surface").value
-            setEstimation(selectedOptionData.factor * value);
+            const value = document.getElementById("surface").value;
+            if (value) {
+                setEstimation(selectedOptionData.factor * value);
+                setStep(3);
+            }
+            else {
+                alert('Veuillez entrer la surface en m2')
+            }
         }
     }
     const onSubmitQuote = (event) => {
@@ -57,9 +68,9 @@ const Estimate = () => {
             alert("Veuillez remplir tous les champs")
         }
     }
-    const handleKeyPress = (event) => {
+    const handleStep2KeyPress = (event) => {
         if (event.key === 'Enter') {
-            calculate(event)
+            goToStep3();
         }
     }
     const renderOptions = (feat, index, step) => {
@@ -74,16 +85,14 @@ const Estimate = () => {
                 <div className="container">
                     <div className="row">
                         <div
-                            className="col-lg-5 col-md-6 contact-form wow fadeInLeft"
+                            className="col-lg-6 col-md-6 contact-form wow fadeInLeft"
                             data-wow-delay=".3s"
                         >
-                            <form id="estimate-form" onSubmit={calculate}>
+                            <form id="estimate-form">
                                 <div className="section-head">
                                     <h6 style={{ color: 'black' }}>Nos tarifs</h6>
                                     <h4 style={{ color: 'black' }} className="playfont"><span>Je veux une ...</span></h4>
                                     <h6 style={{ color: 'black' }}><span>{message}</span></h6>
-                                    {estimation != 0 && <p><h5  style={{ color: 'black' }} className="playfont mt-30"> <b>Estimation</b>: {estimation} CFA
-                                    </h5></p>}
                                 </div>
                                 <div className="messages"></div>
                                 <div className="controls">
@@ -93,7 +102,7 @@ const Estimate = () => {
                                     {step === 2 && (estimations[selectedOption[0]].children[selectedOption[1]].title !== 'Autre' ? <input
                                         id="surface"
                                         min={0}
-                                        onKeyPress={handleKeyPress}
+                                        onKeyPress={handleStep2KeyPress}
                                         type="number"
                                         onChange={(event) => setSurface(event.target.value)}
                                         name={"surface"}
@@ -101,58 +110,46 @@ const Estimate = () => {
                                         required="required"
                                     /> : <input
                                         id="other"
-                                        onKeyPress={handleKeyPress}
+                                        onKeyPress={handleStep2KeyPress}
                                         name={"other"}
                                         placeholder={"Veuillez Préciser"}
                                         required="required"
                                     />)}
+                                    {step === 3 &&
+                                        <div className="form-group">
+                                            <input
+                                                id={"name"}
+                                                name={"name"}
+                                                onChange={(event) => setName(event.target.value)}
+                                                placeholder={"Votre nom"}
+                                                required="required"
+                                            />
+                                            <input
+                                                id={"email"}
+                                                onChange={(event) => setEmail(event.target.value)}
+                                                name={"email"}
+                                                type={"email"}
+                                                placeholder={"Votre email"}
+                                                required="required"
+                                            />
+                                            <input
+                                                id={"phone"}
+                                                name={"phone"}
+                                                onChange={(event) => setPhone(event.target.value)}
+                                                type={"number"}
+                                                placeholder={"Votre téléphone"}
+                                                required="required"
+                                            />
+                                        </div>
+                                    }
                                     <div className="row justify-content-center">
                                         {step > 0 && <button type="button" onClick={() => { setSelectedOption({ ...selectedOption, [step - 1]: null }); setStep(step - 1); setEstimation(0) }} className="btn-curve m-2">Retour</button>
                                         }
-                                        {step === 2 && <button type="submit" className="btn-curve btn-color m-2">
-                                            {estimations[selectedOption[0]].children[selectedOption[1]].title !== 'Autre' ? "Calculer" : "Demander un devis"}
+                                        {step === 2 && <button type="button" onClick={() => { goToStep3() }} className="btn-curve btn-color m-2">
+                                            Suivant                                        </button>}
+                                        {step === 3 && <button onClick={onSubmitQuote} type="submit" className="btn-curve btn-color m-2">
+                                            Obtenir un devis
                                         </button>}</div>
-                                    
-                                </div>
-                            </form>
-                        </div>
-                        <div className="col-lg-5 col-md-6 contact-form wow fadeInRight ml-5 mt-5"
-                            data-wow-delay=".3s">
-                            <form id="quote-form" onSubmit={onSubmitQuote}>
-                                <div className="mt-20">
-                                    <h6 style={{ color: 'black' }}>Ensuite</h6>
-                                    <h4 style={{ color: 'black' }} className="playfont"><span>Je demande un devis</span></h4>
-                                </div>
-                                <div className="messages"></div>
-                                <div className="controls">
-                                    <div className="form-group">
-                                        <input
-                                            id={"name"}
-                                            name={"name"}
-                                            onChange={(event) => setName(event.target.value)}
-                                            placeholder={"Votre nom"}
-                                            required="required"
-                                        />
-                                        <input
-                                            id={"email"}
-                                            onChange={(event) => setEmail(event.target.value)}
-                                            name={"email"}
-                                            type={"email"}
-                                            placeholder={"Votre email"}
-                                            required="required"
-                                        />
-                                        <input
-                                            id={"phone"}
-                                            name={"phone"}
-                                            onChange={(event) => setPhone(event.target.value)}
-                                            type={"number"}
-                                            placeholder={"Votre téléphone"}
-                                            required="required"
-                                        />
-                                    </div>
-                                    <button onClick={onSubmitQuote} type="submit" className="btn-curve btn-color m-2">
-                                        Obtenir un devis
-                                    </button>
                                 </div>
                             </form>
                         </div>
