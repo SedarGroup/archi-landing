@@ -34,5 +34,21 @@
     "linkedin": "https://www.linkedin.com/in/demba-sene-44bbb0172",
     "username": "Demba Sène",
     "usertitle": "PDG"
+  },
+  {
+    "id": 5,
+    "image": "/assets/img/team/5.jpeg",
+    "facebook": "https://www.facebook.com/demba.sene.775",
+    "linkedin": "https://www.linkedin.com/in/demba-sene-44bbb0172",
+    "username": "Cheikh Abdou Khadre Faye",
+    "usertitle": "Trésorier"
+  },
+  {
+    "id": 6,
+    "image": "/assets/img/team/6.jpeg",
+    "facebook": "https://www.facebook.com/demba.sene.775",
+    "linkedin": "https://www.linkedin.com/in/demba-sene-44bbb0172",
+    "username": "Mouhamadou Ba ",
+    "usertitle": "Comptable"
   }
 ]
