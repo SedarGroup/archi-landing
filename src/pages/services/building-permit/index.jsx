@@ -36,8 +36,10 @@ const Renovate = () => {
             </Card>
             <Card imgSrc={"/assets/img/services/building-permit/24.jpg"} title={"Quel est le coût ?"} imgLeft animation={"fadeInLeft"} showButton linkTo={'/quote'} buttonTitle={"Obtenir un devis gratuit"}>
                 Le coût total varie selon les localités. Il se repartit ainsi :
-                Une taxe d'urbanisme dont le montant varie de <b>1 000 à 5 000 FCFA</b>. 
-                Un timbre fiscal de <b>1 000 FCFA</b>
+                <ol>
+                <li> - Une taxe d'urbanisme dont le montant varie de <b>1 000 à 5 000 FCFA</b>. </li>
+                <li> - Un timbre fiscal de <b>1 000 FCFA</b></li>
+                </ol>
             </Card>
             <GuideProcess></GuideProcess>
         </LightLayout>
