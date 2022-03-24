@@ -35,7 +35,7 @@ const Renovate = () => {
                         <li>- la <b>rénovation lourde ou grosse rénovation </b>: toiture, murs porteurs, cloisons, planchers, isolation, évacuations, remise à neuf totale de l’électricité et de la plomberie…</li>
                     </ol></p><p> Le coût des travaux varie selon la catégorie dans laquelle vous vous situez. En règle générale, vous pouvez vous baser sur les montants moyens suivants afin de prévoir votre budget.</p>
             </Card>
-            <Card imgSrc={"/assets/img/renovation/13.jpg"} title={"Rénovation de maison: quel prix pour un simple rafraîchissement ?"} animation={"fadeInRight"} showButton buttonTitle="Demander un devis" >
+            <Card imgSrc={"/assets/img/renovation/13.jpg"} title={"Rénovation de maison: quel prix pour un simple rafraîchissement ?"} animation={"fadeInRight"} showButton buttonTitle="Demander un devis" linkTo={'/quote'} >
                 Les <b>travaux de rafraîchissement </b>concernent essentiellement le second oeuvre, des petits travaux que vous pouvez faire vous même sans la présence d’un architecte. Pour rafraîchir votre maison, vous serez amené à <b>repeindre les murs, changer la moquette ou le carrelage</b>… Rafraîchir sa maison peut poursuivre un objectif de décoration ou d’amélioration des performances énergétiques, afin d’améliorer le confort de la maison.
                 <p>Comptez entre <b>1000 FCFA et 2500 FCFA TTC </b>le m² pour des travaux de rafraîchissement  tels :</p>
                 <ol><li> - La peinture</li>
