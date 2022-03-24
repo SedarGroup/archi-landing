@@ -70,7 +70,7 @@ const Footer = ({ classText }) => {
                 <img src="/assets/img/logo-light.png" alt="" />
               </div>
               <div className="social">
-                <Link href="#">
+                <Link href="https://facebook.com/Sedar-Group-102587235742111/">
                   <a>
                     <i className="fab fa-facebook-f"></i>
                   </a>
@@ -80,7 +80,7 @@ const Footer = ({ classText }) => {
                     <i className="fab fa-twitter"></i>
                   </a>
                 </Link>
-                <Link href="#">
+                <Link href="https://www.instagram.com/sedargroup.sn/?hl=fr">
                   <a>
                     <i className="fab fa-instagram"></i>
                   </a>

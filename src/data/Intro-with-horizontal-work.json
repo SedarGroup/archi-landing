@@ -57,5 +57,15 @@
       "second": ""
     },
     "image": "/assets/img/works/63.jpg"
+  },
+  
+  {
+    "id": 8,
+    "title": { "first": "Villa", "second": "EXTERIEUR" },
+    "content": {
+      "first": "",
+      "second": ""
+    },
+    "image": "/assets/img/works/80.jpg"
   }
 ]
