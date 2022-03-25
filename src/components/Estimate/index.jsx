@@ -27,13 +27,10 @@ const Estimate = () => {
         const selectedOptionData = estimations[selectedOption[0]].children[selectedOption[1]];
         if (selectedOptionData.title === 'Autre') {
             const value = document.getElementById("other").value;
-            if (value) {
-                setStep(3);
-            } else {
+            if (!value) {
                 alert('Veuillez préciser')
             }
         }
-        else {
             const value = document.getElementById("surface").value;
             if (value) {
                 setEstimation(selectedOptionData.factor * value);
@@ -42,7 +39,7 @@ const Estimate = () => {
             else {
                 alert('Veuillez entrer la surface en m2')
             }
-        }
+        
     }
     const onSubmitQuote = (event) => {
         const option1 = estimations[selectedOption[0]]?.title;
@@ -104,7 +101,14 @@ const Estimate = () => {
                                     {step === 0 && estimations.map((feat, index) => renderOptions(feat, index, 0))}
                                     {step === 1 && estimations[selectedOption[0]].children.map((feat, index) =>
                                         renderOptions(feat, index, 1))}
-                                    {step === 2 && (estimations[selectedOption[0]].children[selectedOption[1]].title !== 'Autre' ? <input
+                                     {step===2 && estimations[selectedOption[0]].children[selectedOption[1]].title === 'Autre' && <input
+                                        id="other"
+                                        onKeyPress={handleStep2KeyPress}
+                                        name={"other"}
+                                        placeholder={"Veuillez Préciser"}
+                                        required="required"
+                                    />}
+                                    {step === 2 && <input
                                         id="surface"
                                         min={0}
                                         onKeyPress={handleStep2KeyPress}
@@ -113,13 +117,7 @@ const Estimate = () => {
                                         name={"surface"}
                                         placeholder={"Surface (m2)"}
                                         required="required"
-                                    /> : <input
-                                        id="other"
-                                        onKeyPress={handleStep2KeyPress}
-                                        name={"other"}
-                                        placeholder={"Veuillez Préciser"}
-                                        required="required"
-                                    />)}
+                                    />}
                                     {step === 3 &&
                                         <div className="form-group">
                                             <input
