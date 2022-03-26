@@ -1,6 +1,7 @@
 import React from "react";
 import { useEffect } from "react";
-import estimations from "../../data/estimation.json"
+import estimations from "../../data/estimation.json";
+import {validateEmail} from "../../utils"
 const Estimate = () => {
     const [estimation, setEstimation] = React.useState(0);
     const [email, setEmail] = React.useState();
@@ -47,6 +48,7 @@ const Estimate = () => {
         const other = document.getElementById('other')?.value;
         event.preventDefault();
         if (email && name && phone) {
+            if (validateEmail(email)){
             fetch(`/.netlify/functions/saveQuote`, {
                 method: 'POST',
                 body: JSON.stringify({
@@ -59,7 +61,11 @@ const Estimate = () => {
                     other,
                     region: selectedRegion
                 })
-            });
+            })}
+            else {
+                alert("Email non valide");
+                return
+            };
             alert("Devis envoyé avec succès. Un expert vous contactera d'ici peu.");
             window.location.href = '/'
         }
