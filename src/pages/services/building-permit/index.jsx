@@ -14,7 +14,7 @@ const Renovate = () => {
                 fullPath={[
                     { id: 1, name: "Accueil", url: "/" },
                     { id: 2, name: "Services", url: "/" },
-                    { id: 2, name: "Conception", url: "/services/building-permit" },
+                    { id: 2, name: "Permis de construire", url: "/services/building-permit" },
                 ]}
             />
             <Card imgSrc={"/assets/img/services/building-permit/22.webp"} title={"Qui peut demander une autorisation de construire ?"} imgLeft animation={"fadeInLeft"} showButton linkTo={'/quote'} buttonTitle={"Obtenir un devis gratuit"}>

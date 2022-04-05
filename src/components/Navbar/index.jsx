@@ -96,7 +96,7 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
                     <a className="dropdown-item">Rénovation</a>
                   </Link>
                   <Link href="/conception">
-                    <a className="dropdown-item">Conception</a>
+                    <a className="dropdown-item">Plans</a>
                   </Link>
 
                 </div>

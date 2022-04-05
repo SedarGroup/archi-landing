@@ -14,7 +14,7 @@ const Renovate = () => {
                 fullPath={[
                     { id: 1, name: "Accueil", url: "/" },
                     { id: 2, name: "Services", url: "/" },
-                    { id: 2, name: "Conception", url: "/services/conception" },
+                    { id: 2, name: "Plans", url: "/services/conception" },
                 ]}
             />
           <Card imgSrc={"/assets/img/services/conception/41.jpg"}title={"Que comprend le pack conception zen ? A quel prix ?"} imgLeft animation={"fadeInLeft"} showButton linkTo={'/quote'} buttonTitle={"Obtenir un devis gratuit"}>
