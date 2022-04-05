@@ -10,7 +10,7 @@ const Renovate = () => {
     return (
         <LightLayout footerClass={"mt-30"}>
             <PageHeader imgSrc={"/assets/img/pg5.jpg"}
-                title="Pack conception zen - plans & avant projet"
+                title="Trouver un architecte"
                 fullPath={[
                     { id: 1, name: "Accueil", url: "/" },
                     { id: 2, name: "Services", url: "/" },
