@@ -44,5 +44,28 @@
                 "factor": 500
             }
         ]
+    },
+    {
+        "title": "Design intérieur",
+        "name": "Surface (m2)",
+        "id": 3,
+        "children": [
+            {
+                "title": "Villa",
+                "factor": 500
+            },
+            {
+                "title": "SPA",
+                "factor": 900
+            },
+            {
+                "title": "Restaurant",
+                "factor": 1300
+            },
+            {
+                "title": "Autre",
+                "factor": 500
+            }
+        ]
     }
 ]

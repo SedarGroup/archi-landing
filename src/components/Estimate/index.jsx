@@ -99,7 +99,7 @@ const Estimate = () => {
                             <form id="estimate-form">
                                 <div className="section-head">
                                     <h6 style={{ color: 'black' }}>Nos tarifs</h6>
-                                    <h4 style={{ color: 'black' }} className="playfont"><span>Je veux une ...</span></h4>
+                                    <h4 style={{ color: 'black' }} className="playfont"><span>Je veux ...</span></h4>
                                     <h6 style={{ color: 'black' }}><span>{message}</span></h6>
                                 </div>
                                 <div className="messages"></div>
