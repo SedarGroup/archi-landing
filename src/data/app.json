@@ -2,5 +2,5 @@
   "lightLogo": "/assets/img/logo-light.png",
   "darkLogo": "/assets/img/logo-dark.png",
   "mapIframe": "https://www.google.com/maps/embed?origin=mfe&pb=!1m2!2m1!1sAgdal",
-  "showLoading": true
+  "showLoading": false
 }
