@@ -9,6 +9,7 @@ const Estimate = () => {
     const [phone, setPhone] = React.useState();
     const [surface, setSurface] = React.useState(0);
     const [message, setMessage] = React.useState();
+    const [otherInput, setOtherInput]= React.useState();
     const [step, setStep] = React.useState(0);
     const [selectedRegion, setSelectedRegion] = React.useState("Dakar");
     const regions = ["Dakar", "Ziguinchor", "Diourbel", "Saint-Louis", "Tambacounda", "Kaolack", "Thiès", "Louga", "Fatick", "Kolda", "Matam", "Kaffrine", "Kédougou", "Sédhiou"]
@@ -28,7 +29,10 @@ const Estimate = () => {
         const selectedOptionData = estimations[selectedOption[0]].children[selectedOption[1]];
         if (selectedOptionData.title === 'Autre') {
             const value = document.getElementById("other").value;
-            if (!value) {
+            if (value) {
+                setOtherInput(value);
+            }
+            else {
                 alert('Veuillez préciser')
             }
         }
@@ -45,7 +49,6 @@ const Estimate = () => {
     const onSubmitQuote = (event) => {
         const option1 = estimations[selectedOption[0]]?.title;
         const option2 = estimations[selectedOption[0]]?.children[selectedOption[1]]?.title;
-        const other = document.getElementById('other')?.value;
         event.preventDefault();
         if (email && name && phone) {
             if (validateEmail(email)){
@@ -58,7 +61,7 @@ const Estimate = () => {
                     surface,
                     name,
                     phone,
-                    other,
+                    other: otherInput,
                     region: selectedRegion
                 })
             })}
