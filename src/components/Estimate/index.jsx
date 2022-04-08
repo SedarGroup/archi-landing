@@ -9,7 +9,7 @@ const Estimate = () => {
     const [phone, setPhone] = React.useState();
     const [surface, setSurface] = React.useState(0);
     const [message, setMessage] = React.useState();
-    const [otherInput, setOtherInput]= React.useState();
+    const [other, setOther]= React.useState();
     const [step, setStep] = React.useState(0);
     const [selectedRegion, setSelectedRegion] = React.useState("Dakar");
     const regions = ["Dakar", "Ziguinchor", "Diourbel", "Saint-Louis", "Tambacounda", "Kaolack", "Thiès", "Louga", "Fatick", "Kolda", "Matam", "Kaffrine", "Kédougou", "Sédhiou"]
@@ -28,17 +28,12 @@ const Estimate = () => {
     const goToStep3 = () => {
         const selectedOptionData = estimations[selectedOption[0]].children[selectedOption[1]];
         if (selectedOptionData.title === 'Autre') {
-            const value = document.getElementById("other").value;
-            if (value) {
-                setOtherInput(value);
-            }
-            else {
+            if (!other) {
                 alert('Veuillez préciser')
             }
         }
-            const value = document.getElementById("surface").value;
-            if (value) {
-                setEstimation(selectedOptionData.factor * value);
+            if (surface) {
+                setEstimation(selectedOptionData.factor * surface);
                 setStep(3);
             }
             else {
@@ -52,6 +47,7 @@ const Estimate = () => {
         event.preventDefault();
         if (email && name && phone) {
             if (validateEmail(email)){
+                console.log(other)
             fetch(`/.netlify/functions/saveQuote`, {
                 method: 'POST',
                 body: JSON.stringify({
@@ -61,7 +57,7 @@ const Estimate = () => {
                     surface,
                     name,
                     phone,
-                    other: otherInput,
+                    other,
                     region: selectedRegion
                 })
             })}
@@ -96,7 +92,7 @@ const Estimate = () => {
                 <div className="container">
                     <div className="row">
                         <div
-                            className="col-lg-6 col-md-6 contact-form wow "
+                            className="col-lg-6 col-md-6 contact-form "
                             data-wow-delay=".3s"
                         >
                             <form id="estimate-form">
@@ -114,6 +110,7 @@ const Estimate = () => {
                                         id="other"
                                         onKeyPress={handleStep2KeyPress}
                                         name={"other"}
+                                        onChange={(event) => setOther(event.target.value)}
                                         placeholder={"Veuillez Préciser"}
                                         required="required"
                                     />}
