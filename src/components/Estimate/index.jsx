@@ -24,7 +24,7 @@ const Estimate = () => {
             }
         }
         else { setMessage() }
-    }, [step])
+    }, [step, selectedOption])
     const goToStep3 = () => {
         const selectedOptionData = estimations[selectedOption[0]].children[selectedOption[1]];
         if (selectedOptionData.title === 'Autre') {
