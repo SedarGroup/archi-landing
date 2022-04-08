@@ -47,7 +47,6 @@ const Estimate = () => {
         event.preventDefault();
         if (email && name && phone) {
             if (validateEmail(email)){
-                console.log(other)
             fetch(`/.netlify/functions/saveQuote`, {
                 method: 'POST',
                 body: JSON.stringify({
