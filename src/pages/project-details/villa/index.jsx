@@ -10,7 +10,7 @@ const ProjectDetails = () => {
     document.querySelector("body").classList.add("index3");
   }, []);
   return (
-    <MainLayout>
+    <MainLayout title={"Villa"}>
       <PageHeader imgSrc={"/assets/img/works/69.jpg"}
         title="Villa de luxe"
         fullPath={[

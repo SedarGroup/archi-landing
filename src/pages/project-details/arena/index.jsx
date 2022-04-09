@@ -10,7 +10,7 @@ const ProjectDetails = () => {
     document.querySelector("body").classList.add("index3");
   }, []);
   return (
-    <MainLayout>
+    <MainLayout title={"Arène"}>
       <PageHeader imgSrc={"/assets/img/works/61.jpg"}
         title="Arène de lutte"
         fullPath={[

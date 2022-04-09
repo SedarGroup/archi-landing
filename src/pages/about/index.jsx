@@ -13,7 +13,7 @@ const About = () => {
   }, []);
 
   return (
-    <MainLayout>
+    <MainLayout title={"A propos"}>
       <PageHeader imgSrc={"/assets/img/pg1.jpg"}
         title="A propos"
         fullPath={[

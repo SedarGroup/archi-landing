@@ -4,7 +4,7 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Head from "next/head";
 
-const MainLayout = ({ children, logoClassText }) => {
+const MainLayout = ({ children, logoClassText, title }) => {
   const navbarRef = React.useRef(null);
   const logoRef = React.useRef(null);
 
@@ -29,6 +29,7 @@ const MainLayout = ({ children, logoClassText }) => {
   return (
     <>
       <Head>
+        <title>{title}</title>
         <link rel="stylesheet" href="/assets/css/style.css" />
       </Head>
       <Navbar

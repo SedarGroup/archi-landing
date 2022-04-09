@@ -10,7 +10,7 @@ const Work1 = () => {
     document.querySelector("body").classList.add("index3");
   }, []);
   return (
-    <LightLayout>
+    <LightLayout title={"Réalisations"}>
       <IntroWithHorizontal3 />
       <GuideProcess/>
     </LightLayout>

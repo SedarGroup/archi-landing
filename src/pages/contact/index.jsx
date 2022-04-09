@@ -9,7 +9,7 @@ const Contact = () => {
      document.querySelector("body").classList.add("index3");
    }, []);
   return (
-    <MainLayout>
+    <MainLayout title={"Contact"}>
       <PageHeader imgSrc={"/assets/img/pg1.jpg"}
         title="Contactez nous"
         fullPath={[

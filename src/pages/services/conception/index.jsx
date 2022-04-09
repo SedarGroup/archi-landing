@@ -8,7 +8,7 @@ const Renovate = () => {
         document.querySelector("body").classList.add("index3");
     }, []);
     return (
-        <LightLayout footerClass={"mt-30"}>
+        <LightLayout title={"Pack conception-zen"} footerClass={"mt-30"}>
             <PageHeader imgSrc={"/assets/img/pg6.jpg"}
                 title="Pack conception zen - plans & avant projet"
                 fullPath={[

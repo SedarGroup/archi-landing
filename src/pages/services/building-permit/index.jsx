@@ -8,7 +8,7 @@ const Renovate = () => {
         document.querySelector("body").classList.add("index3");
     }, []);
     return (
-        <LightLayout footerClass={"mt-30"}>
+        <LightLayout title={"Permis de construire"} footerClass={"mt-30"}>
             <PageHeader imgSrc={"/assets/img/services/building-permit/1.webp"}
                 title="Permis de construire"
                 fullPath={[

@@ -7,7 +7,7 @@ const Work1 = () => {
         document.querySelector("body").classList.add("index3");
     }, []);
     return (
-        <MainLayout>
+        <MainLayout title={"Demander un devis"}>
             <WorkHeader
                 title={{
                     first: "Nous offrons des services à des prix abordables",

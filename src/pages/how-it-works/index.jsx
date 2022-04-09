@@ -8,7 +8,7 @@ const HowItWorks = () => {
         document.querySelector("body").classList.add("index3");
     }, []);
     return (
-        <LightLayout footerClass={"mt-30"}>
+        <LightLayout title={"Comment ça marche?"}footerClass={"mt-30"}>
             <PageHeader
                 imgSrc={"/assets/img/pg2.jpg"}
                 title="La solution la plus simple !"

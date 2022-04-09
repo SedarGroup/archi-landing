@@ -8,7 +8,7 @@ const Renovate = () => {
         document.querySelector("body").classList.add("index3");
     }, []);
     return (
-        <LightLayout footerClass={"mt-30"}>
+        <LightLayout title={"Plans"} footerClass={"mt-30"}>
             <PageHeader imgSrc={"/assets/img/pg4.jpg"}
                 title="Estimez le coût des plans"
                 fullPath={[

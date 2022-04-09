@@ -5,7 +5,7 @@ import Footer from "../components/Footer";
 import Head from "next/head";
 import appData from "../data/app.json";
 
-const LightLayout = ({ children, footerClass }) => {
+const LightLayout = ({ children, footerClass, title }) => {
   const navbarRef = React.useRef(null);
   const logoRef = React.useRef(null);
 
@@ -30,6 +30,7 @@ const LightLayout = ({ children, footerClass }) => {
   return (
     <>
       <Head>
+        <title>{title}</title>
         <link rel="stylesheet" href="/assets/css/style-light.css" />
       </Head>
       <Navbar navbarRef={navbarRef} logoRef={logoRef} />
