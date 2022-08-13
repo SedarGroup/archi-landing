@@ -10,22 +10,22 @@ const ProjectDetails = () => {
     document.querySelector("body").classList.add("index3");
   }, []);
   return (
-    <MainLayout title={"Immeuble"}>
-      <PageHeader imgSrc={"/assets/img/works/76.jpg"}
-        title="Immeuble d'hébergement"
+    <MainLayout title={"Villa Lèye"}>
+      <PageHeader imgSrc={"/assets/img/works/81.jpg"}
+        title="Villa Lèye"
         fullPath={[
           { id: 1, name: "Accueil", url: "/" },
           { id: 2, name: "Réalisations", url: "/work" },
-          { id: 3, name: "Immeuble d'hébergement", url: "/project-details/lodging" },
+          { id: 3, name: "Villa Lèye", url: "/project-details/villa-leye" },
         ]}
       />
-      <ProjectIntro client={"df"} desc={"La villa"} categories={"Extérieur, Intérieur"} date={"2019"} />
-      <FourPics img1={"/assets/img/works/76.jpg"}
-        img2={"/assets/img/works/77.jpg"}
+      <ProjectIntro client={"Lèye"} desc={"Villa"} categories={"Extérieur, Intérieur"} date={"2022"} />
+      <FourPics img1={"/assets/img/works/81.jpg"}
+        img2={"/assets/img/works/82.jpg"}
         img3={"/assets/img/works/78.jpg"}
         img4={"/assets/img/works/79.jpg"}></FourPics>
       { }
-      <NextProject bold={"Villa "} backgroundImage={"/assets/img/works/81.jpg"} text={"Lèye"} href={"villa-leye"} />
+      <NextProject bold={"Arène"} backgroundImage={"/assets/img/works/61.jpg"} text={"de lutte"} href={"arena"} />
     </MainLayout>
   );
 };
