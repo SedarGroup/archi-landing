@@ -11,21 +11,21 @@ const ProjectDetails = () => {
   }, []);
   return (
     <MainLayout title={"Villa Lèye"}>
-      <PageHeader imgSrc={"/assets/img/works/81.jpg"}
-        title="Villa Lèye"
+      <PageHeader imgSrc={"/assets/img/works/83.jpeg"}
+        title="Immeuble Sarr"
         fullPath={[
           { id: 1, name: "Accueil", url: "/" },
           { id: 2, name: "Réalisations", url: "/work" },
-          { id: 3, name: "Villa Lèye", url: "/project-details/villa-leye" },
+          { id: 3, name: "Immeuble Sarr", url: "/project-details/sarr-building" },
         ]}
       />
-      <ProjectIntro client={"Lèye"} desc={"Villa"} categories={"Extérieur, Intérieur"} date={"2022"} />
-      <FourPics img1={"/assets/img/works/81.jpg"}
-        img2={"/assets/img/works/82.jpg"}
-        img3={"/assets/img/works/82.jpg"}
-        img4={"/assets/img/works/81.jpg"}></FourPics>
+      <ProjectIntro client={"Lèye"} desc={"Immeuble"} categories={"Extérieur, Intérieur"} date={"2022"} />
+      <FourPics img1={"/assets/img/works/83.jpeg"}
+        img2={"/assets/img/works/84.jpeg"}
+        img3={"/assets/img/works/85.jpeg"}
+        img4={"/assets/img/works/83.jpeg"}></FourPics>
       { }
-      <NextProject bold={"Immeuble"} backgroundImage={"/assets/img/works/83.jpeg"} text={"Sarr"} href={"sarr-building"} />
+      <NextProject bold={"Arène"} backgroundImage={"/assets/img/works/61.jpg"} text={"de lutte"} href={"arena"} />
     </MainLayout>
   );
 };

@@ -49,6 +49,22 @@
       "tag": "Design d'intérieur",
       "filterClass": "interior exterior",
       "url":"lodging"
+    },
+    {
+      "id": 5,
+      "image": "/assets/img/works/81.jpg",
+      "title": "Villa Lèye",
+      "tag": "Architecture",
+      "filterClass": "interior exterior",
+      "url":"villa-leye"
+    },
+    {
+      "id": 6,
+      "image": "/assets/img/works/83.jpeg",
+      "title": "Immeuble Sarr",
+      "tag": "Residentiel",
+      "filterClass": "interior exterior residential",
+      "url":"sarr-building"
     }
   ]
 }
