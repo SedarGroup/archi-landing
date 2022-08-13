@@ -17,7 +17,7 @@ const Home1 = () => {
     document.querySelector("body").classList.add("homepage");
   }, []);
   return (
-    <LightLayout footerClass={"mt-30"}>
+    <LightLayout title={"Sédar Group"} footerClass={"mt-30"}>
       <IntroWithHorizontal />
       <Offers/>
       <AboutUs1 />
