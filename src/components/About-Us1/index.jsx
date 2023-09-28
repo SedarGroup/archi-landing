@@ -1,6 +1,6 @@
 import React from "react";
 import aboutUs1Data from "../../data/about-us1.json";
-
+import { calculateAge } from "../../utils"
 const AboutUs1 = () => {
   return (
     <section className="about section-padding">
@@ -17,7 +17,7 @@ const AboutUs1 = () => {
                   <span>{aboutUs1Data.exp.since}</span>
                 </div>
                 <div className="years playfont">
-                  <h2>{aboutUs1Data.exp.nmb}</h2>
+                  <h2>{calculateAge('2020-01-01')}</h2>
                   <h5>Années d'Experience</h5>
                 </div>
               </div>

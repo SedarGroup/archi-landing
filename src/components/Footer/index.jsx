@@ -27,7 +27,7 @@ const Footer = ({ classText }) => {
                   <span className="icon pe-7s-map-marker"></span>
                   <div className="cont">
                     <h6>Adresse</h6>
-                    <p>Rabat, Agdal</p>
+                    <p>Liberté 6, en face mosquée</p>
                   </div>
                 </li>
                 <li>

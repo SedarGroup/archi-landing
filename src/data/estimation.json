@@ -6,19 +6,19 @@
         "children": [
             {
                 "title": "Maison simple",
-                "factor": 500
+                "factor": 1500
             },
             {
                 "title": "Villa",
-                "factor": 900
+                "factor": 1500
             },
             {
                 "title": "Immeuble",
-                "factor": 1300
+                "factor": 2000
             },
             {
                 "title": "Autre",
-                "factor": 500
+                "factor": 1500
             }
         ]
     },
@@ -37,11 +37,11 @@
             },
             {
                 "title": "Carrelage",
-                "factor": 2500
+                "factor": 4500
             },
             {
                 "title": "Autre",
-                "factor": 500
+                "factor": 1500
             }
         ]
     },
@@ -60,11 +60,11 @@
             },
             {
                 "title": "Restaurant",
-                "factor": 1300
+                "factor": 2500
             },
             {
                 "title": "Autre",
-                "factor": 500
+                "factor": 1500
             }
         ]
     }
