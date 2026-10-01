@@ -11,7 +11,7 @@ const ContactInfo = () => {
               <span className="icon pe-7s-phone"></span>
               <div className="cont">
                 <h6 className="custom-font">Téléphone</h6>
-                <p onClick={onCallClick}><a>+221 76 153 96 35</a></p>
+                <p onClick={onCallClick}><a>+221 78 444 60 02</a></p>
               </div>
             </div>
           </div>

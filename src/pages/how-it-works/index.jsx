@@ -18,7 +18,7 @@ const HowItWorks = () => {
                 ]}
             />
             <Card title={"1-Confiez votre projet"} imgSrc={"/assets/img/how-it-works/1.jpg"}>
-                Estimez votre projet en moins de 30 secondes, puis envoyez un mail au <b><a href="mailto:sedargroup.sn@gmail.com">sedargroup.sn@gmail.com </a></b> avec les documents nécessaires (photos, plans, référence, etc…).Vous êtes pressés? Appelez sur WhatsApp: <b><a onClick={onCallClick}>+221 76 153 96 35</a></b>.            </Card>
+                Estimez votre projet en moins de 30 secondes, puis envoyez un mail au <b><a href="mailto:sedargroup.sn@gmail.com">sedargroup.sn@gmail.com </a></b> avec les documents nécessaires (photos, plans, référence, etc…).Vous êtes pressés? Appelez sur WhatsApp: <b><a onClick={onCallClick}>+221 78 444 60 02</a></b>.            </Card>
             <Card title={"2-Votre expert habitat vous contacte sous 24H / 48H"} animation={"fadeInLeft"} imgSrc={"/assets/img/how-it-works/2.jpg"} >
                 Votre expert habitat vous contacte afin de bien comprendre les spécificités de votre projet et vos attentes. Il vous donnera les vrais délais et prix du marché pour votre projet en fonction de votre région et vous proposera les meilleurs choix en fonction de votre budget.            </Card>
             <Card title={"3-Vous recevez votre devis"} animation={"fadeInRight"} imgSrc={"/assets/img/how-it-works/3.jpg"} >
