@@ -110,7 +110,7 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
                   aria-haspopup="true"
                   aria-expanded="false"
                 >
-                 Nos offres et services
+                 Nos offres
                 </span>
                 <div className="dropdown-menu">
                   <Link href="/services/find-architect">
@@ -126,13 +126,13 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
               </li>
               <li className="nav-item">
                 <Link href="/work">
-                  <a className="nav-link">Réalisations</a>
+                  <a className="nav-link">Appartements</a>
                 </Link>
               </li>
               <li className="nav-item">
                 <Link href='/quote'>
                   <button className="btn-curve btn-color mt-5 nav-link">
-                    <span>Estimez votre projet</span>
+                    <span>Acheter un Appartement</span>
                   </button>
                 </Link>
               </li>

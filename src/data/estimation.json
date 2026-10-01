@@ -1,70 +1,70 @@
 [
     {
-        "title": "Plans",
+        "title": "F2",
         "name": "Surface (m2)",
         "id": 1,
         "children": [
             {
-                "title": "Maison simple",
-                "factor": 1500
+                "title": "POINT E",
+                "factor": 8500000
             },
             {
-                "title": "Villa",
-                "factor": 1500
+                "title": "MERMOZ",
+                "factor": 9000000
             },
             {
-                "title": "Immeuble",
-                "factor": 2000
+                "title": "SACRE-COEUR",
+                "factor": 800000
             },
             {
                 "title": "Autre",
-                "factor": 1500
+                "factor": 1200000
             }
         ]
     },
     {
         "id": 2,
-        "title": "Rénovation",
+        "title": "F3",
         "name": "Surface (m2)",
         "children": [
             {
-                "title": "Peinture",
-                "factor": 2000
+                "title": "POINT E",
+                "factor": 850000
             },
             {
-                "title": "Plomberie",
-                "factor": 1700
+                "title": "MERMOZ",
+                "factor": 1000000
             },
             {
-                "title": "Carrelage",
-                "factor": 4500
+                "title": "SACRE-COEUR",
+                "factor": 800000
             },
             {
                 "title": "Autre",
-                "factor": 1500
+                "factor": 1200000
             }
         ]
     },
     {
-        "title": "Design intérieur",
+        "title": "F4",
         "name": "Surface (m2)",
         "id": 3,
         "children": [
             {
-                "title": "Villa",
-                "factor": 500
+                "title": "POINT E",
+                "factor": 850000
             },
             {
-                "title": "SPA",
-                "factor": 900
+                "title": "MERMOZ",
+                "factor": 1000000
             },
             {
-                "title": "Restaurant",
-                "factor": 2500
+                "title": "SACRE-COEUR",
+                "factor": 800000
             },
             {
                 "title": "Autre",
-                "factor": 1500
+                "factor": 1200000
             }
         ]
     }

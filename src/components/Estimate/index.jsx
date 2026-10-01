@@ -89,12 +89,12 @@ const Estimate = () => {
         <div>
             <section className="contact cont-map">
                 <div className="container">
-                    <div className="row">
+                    <div className="row justify-content-center">
                         <div
-                            className="col-lg-6 col-md-6 contact-form "
+                            className="col-lg-6 col-md-8 contact-form"
                             data-wow-delay=".3s"
                         >
-                            <form id="estimate-form">
+                            <form id="estimate-form" style={{ right: 0, textAlign: "center" }}>
                                 <div className="section-head">
                                     <h6 style={{ color: 'black' }}>Nos tarifs</h6>
                                     <h4 style={{ color: 'black' }} className="playfont"><span>Je veux ...</span></h4>

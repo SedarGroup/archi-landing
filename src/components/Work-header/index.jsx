@@ -1,10 +1,16 @@
 import React from "react";
 
-const WorkHeader = ({ title, content, center }) => {
+const WorkHeader = ({ title, content, center, bgImage }) => {
   return (
     <header
       className="work-header bg-img valign"
-      style={{ backgroundImage: "url(/assets/img/patern.png)" }}
+      style={{
+        backgroundImage: `url(${bgImage || "/assets/img/patern.png"})`,
+        backgroundSize: bgImage ? "cover" : undefined,
+        backgroundPosition: bgImage ? "center" : undefined,
+        backgroundRepeat: bgImage ? "no-repeat" : undefined,
+      }}
+      data-overlay-dark={bgImage ? "5" : undefined}
     >
       <div className="container">
         <div className={`row ${center ? "justify-content-center" : ""}`}>

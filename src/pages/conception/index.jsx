@@ -30,7 +30,7 @@ const Renovate = () => {
             <Card imgSrc={"/assets/img/conception/22.jpg"} title={"Quels sont les prix au m² pour la conception d’un habitat ? "} imgLeft animation={"fadeInLeft"} showButton linkTo={'/quote'} buttonTitle={"Demander une estimation personnalisée"}>
             La conception d’une maison neuve passe par plusieurs étapes, l’étude du site: voirie, bruits, orientations. Il est donc difficile d’établir précisément le coût de conception d’une maison. Le coût de la conception d’une maison variera ainsi en fonction du type de construction, l’emplacement, la taille et les contraintes du site. Mais Sedar Group vous propose des prix moins cher que partout ailleurs.  
             <ol>
-                    <li> <b>- 500 fcfa TTC </b>par m2 pour une conception de maison simple </li>
+                    <li> <b>- 500 fcfa TTC </b>par m2 pour une conception de POINT E </li>
                     <li> <b>- 700 fcfa - 1000 fcfa TTC</b>  par m2 pour une villa moderne</li>
                     <li> <b>- 1200 fcfa et 1700 fcfa TTC</b> par m2 pour un habitant collectif </li>
                 </ol>Chez Sedar, nous pensons que chaque projet mérite un architecte. Il faut savoir cependant que les honoraires des architectes sont entre 3% à 10% du coût de la construction et contrairement aux idées reçues, ces coûts ne sont pas plus élevés que lorsque l’on fait appel à un constructeur de maisons individuelles.

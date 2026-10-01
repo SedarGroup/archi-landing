@@ -7,13 +7,14 @@ const Work1 = () => {
         document.querySelector("body").classList.add("index3");
     }, []);
     return (
-        <MainLayout title={"Demander un devis"}>
+        <MainLayout title={"Acheter un Appartement"}>
             <WorkHeader
                 title={{
-                    first: "Nous offrons des services à des prix abordables",
+                    first: "Les types d'appartements que nous vous offrons",
                     second: "",
                 }}
-                content="Choisissez Sedar pour faire chiffrer et réaliser votre projet en toute sérénité!"
+                content="Choisissez le type d'appartement qui vous correspond."
+                bgImage="/assets/img/portfolio/mas/01.jpg"
             />
             <Estimate />
 
