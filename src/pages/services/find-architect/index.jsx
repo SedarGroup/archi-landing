@@ -27,7 +27,7 @@ const Renovate = () => {
                         <li>– la conception (croquis, modélisations et plans)</li>
                         <li>– l’appel d’offre pour la sélection d’entreprises (dce)</li>
                         <li> – la réalisation des démarches administratives et techniques</li>
-                        <li> – l’obtention du permis de construire</li>
+                        <li> – l’obtention du Acheter un appartement</li>
                         <li> – le suivi du chantier</li>
                     </ol> </p>
             </Card>

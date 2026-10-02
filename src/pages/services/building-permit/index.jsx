@@ -8,17 +8,17 @@ const Renovate = () => {
         document.querySelector("body").classList.add("index3");
     }, []);
     return (
-        <LightLayout title={"Permis de construire"} footerClass={"mt-30"}>
+        <LightLayout title={"Acheter un appartement"} footerClass={"mt-30"}>
             <PageHeader imgSrc={"/assets/img/services/building-permit/1.webp"}
-                title="Permis de construire"
+                title="Acheter un appartement"
                 fullPath={[
                     { id: 1, name: "Accueil", url: "/" },
                     { id: 2, name: "Services", url: "/" },
-                    { id: 2, name: "Permis de construire", url: "/services/building-permit" },
+                    { id: 2, name: "Acheter un appartement", url: "/services/building-permit" },
                 ]}
             />
-            <Card imgSrc={"/assets/img/services/building-permit/22.webp"} title={"Qui peut demander une autorisation de construire ?"} imgLeft animation={"fadeInLeft"} showButton linkTo={'/quote'} buttonTitle={"Obtenir un devis gratuit"}>
-                La demande de permis de construire doit être initiée par la personne physique ou morale <b>propriétaire des lieux </b>ou par une personne dûment mandatée. 
+            <Card imgSrc={"/assets/img/services/building-permit/22.webp"} title={"Achetez un appartement en quelques clics !"} imgLeft animation={"fadeInLeft"} showButton linkTo={'/quote'} buttonTitle={"Obtenir un devis gratuit"}>
+            Découvrez nos appartements disponibles et faites votre choix en toute simplicité.  <b>Consultez les offres, </b>sélectionnez le bien qui vous correspond et lancez votre démarche d’acquisition directement en ligne. 
             </Card>
             <Card imgSrc={"/assets/img/services/building-permit/23.jpg"} title={"Quels sont les documents à fournir ?"} imgLeft animation={"fadeInLeft"} linkTo={'/quote'}>
                 <ol>

@@ -5,20 +5,20 @@
         "id": 1,
         "children": [
             {
-                "title": "POINT E",
-                "factor": 8500000
+                "title": "Maison simple",
+                "factor": 1500
             },
             {
-                "title": "MERMOZ",
-                "factor": 9000000
+                "title": "Villa",
+                "factor": 1500
             },
             {
-                "title": "SACRE-COEUR",
-                "factor": 800000
+                "title": "Immeuble",
+                "factor": 2000
             },
             {
                 "title": "Autre",
-                "factor": 1200000
+                "factor": 1500
             }
         ]
     },
@@ -28,20 +28,20 @@
         "name": "Surface (m2)",
         "children": [
             {
-                "title": "POINT E",
-                "factor": 850000
+                "title": "Peinture",
+                "factor": 2000
             },
             {
-                "title": "MERMOZ",
-                "factor": 1000000
+                "title": "Plomberie",
+                "factor": 1700
             },
             {
-                "title": "SACRE-COEUR",
-                "factor": 800000
+                "title": "Carrelage",
+                "factor": 4500
             },
             {
                 "title": "Autre",
-                "factor": 1200000
+                "factor": 1500
             }
         ]
     },
@@ -51,20 +51,20 @@
         "id": 3,
         "children": [
             {
-                "title": "POINT E",
-                "factor": 850000
+                "title": "Villa",
+                "factor": 500
             },
             {
-                "title": "MERMOZ",
-                "factor": 1000000
+                "title": "SPA",
+                "factor": 900
             },
             {
-                "title": "SACRE-COEUR",
-                "factor": 800000
+                "title": "Restaurant",
+                "factor": 2500
             },
             {
                 "title": "Autre",
-                "factor": 1200000
+                "factor": 1500
             }
         ]
     }

@@ -30,7 +30,7 @@ const ContactInfo = () => {
               <div className="cont">
                 <h6 className="custom-font">Adresse</h6>
                 <p>
-                  Liberté 6, en face mosquée
+                  VDN 1, Cité Sipres 2, En face supermarché Exclusive
                 </p>
               </div>
             </div>

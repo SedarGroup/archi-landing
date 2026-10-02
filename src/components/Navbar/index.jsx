@@ -120,7 +120,7 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
                     <a className="dropdown-item">Conception et plans</a>
                   </Link>
                   <Link href="/services/building-permit">
-                    <a className="dropdown-item">Permis de construire</a>
+                    <a className="dropdown-item">Acheter un appartement</a>
                   </Link>
                 </div>
               </li>
