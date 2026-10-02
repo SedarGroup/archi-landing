@@ -1,6 +1,6 @@
 {
   "hero": {
-    "image": "/assets/img/services/building-permit/1.webp",
+    "image": "/assets/img/services/appartement/hero.jpg",
     "eyebrow": "Acquisition",
     "title": "Acheter un appartement",
     "subtitle": "Découvrez nos appartements disponibles, choisissez le bien qui vous correspond et lancez votre démarche d'acquisition directement en ligne."
@@ -46,6 +46,37 @@
       "id": "03",
       "title": "Finalisez l'acquisition",
       "text": "Nous vous accompagnons sur le montage du dossier, les démarches et la remise des clés."
+    }
+  ],
+  "documents": [
+    "Une pièce d'identité en cours de validité (CNI ou passeport)",
+    "Un justificatif de domicile de moins de trois mois",
+    "Un justificatif de revenus : bulletins de salaire, avis d'imposition ou bilans pour les indépendants",
+    "Un relevé d'identité bancaire",
+    "Une attestation de financement ou un accord de principe de votre banque, en cas de prêt",
+    "Le contrat de réservation signé, accompagné du dépôt de garantie",
+    "Pour les non-résidents : un justificatif de domicile du pays de résidence et un mandat si vous êtes représenté"
+  ],
+  "costs": [
+    {
+      "id": 1,
+      "label": "Dépôt de garantie à la réservation",
+      "value": "5 à 10 % du prix du bien, déductible du solde"
+    },
+    {
+      "id": 2,
+      "label": "Frais de notaire et d'enregistrement",
+      "value": "Environ 7 à 10 % du prix de vente"
+    },
+    {
+      "id": 3,
+      "label": "Frais de dossier bancaire",
+      "value": "Variables selon l'établissement, en cas de prêt"
+    },
+    {
+      "id": 4,
+      "label": "Accompagnement Sédar",
+      "value": "Gratuit, de la visite à la remise des clés"
     }
   ],
   "faq": [

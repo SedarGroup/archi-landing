@@ -1,26 +1,30 @@
 [
   {
     "id": 1,
-    "image": "/assets/img/services/conception.jpg",
-    "title": "Acheter un appartement",
-    "url": "/services/acheter-un-appartement"
-  },
-  {
-    "id": 2,
-    "image": "/assets/img/services/renovation.jpg",
+    "image": "/assets/img/offers/construire.jpg",
     "title": "Construire ma maison",
+    "text": "Du terrain à la remise des clés : conception, permis et pilotage de chantier.",
     "url": "/services/construire-ma-maison"
   },
   {
+    "id": 2,
+    "image": "/assets/img/offers/renover.jpg",
+    "title": "Rénover ma maison",
+    "text": "Peinture, carrelage, plomberie, cuisine : choisissez vos prestations.",
+    "url": "/services/renover-ma-maison"
+  },
+  {
     "id": 3,
-    "image": "/assets/img/services/permis.jpg",
-    "title": "Trouver un architecte",
-    "url": "/services/trouver-un-architecte"
+    "image": "/assets/img/offers/appartement.jpg",
+    "title": "Acheter un appartement",
+    "text": "Des biens sélectionnés et un conseiller à vos côtés jusqu'à la signature.",
+    "url": "/services/acheter-un-appartement"
   },
   {
     "id": 4,
-    "image": "/assets/img/services/devis.jpg",
-    "title": "Rénover ma maison",
-    "url": "/services/renover-ma-maison"
+    "image": "/assets/img/offers/architecte.jpg",
+    "title": "Trouver un architecte",
+    "text": "Un architecte inscrit à l'Ordre, choisi pour votre projet et votre budget.",
+    "url": "/services/trouver-un-architecte"
   }
 ]

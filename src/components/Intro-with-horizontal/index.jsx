@@ -9,6 +9,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import removeSlashFromPagination from "../../common/removeSlashFromPagination";
+import { scrollToId } from "../../utils";
 
 SwiperCore.use([Navigation, Pagination, Parallax]);
 
@@ -100,11 +101,23 @@ const IntroWithHorizontal = () => {
                               {slide.content.second}
                             </p>
                           )}
-                          <Link href="/quote">
-                            <a className="btn-curve btn-bord btn-lit mt-30">
-                              <span>Demander un devis</span>
+                          <div className="sg-hero-actions mt-30">
+                            <Link href="/quote">
+                              <a className="btn-curve btn-bord btn-lit">
+                                <span>Demander un devis</span>
+                              </a>
+                            </Link>
+                            <a
+                              className="sg-hero-link"
+                              href="#offres"
+                              onClick={(event) => {
+                                event.preventDefault();
+                                scrollToId("offres");
+                              }}
+                            >
+                              Découvrir nos offres
                             </a>
-                          </Link>
+                          </div>
                         </div>
                       </div>
                     </div>

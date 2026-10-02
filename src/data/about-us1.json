@@ -4,7 +4,8 @@
     "second": "Pour vous."
   },
   "image": "/assets/img/exp.jpg",
-  "content": "Nos experts habitat vous accompagnent sur-mesure pour tous vos travaux de rénovation, construction et extension",
+  "content": "Depuis 2020, Sédar Group conçoit, construit et rénove des lieux de vie à Dakar et partout au Sénégal. Architectes, ingénieurs et conducteurs de travaux réunis sous un même toit : vous n'avez qu'un seul interlocuteur, de la première esquisse à la remise des clés.",
+  "secondary": "Chaque projet démarre par une étude de faisabilité et un chiffrage détaillé. Vous savez exactement ce que vous payez, quand les travaux commencent et quand ils finissent.",
   "exp": {
     "nmb": "02",
     "since": 2020
@@ -13,13 +14,17 @@
     {
       "id": 1,
       "number": 33,
-      "name": "PROJETS REALISES"
+      "name": "PROJETS RÉALISÉS"
     },
     {
       "id": 2,
       "number": 101,
       "name": "CLIENTS SATISFAITS"
+    },
+    {
+      "id": 3,
+      "number": "48h",
+      "name": "DÉLAI DE RÉPONSE"
     }
-   
   ]
 }

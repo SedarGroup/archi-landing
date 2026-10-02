@@ -4,25 +4,25 @@
     {
       "id": "01",
       "title": "Analyse",
-      "content": "Analyse sur-mesure de votre projet",
+      "content": "Nous écoutons votre besoin, visitons le site et évaluons la faisabilité de votre projet.",
       "url": "/how-it-works"
     },
     {
       "id": "02",
       "title": "Chiffrage",
-      "content": " Chiffrage précis avec les vrais prix et délais pour votre projet",
+      "content": "Un chiffrage poste par poste, aux prix réels du marché, avec un planning réaliste.",
       "url": "/how-it-works"
     },
     {
       "id": "03",
       "title": "Devis",
-      "content": "Réalisation de votre devis",
+      "content": "Vous recevez un devis détaillé et sans engagement, valable trois mois.",
       "url": "/services/construire-ma-maison"
     },
     {
       "id": "04",
       "title": "Accompagnement",
-      "content": "Accompagnement jusqu’à la fin des travaux",
+      "content": "Nous pilotons le chantier et vous rendons compte jusqu'à la réception des travaux.",
       "url": "/how-it-works"
     }
   ]

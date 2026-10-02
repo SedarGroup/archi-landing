@@ -2,7 +2,7 @@
   "filtersName": [
     {
       "id": 1,
-      "name": "Interieur",
+      "name": "Intérieur",
       "filterClass": ".interior"
     },
     {
@@ -12,7 +12,7 @@
     },
     {
       "id": 3,
-      "name": "Residentiel",
+      "name": "Résidentiel",
       "filterClass": ".residential"
     }
   ],
@@ -23,15 +23,15 @@
       "title": "Villa Lèye",
       "tag": "Architecture",
       "filterClass": "interior exterior",
-      "url":"villa-leye"
+      "url": "villa-leye"
     },
     {
       "id": 6,
       "image": "/assets/img/works/83.jpeg",
       "title": "Immeuble Sarr",
-      "tag": "Residentiel",
+      "tag": "Résidentiel",
       "filterClass": "interior exterior residential",
-      "url":"sarr-building"
+      "url": "sarr-building"
     },
     {
       "id": 1,
@@ -39,7 +39,7 @@
       "title": "Arène de lutte",
       "tag": "Design d'extérieur",
       "filterClass": "exterior",
-      "url":"arena"
+      "url": "arena"
     },
     {
       "id": 2,
@@ -47,8 +47,7 @@
       "title": "Villa moderne",
       "tag": "Architecture",
       "filterClass": "residential",
-      "url":"villa"
-
+      "url": "villa"
     },
     {
       "id": 3,
@@ -56,7 +55,7 @@
       "title": "SPA",
       "tag": "Design d'intérieur",
       "filterClass": "interior",
-      "url":"spa"
+      "url": "spa"
     },
     {
       "id": 4,
@@ -64,7 +63,7 @@
       "title": "Immeuble d'hébergement",
       "tag": "Design d'intérieur",
       "filterClass": "interior exterior",
-      "url":"lodging"
+      "url": "lodging"
     }
   ]
 }

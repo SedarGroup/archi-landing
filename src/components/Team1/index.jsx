@@ -32,13 +32,15 @@ class Team1 extends React.Component {
                   className="mb-10 wow fadeInDown"
                   data-wow-delay=".3s"
                 >
-                  Mots de
+                  Les visages derrière vos projets
                 </h6>
                 <h3 className="playfont wow flipInX" data-wow-delay=".5s">
                   Notre équipe
                 </h3>
                 <p className="wow fadeInUp" data-wow-delay=".3s">
-                  Nous sommes fiers de notre équipe polyvalente
+                  Architectes, ingénieurs et conducteurs de travaux : une équipe
+                  pluridisciplinaire réunie sous un même toit, à votre écoute du premier
+                  rendez-vous jusqu&apos;à la réception des travaux.
                 </p>
                 {this.renderArrows()}
               </div>

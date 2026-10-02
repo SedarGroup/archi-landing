@@ -18,18 +18,19 @@ const AboutUs1 = () => {
                 </div>
                 <div className="years playfont">
                   <h2>{calculateAge('2020-01-01')}</h2>
-                  <h5>Années d'Experience</h5>
+                  <h5>Années d&apos;expérience</h5>
                 </div>
               </div>
             </div>
           </div>
           <div className="col-lg-7 valign">
-            <div className="exp-content wow fadeInUp" data-wow-delay=".3s">
+            <div className="exp-content nopat wow fadeInUp" data-wow-delay=".3s">
               <h6 className="sub-title">A propos</h6>
               <h2 className="mb-20 playfont">
                 {aboutUs1Data.title.first} <br /> {aboutUs1Data.title.second}
               </h2>
               <p>{aboutUs1Data.content}</p>
+              {aboutUs1Data.secondary && <p>{aboutUs1Data.secondary}</p>}
               <div className="numbers mt-50">
                 <div className="row">
                   {aboutUs1Data.numbers.map((item) => (

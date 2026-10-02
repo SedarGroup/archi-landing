@@ -63,8 +63,8 @@ const AcheterUnAppartement = () => {
             </div>
             <div className="sg-split__media">
               <img
-                src="/assets/img/services/building-permit/22.webp"
-                alt="Appartement Sédar Group"
+                src="/assets/img/services/appartement/interieur.jpg"
+                alt="Séjour et cuisine d'un appartement Sédar Group"
               />
             </div>
           </div>
@@ -87,24 +87,21 @@ const AcheterUnAppartement = () => {
           <div className="sg-split sg-split--reverse">
             <div className="sg-split__media">
               <img
-                src="/assets/img/services/building-permit/23.jpg"
-                alt="Constitution du dossier"
+                src="/assets/img/services/appartement/dossier.jpg"
+                alt="Dossier d'acquisition et clés d'appartement"
               />
             </div>
             <div className="sg-split__body">
               <h2>Quels sont les documents à fournir ?</h2>
-              <ul className="sg-checklist">
-                <li>Une demande manuscrite adressée au maire de la commune territorialement compétente</li>
-                <li>Une copie du titre de propriété (titre foncier, permis d&apos;occuper, attestation, bail ou droit de superficie)</li>
-                <li>Un plan de situation et de délimitation du terrain d&apos;assiette du projet, certifié exact par le service du Cadastre</li>
-                <li>5 jeux de plan de construction architectural (situation, masse, plan, coupe, façade) à l&apos;échelle de 1/100e</li>
-                <li>Une fiche de renseignement portant sur le projet de construction</li>
-                <li>Un devis descriptif du projet</li>
-                <li>Un plan de fosses septiques, ou l&apos;indication du système d&apos;évacuation à l&apos;égout s&apos;il existe</li>
-                <li>Une taxe d&apos;urbanisme comprise entre 1 000 et 5 000 FCFA</li>
-                <li>Un timbre fiscal de 1 000 FCFA</li>
+              <p>
+                Votre conseiller Sédar constitue le dossier avec vous et vérifie chaque pièce avant
+                de la transmettre au notaire.
+              </p>
+              <ul className="sg-checklist sg-checklist--single">
+                {data.documents.map((item) => (
+                  <li key={item}>{item}</li>
+                ))}
               </ul>
-              <p>Le dossier est composé en sept exemplaires.</p>
             </div>
           </div>
         </div>
@@ -113,10 +110,22 @@ const AcheterUnAppartement = () => {
       <section className="sg-section sg-section--ivory">
         <div className="container">
           <SectionHead
-            eyebrow="Frais annexes"
-            title="Quel est le coût ?"
-            text="Le coût total varie selon les localités. Il se répartit entre une taxe d'urbanisme dont le montant varie de 1 000 à 5 000 FCFA, et un timbre fiscal de 1 000 FCFA."
+            eyebrow="Budget"
+            title="Quels frais prévoir ?"
+            text="Au-delà du prix du bien, voici les postes à anticiper. Les montants exacts vous sont communiqués par écrit avant toute signature."
           />
+          <div className="sg-costs">
+            {data.costs.map((item) => (
+              <div className="sg-cost" key={item.id}>
+                <span className="sg-cost__label">{item.label}</span>
+                <span className="sg-cost__value">{item.value}</span>
+              </div>
+            ))}
+          </div>
+          <p className="sg-note">
+            Montants indicatifs, variables selon la localité, le programme et votre mode de
+            financement.
+          </p>
           <div className="sg-options__footer">
             <Link href="/quote">
               <a className="sg-btn">Voir les appartements disponibles</a>

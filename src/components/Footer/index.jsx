@@ -93,8 +93,9 @@ const Footer = ({ classText }) => {
               </div>
               <div className="copy-right">
                 <p>
-                  © 2022,
-                  <Link href="#"> Sedar Group</Link>.
+                  {/* rendered from the build date, so it never needs editing again */}
+                  <span suppressHydrationWarning>© {new Date().getFullYear()}</span>{" "}
+                  <Link href="/">Sédar Group</Link>. Tous droits réservés.
                 </p>
               </div>
             </div>

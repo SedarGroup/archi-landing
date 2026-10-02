@@ -1,21 +1,26 @@
 [
   {
     "id": 1,
-    "title": { "first": "Architecture & intérieur", "second": "Vos projets d'architecture et de  séréntravaux en touteité" },
+    "title": {
+      "first": "Architecture & intérieur",
+      "second": "Vos projets d'architecture et de travaux en toute sérénité"
+    },
     "content": {
-      "first": "Accompagnement sur-mesure ",
-      "second": "pour vos plans, Acheter un appartement et travaux"
+      "first": "Un accompagnement sur-mesure, de la première esquisse à la remise des clés.",
+      "second": "Plans, construction, rénovation et acquisition, à Dakar et partout au Sénégal."
     },
     "image": "/assets/img/slid/n/1.jpg"
   },
   {
     "id": 2,
-    "title": { "first": "Architecture & intérieur", "second": "La solution la plus simple pour faire de vos travaux des réussites !  " },
+    "title": {
+      "first": "Maîtrise d'œuvre",
+      "second": "La solution la plus simple pour faire de vos travaux des réussites"
+    },
     "content": {
-      "first": "Accompagnement sur-mesure ",
-      "second": "pour vos plans, Acheter un appartement et travaux"
+      "first": "Un interlocuteur unique, des artisans sélectionnés, un budget tenu.",
+      "second": "Nous pilotons votre chantier et vous rendons compte à chaque étape."
     },
     "image": "/assets/img/slid/n/2.jpg"
   }
-  
 ]
