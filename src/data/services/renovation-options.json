@@ -1,0 +1,93 @@
+[
+  {
+    "id": "peinture",
+    "title": "Peinture",
+    "image": "/assets/img/services/renovation/options/peinture.jpg",
+    "description": "Mise en peinture intérieure et extérieure, enduits, reprise de fissures et finitions décoratives.",
+    "price": "À partir de 1 000 FCFA / m²"
+  },
+  {
+    "id": "carrelage",
+    "title": "Carrelage & revêtements de sol",
+    "image": "/assets/img/services/renovation/options/carrelage.jpg",
+    "description": "Pose de carrelage, grès cérame, parquet et plinthes, avec ragréage et reprise de chape.",
+    "price": "À partir de 4 500 FCFA / m²"
+  },
+  {
+    "id": "plomberie",
+    "title": "Plomberie",
+    "image": "/assets/img/services/renovation/options/plomberie.jpg",
+    "description": "Reprise des réseaux d'eau, évacuations, sanitaires, chauffe-eau et recherche de fuites.",
+    "price": "À partir de 1 700 FCFA / m²"
+  },
+  {
+    "id": "electricite",
+    "title": "Électricité",
+    "image": "/assets/img/services/renovation/options/electricite.jpg",
+    "description": "Remise aux normes du tableau, câblage, points lumineux, prises et éclairage architectural.",
+    "price": "À partir de 2 000 FCFA / m²"
+  },
+  {
+    "id": "menuiserie",
+    "title": "Menuiserie, portes & fenêtres",
+    "image": "/assets/img/services/renovation/options/menuiserie.jpg",
+    "description": "Portes, fenêtres, placards sur mesure en bois, aluminium ou PVC, et vitrage isolant.",
+    "price": "Sur devis, selon ouvrants"
+  },
+  {
+    "id": "cuisine",
+    "title": "Cuisine",
+    "image": "/assets/img/services/renovation/options/cuisine.jpg",
+    "description": "Conception et pose de cuisine équipée : meubles, plan de travail, crédence et raccordements.",
+    "price": "À partir de 1 500 000 FCFA"
+  },
+  {
+    "id": "salle-de-bain",
+    "title": "Salle de bain",
+    "image": "/assets/img/services/renovation/options/salle-de-bain.jpg",
+    "description": "Rénovation complète : douche à l'italienne, faïence, meuble vasque, robinetterie et étanchéité.",
+    "price": "À partir de 900 000 FCFA"
+  },
+  {
+    "id": "etancheite",
+    "title": "Étanchéité & toiture",
+    "image": "/assets/img/services/renovation/options/etancheite.jpg",
+    "description": "Traitement des infiltrations, étanchéité de terrasse, reprise de toiture et descentes d'eaux pluviales.",
+    "price": "À partir de 5 000 FCFA / m²"
+  },
+  {
+    "id": "facade",
+    "title": "Façade & ravalement",
+    "image": "/assets/img/services/renovation/options/facade.jpg",
+    "description": "Nettoyage, reprise d'enduit, peinture de façade et habillages décoratifs en pierre ou bois.",
+    "price": "À partir de 3 000 FCFA / m²"
+  },
+  {
+    "id": "climatisation",
+    "title": "Climatisation",
+    "image": "/assets/img/services/renovation/options/climatisation.jpg",
+    "description": "Étude, fourniture et pose de split, gainable ou VRV, avec entretien et mise en service.",
+    "price": "Sur devis, selon puissance"
+  },
+  {
+    "id": "faux-plafond",
+    "title": "Faux plafond & décoration",
+    "image": "/assets/img/services/renovation/options/faux-plafond.jpg",
+    "description": "Faux plafonds en staff ou placo, corniches, éclairage indirect et aménagement décoratif.",
+    "price": "À partir de 6 000 FCFA / m²"
+  },
+  {
+    "id": "extension",
+    "title": "Extension & surélévation",
+    "image": "/assets/img/services/renovation/options/extension.jpg",
+    "description": "Agrandissement au sol, ajout d'un niveau ou aménagement de combles, structure comprise.",
+    "price": "Sur devis, après étude"
+  },
+  {
+    "id": "autre",
+    "title": "Autre besoin",
+    "image": "/assets/img/services/renovation/options/autre.jpg",
+    "description": "Votre besoin ne figure pas dans cette liste ? Décrivez-le, un expert habitat vous rappelle.",
+    "price": "Étude gratuite"
+  }
+]

@@ -1,0 +1,73 @@
+{
+  "hero": {
+    "image": "/assets/img/services/building-permit/1.webp",
+    "eyebrow": "Acquisition",
+    "title": "Acheter un appartement",
+    "subtitle": "Découvrez nos appartements disponibles, choisissez le bien qui vous correspond et lancez votre démarche d'acquisition directement en ligne."
+  },
+  "valueProps": [
+    {
+      "id": 1,
+      "icon": "pe-7s-home",
+      "title": "Des biens vérifiés",
+      "text": "Chaque appartement est contrôlé : titre, conformité et état des finitions."
+    },
+    {
+      "id": 2,
+      "icon": "pe-7s-note2",
+      "title": "Dossier accompagné",
+      "text": "Nous vous guidons sur les pièces à réunir et les démarches administratives."
+    },
+    {
+      "id": 3,
+      "icon": "pe-7s-cash",
+      "title": "Frais transparents",
+      "text": "Taxes et frais annexes annoncés dès le départ, sans surprise à la signature."
+    },
+    {
+      "id": 4,
+      "icon": "pe-7s-users",
+      "title": "Un conseiller dédié",
+      "text": "Un interlocuteur unique de la visite jusqu'à la remise des clés."
+    }
+  ],
+  "steps": [
+    {
+      "id": "01",
+      "title": "Choisissez votre typologie",
+      "text": "F2, F3 ou F4 : parcourez nos appartements disponibles et retenez ceux qui vous intéressent."
+    },
+    {
+      "id": "02",
+      "title": "Visitez et validez",
+      "text": "Nous organisons la visite, répondons à vos questions et vous remettons le dossier complet du bien."
+    },
+    {
+      "id": "03",
+      "title": "Finalisez l'acquisition",
+      "text": "Nous vous accompagnons sur le montage du dossier, les démarches et la remise des clés."
+    }
+  ],
+  "faq": [
+    {
+      "id": 1,
+      "question": "Puis-je visiter avant de m'engager ?",
+      "answer": "Oui. Toute visite est organisée sans engagement de votre part, sur rendez-vous, avec un conseiller Sédar qui répond à vos questions sur place."
+    },
+    {
+      "id": 2,
+      "question": "Proposez-vous un paiement échelonné ?",
+      "answer": "Selon les programmes, des échéanciers sont possibles. Nous étudions votre situation et vous orientons vers la formule adaptée lors du premier échange."
+    },
+    {
+      "id": 3,
+      "question": "Les appartements sont-ils livrés finis ?",
+      "answer": "Cela dépend du programme. Le niveau de finition exact est précisé dans le dossier du bien, et nous pouvons prendre en charge les finitions complémentaires si vous le souhaitez."
+    },
+    {
+      "id": 4,
+      "question": "Puis-je faire rénover l'appartement après l'achat ?",
+      "answer": "Oui, et c'est fréquent. Nos équipes de rénovation peuvent intervenir dès la remise des clés : peinture, carrelage, cuisine ou aménagement sur mesure."
+    }
+  ]
+}

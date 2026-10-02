@@ -5,7 +5,7 @@ import Footer from "../components/Footer";
 import Head from "next/head";
 import appData from "../data/app.json";
 
-const LightLayout = ({ children, footerClass, title }) => {
+const LightLayout = ({ children, footerClass, title, description }) => {
   const navbarRef = React.useRef(null);
   const logoRef = React.useRef(null);
 
@@ -31,7 +31,10 @@ const LightLayout = ({ children, footerClass, title }) => {
     <>
       <Head>
         <title>{title}</title>
+        {description && <meta name="description" content={description} />}
         <link rel="stylesheet" href="/assets/css/style-light.css" />
+        {/* must stay after the theme so it can refine it */}
+        <link rel="stylesheet" href="/assets/css/service-pages.css" />
       </Head>
       <Navbar navbarRef={navbarRef} logoRef={logoRef} />
       {children}

@@ -1,0 +1,82 @@
+{
+  "hero": {
+    "image": "/assets/img/services/find-architect/hero.jpg",
+    "eyebrow": "Mise en relation",
+    "title": "Trouver un architecte",
+    "subtitle": "Décrivez votre projet et nous vous mettons en relation avec l'architecte de notre réseau le plus adapté à votre besoin, votre budget et votre région."
+  },
+  "valueProps": [
+    {
+      "id": 1,
+      "icon": "pe-7s-medal",
+      "title": "Architectes diplômés",
+      "text": "Tous nos architectes sont diplômés d'État et inscrits à l'Ordre."
+    },
+    {
+      "id": 2,
+      "icon": "pe-7s-map-marker",
+      "title": "Proche de chez vous",
+      "text": "Un réseau présent dans les quatorze régions du Sénégal."
+    },
+    {
+      "id": 3,
+      "icon": "pe-7s-like",
+      "title": "Choisis pour votre projet",
+      "text": "La sélection tient compte de votre typologie de projet et de votre budget."
+    },
+    {
+      "id": 4,
+      "icon": "pe-7s-wallet",
+      "title": "Sans frais pour vous",
+      "text": "La mise en relation et le premier échange sont entièrement gratuits."
+    }
+  ],
+  "missions": [
+    { "id": 1, "text": "Le choix et l'analyse de l'emplacement du terrain" },
+    { "id": 2, "text": "L'étude de faisabilité technique et réglementaire" },
+    { "id": 3, "text": "La conception : croquis, modélisations et plans" },
+    { "id": 4, "text": "L'appel d'offres et la sélection des entreprises" },
+    { "id": 5, "text": "Les démarches administratives et techniques" },
+    { "id": 6, "text": "L'obtention du permis de construire" },
+    { "id": 7, "text": "Le suivi de chantier et la réception des travaux" }
+  ],
+  "steps": [
+    {
+      "id": "01",
+      "title": "Vous décrivez votre projet",
+      "text": "Quelques minutes suffisent pour nous expliquer votre besoin, votre budget et votre calendrier."
+    },
+    {
+      "id": "02",
+      "title": "Nous sélectionnons",
+      "text": "Nous identifions dans notre réseau les architectes dont l'expérience correspond à votre projet."
+    },
+    {
+      "id": "03",
+      "title": "Vous rencontrez votre architecte",
+      "text": "Premier rendez-vous gratuit et sans engagement, en agence, sur votre terrain ou en visioconférence."
+    }
+  ],
+  "faq": [
+    {
+      "id": 1,
+      "question": "La mise en relation est-elle payante ?",
+      "answer": "Non. La mise en relation et le premier rendez-vous avec l'architecte sont gratuits et sans aucun engagement de votre part."
+    },
+    {
+      "id": 2,
+      "question": "Quand l'architecte est-il obligatoire ?",
+      "answer": "Le recours à un architecte est requis pour la plupart des demandes de permis de construire, en particulier au-delà d'une certaine surface. Nous vérifions ce point avec vous dès le premier échange."
+    },
+    {
+      "id": 3,
+      "question": "Quels sont les honoraires d'un architecte ?",
+      "answer": "Ils se situent habituellement entre 3 % et 10 % du montant des travaux, selon l'étendue de la mission confiée : conception seule, conception et permis, ou mission complète avec suivi de chantier."
+    },
+    {
+      "id": 4,
+      "question": "Puis-je changer d'architecte ?",
+      "answer": "Oui. Si le courant ne passe pas lors du premier rendez-vous, dites-le nous et nous vous proposons un autre profil de notre réseau."
+    }
+  ]
+}

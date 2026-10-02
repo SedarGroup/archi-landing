@@ -1,30 +1,26 @@
-
-  [
-    
-    {
-      "id": 1,
-      "image": "/assets/img/services/conception.jpg",
-      "title": "Acheter un appartement",
-      "url":"/services/building-permit"
-    },
-    {
-      "id": 2,
-      "image": "/assets/img/services/renovation.jpg",
-      "title": "Construire ma maison",
-      "url": "/quote"
-
-    },
-    {
-      "id": 3,
-      "image": "/assets/img/services/permis.jpg",
-      "title": "Trouver un architecte",
-      "url":"/services/quote"
-    },
-    {
-      "id": 4,
-      "image": "/assets/img/services/devis.jpg",
-      "title": "Rénover ma maison",
-      "url":"/quote"
-    }
-  ]
-
+[
+  {
+    "id": 1,
+    "image": "/assets/img/services/conception.jpg",
+    "title": "Acheter un appartement",
+    "url": "/services/acheter-un-appartement"
+  },
+  {
+    "id": 2,
+    "image": "/assets/img/services/renovation.jpg",
+    "title": "Construire ma maison",
+    "url": "/services/construire-ma-maison"
+  },
+  {
+    "id": 3,
+    "image": "/assets/img/services/permis.jpg",
+    "title": "Trouver un architecte",
+    "url": "/services/trouver-un-architecte"
+  },
+  {
+    "id": 4,
+    "image": "/assets/img/services/devis.jpg",
+    "title": "Rénover ma maison",
+    "url": "/services/renover-ma-maison"
+  }
+]

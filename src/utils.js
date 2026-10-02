@@ -6,6 +6,13 @@ export const validateEmail = (email) => {
       );
   };
 
+export const scrollToId = (id) => {
+  const target = document.getElementById(id);
+  if (!target) return;
+  const top = target.getBoundingClientRect().top + window.pageYOffset - 110;
+  window.scrollTo({ top, behavior: "smooth" });
+};
+
  export const onCallClick=()=>{
     const number=+221761539635;
     const message = "Bonjour. J'aimerai avoir un devis"

@@ -4,22 +4,26 @@
     {
       "id": "01",
       "title": "Analyse",
-      "content": "Analyse sur-mesure de votre projet"
+      "content": "Analyse sur-mesure de votre projet",
+      "url": "/how-it-works"
     },
     {
       "id": "02",
       "title": "Chiffrage",
-      "content": " Chiffrage précis avec les vrais prix et délais pour votre projet"
+      "content": " Chiffrage précis avec les vrais prix et délais pour votre projet",
+      "url": "/how-it-works"
     },
     {
       "id": "03",
       "title": "Devis",
-      "content": "Réalisation de votre devis"
+      "content": "Réalisation de votre devis",
+      "url": "/services/construire-ma-maison"
     },
     {
       "id": "04",
       "title": "Accompagnement",
-      "content": "Accompagnement jusqu’à la fin des travaux"
+      "content": "Accompagnement jusqu’à la fin des travaux",
+      "url": "/how-it-works"
     }
   ]
 }

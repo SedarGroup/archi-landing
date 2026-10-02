@@ -1,0 +1,113 @@
+{
+  "hero": {
+    "image": "/assets/img/services/construire/hero.jpg",
+    "eyebrow": "Construction neuve",
+    "title": "Construire ma maison",
+    "subtitle": "De la première esquisse à la remise des clés, décrivez votre projet en détail et recevez un accompagnement sur mesure par nos architectes."
+  },
+  "valueProps": [
+    {
+      "id": 1,
+      "icon": "pe-7s-pen",
+      "title": "Conception sur mesure",
+      "text": "Des plans dessinés par un architecte, adaptés à votre terrain et à votre mode de vie."
+    },
+    {
+      "id": 2,
+      "icon": "pe-7s-cash",
+      "title": "Budget maîtrisé",
+      "text": "Un appel d'offres auprès de nos entreprises partenaires pour optimiser chaque poste."
+    },
+    {
+      "id": 3,
+      "icon": "pe-7s-note2",
+      "title": "Démarches incluses",
+      "text": "Permis de construire, pièces administratives et autorisations gérés par nos soins."
+    },
+    {
+      "id": 4,
+      "icon": "pe-7s-key",
+      "title": "Suivi jusqu'aux clés",
+      "text": "Un interlocuteur unique sur le chantier, jusqu'à la réception de votre maison."
+    }
+  ],
+  "steps": [
+    {
+      "id": "01",
+      "title": "Le rendez-vous découverte",
+      "text": "Nous étudions votre terrain, vos besoins, votre budget et la faisabilité réglementaire du projet."
+    },
+    {
+      "id": "02",
+      "title": "L'avant-projet",
+      "text": "Esquisses, plans au 1/100, plans de masse et modélisation 3D pour visualiser votre future maison."
+    },
+    {
+      "id": "03",
+      "title": "Le permis de construire",
+      "text": "Constitution et dépôt du dossier complet auprès de la commune, suivi jusqu'à l'obtention."
+    },
+    {
+      "id": "04",
+      "title": "La consultation des entreprises",
+      "text": "Appel d'offres, comparaison des devis et sélection des entreprises avec prix et délais contractuels."
+    },
+    {
+      "id": "05",
+      "title": "Le chantier",
+      "text": "Suivi hebdomadaire, comptes rendus, contrôle de la qualité et du respect du planning."
+    },
+    {
+      "id": "06",
+      "title": "La réception",
+      "text": "Levée des réserves, remise des clés et accompagnement pendant l'année de parfait achèvement."
+    }
+  ],
+  "pricing": [
+    {
+      "id": 1,
+      "title": "Conception simple",
+      "price": "500 FCFA / m²",
+      "text": "Plans et avant-projet pour une construction de type Point E, sur terrain déjà viabilisé."
+    },
+    {
+      "id": 2,
+      "title": "Villa moderne",
+      "price": "700 à 1 000 FCFA / m²",
+      "text": "Conception architecturale complète d'une villa individuelle, plans techniques inclus."
+    },
+    {
+      "id": 3,
+      "title": "Habitat collectif",
+      "price": "1 200 à 1 700 FCFA / m²",
+      "text": "Immeubles et résidences, avec étude de structure et dossier de consultation des entreprises."
+    }
+  ],
+  "faq": [
+    {
+      "id": 1,
+      "question": "Dois-je déjà posséder un terrain ?",
+      "answer": "Non. Si vous n'avez pas encore de terrain, nous pouvons vous accompagner dans sa recherche et vérifier sa constructibilité avant tout engagement."
+    },
+    {
+      "id": 2,
+      "question": "Combien coûtent les honoraires d'architecte ?",
+      "answer": "Ils représentent généralement entre 3 % et 10 % du coût de la construction. Contrairement aux idées reçues, ce coût n'est pas supérieur à celui d'un constructeur de maisons individuelles, car l'architecte optimise chaque poste de dépense lors de l'appel d'offres."
+    },
+    {
+      "id": 3,
+      "question": "Combien de temps dure un projet de construction ?",
+      "answer": "Comptez 2 à 4 mois pour la conception et le permis de construire, puis 8 à 18 mois de chantier selon la taille et la complexité du projet."
+    },
+    {
+      "id": 4,
+      "question": "Que se passe-t-il après l'envoi de mon projet ?",
+      "answer": "Un architecte Sédar étudie votre description et vous rappelle sous 24h ouvrées pour un premier échange gratuit et sans engagement."
+    },
+    {
+      "id": 5,
+      "question": "Puis-je faire évoluer les plans en cours de route ?",
+      "answer": "Oui, l'avant-projet comprend plusieurs allers-retours. Les modifications sont intégrées tant que le dossier de permis n'est pas déposé."
+    }
+  ]
+}

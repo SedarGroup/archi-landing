@@ -4,6 +4,19 @@
   functions = "netlify/functions"
   publish = ".next"
 
+## Legacy service URLs kept alive so existing links and indexed pages don't break.
+[[redirects]]
+  from = "/services/building-permit"
+  to = "/services/acheter-un-appartement"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/services/find-architect"
+  to = "/services/trouver-un-architecte"
+  status = 301
+  force = true
+
   ## Uncomment to use this redirect for Single Page Applications like create-react-app.
   ## Not needed for static site generators.
   #[[redirects]]

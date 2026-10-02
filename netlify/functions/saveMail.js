@@ -1,67 +1,51 @@
-// var mysql = require('mysql');
-const nodemailer = require('nodemailer')
-exports.handler = (event, context, callback) => {
-  const mail = event.queryStringParameters.email;
-  if(mail){
-    let transporter = nodemailer.createTransport({
-      service: 'gmail',
-      auth: {
-        user: process.env.APP_EMAIL,
-        pass: process.env.APP_EMAIL_PASS,
-      },
-    });
-    let mailOptions = {
-      from: `Sedar`,
-      to: ["ibracool99@gmail.com","sedargroup.sn@gmail.com"],
-      subject: "Abonnement à la newsletter",
-      html: `Nouvel abonnement à la newsletter: ${mail}`,
-    };
-    transporter.sendMail(mailOptions, function (err, info) {
-      if (err) {
-        callback(null, {
-          statusCode: 404,
-          body: JSON.parse(err)
-        })
-      } else {
-        callback(null, {
-          statusCode: 200,
-          body: JSON.parse(info)
-        })
-      }
-    });
-  // var con = mysql.createConnection({
-  //   host: process.env.MYSQLHOSTNAME,
-  //   user: process.env.USER,
-  //   password: process.env.PASSWORD,
-  //   database: process.env.DATABASE
-  // });
-  // con.connect(function (err) {
-  //   if (err) {
-  //     callback(null, {
-  //       statusCode: 500,
-  //       body: JSON.stringify(err)
-  //     })
-  //   }
-  //   console.log("Connected!");
-  //   var sql = `INSERT INTO emails (email) VALUES ('${mail}')`;
-  //   con.query(sql, function (err, result) {
-  //     if (err) {
-  //       callback(null, {
-  //         statusCode: 500,
-  //         body: JSON.stringify(err)
-  //       })
-  //     }
-  //     callback(null, {
-  //       statusCode: 200,
-  //       body: '1 mail inserted'
-  //     })
-  //   });
-  // });
-}
-  else {
-    callback(null, {
-      statusCode: 404,
-      body: 'No mail provided'
-    })
+const nodemailer = require("nodemailer");
+
+const DEFAULT_RECIPIENTS = "ibracool99@gmail.com,sedargroup.sn@gmail.com";
+
+const recipients = () =>
+  (process.env.PROJECT_CONTACT_EMAIL || DEFAULT_RECIPIENTS)
+    .split(",")
+    .map((address) => address.trim())
+    .filter(Boolean);
+
+const response = (statusCode, body) => ({
+  statusCode,
+  headers: { "Content-Type": "application/json" },
+  body: JSON.stringify(body),
+});
+
+exports.handler = async (event) => {
+  const mail = (event.queryStringParameters || {}).email;
+
+  if (!mail) {
+    return response(400, { error: "No mail provided" });
   }
-}
+
+  if (!process.env.APP_EMAIL || !process.env.APP_EMAIL_PASS) {
+    console.error("APP_EMAIL / APP_EMAIL_PASS are not configured");
+    return response(500, { error: "Mail transport not configured" });
+  }
+
+  const transporter = nodemailer.createTransport({
+    service: "gmail",
+    auth: {
+      user: process.env.APP_EMAIL,
+      pass: process.env.APP_EMAIL_PASS,
+    },
+  });
+
+  try {
+    await transporter.sendMail({
+      from: `Sédar <${process.env.APP_EMAIL}>`,
+      to: recipients(),
+      subject: "Abonnement à la newsletter",
+      text: `Nouvel abonnement à la newsletter: ${mail}`,
+      html: `Nouvel abonnement à la newsletter: ${mail}`,
+    });
+
+    return response(200, { ok: true });
+  } catch (error) {
+    console.error("saveMail failed", error);
+    return response(502, { error: "Could not send the email" });
+  }
+};

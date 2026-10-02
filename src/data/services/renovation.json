@@ -1,0 +1,81 @@
+{
+  "hero": {
+    "image": "/assets/img/services/renovation/hero.jpg",
+    "eyebrow": "Rénovation",
+    "title": "Rénover ma maison",
+    "subtitle": "Du simple rafraîchissement à la rénovation lourde, choisissez les travaux qui vous intéressent et recevez une estimation détaillée sous 24h."
+  },
+  "valueProps": [
+    {
+      "id": 1,
+      "icon": "pe-7s-cash",
+      "title": "Des prix négociés",
+      "text": "Des tarifs au m² transparents, négociés avec des entreprises de confiance."
+    },
+    {
+      "id": 2,
+      "icon": "pe-7s-users",
+      "title": "Un expert dédié",
+      "text": "Un expert habitat suit votre chantier du premier devis à la réception."
+    },
+    {
+      "id": 3,
+      "icon": "pe-7s-check",
+      "title": "Artisans vérifiés",
+      "text": "Chaque entreprise est sélectionnée, assurée et évaluée après chaque chantier."
+    },
+    {
+      "id": 4,
+      "icon": "pe-7s-timer",
+      "title": "Délais garantis",
+      "text": "Prix et délais engagés par contrat avant le démarrage des travaux."
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "title": "Le rafraîchissement",
+      "price": "1 000 à 2 500 FCFA / m²",
+      "text": "Peinture, papier peint, carrelage, réfection des sols, murs et plafonds, décoration. Des travaux de second œuvre qui redonnent un coup de neuf sans toucher à la structure."
+    },
+    {
+      "id": 2,
+      "title": "La rénovation simple",
+      "price": "2 500 à 6 000 FCFA / m²",
+      "text": "Rénovation de la cuisine et des salles de bain, menuiseries, cloisons, modifications d'électricité et de plomberie. Un architecte devient un vrai plus à ce stade."
+    },
+    {
+      "id": 3,
+      "title": "La rénovation lourde",
+      "price": "6 000 à 15 000 FCFA / m²",
+      "text": "Murs porteurs, planchers, toiture, isolation, remise à neuf totale des réseaux. Des transformations structurelles qui nécessitent une maîtrise d'œuvre."
+    }
+  ],
+  "faq": [
+    {
+      "id": 1,
+      "question": "Les prix affichés sont-ils définitifs ?",
+      "answer": "Non. Ce sont des fourchettes indicatives observées sur le marché sénégalais, données pour vous aider à cadrer votre budget. Le prix ferme est établi après visite et étude de votre logement, et il est engagé par contrat."
+    },
+    {
+      "id": 2,
+      "question": "Puis-je sélectionner plusieurs types de travaux ?",
+      "answer": "Oui, et c'est même recommandé. Sélectionnez toutes les prestations qui vous intéressent : elles seront regroupées dans un devis unique, ce qui permet de mutualiser les interventions et de réduire le coût global."
+    },
+    {
+      "id": 3,
+      "question": "Faut-il un architecte pour une rénovation ?",
+      "answer": "Pas pour un rafraîchissement. En revanche, dès qu'il y a modification de cloisons, de réseaux ou de structure, l'accompagnement d'un architecte sécurise le chantier et évite les surcoûts. Nous pouvons vous en proposer un."
+    },
+    {
+      "id": 4,
+      "question": "Combien de temps pour recevoir mon devis ?",
+      "answer": "Un expert habitat vous rappelle sous 24h ouvrées pour préciser votre besoin. Le devis détaillé vous parvient ensuite sous 3 à 5 jours, après visite si nécessaire."
+    },
+    {
+      "id": 5,
+      "question": "L'estimation est-elle payante ?",
+      "answer": "Non, l'estimation et l'accompagnement en amont sont entièrement gratuits et sans engagement."
+    }
+  ]
+}

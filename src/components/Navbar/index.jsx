@@ -92,13 +92,15 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
                  Votre projet
                 </span>
                 <div className="dropdown-menu">
-                  <Link href="/renovation">
-                    <a className="dropdown-item">Rénovation</a>
+                  <Link href="/services/construire-ma-maison">
+                    <a className="dropdown-item">Construire ma maison</a>
+                  </Link>
+                  <Link href="/services/renover-ma-maison">
+                    <a className="dropdown-item">Rénover ma maison</a>
                   </Link>
                   <Link href="/conception">
                     <a className="dropdown-item">Plans</a>
                   </Link>
-
                 </div>
               </li>
               <li className="nav-item dropdown" onClick={handleDropdown}>
@@ -113,13 +115,13 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
                  Nos offres
                 </span>
                 <div className="dropdown-menu">
-                  <Link href="/services/find-architect">
+                  <Link href="/services/trouver-un-architecte">
                     <a className="dropdown-item">Trouver un architecte</a>
                   </Link>
                   <Link href="/services/conception">
                     <a className="dropdown-item">Conception et plans</a>
                   </Link>
-                  <Link href="/services/building-permit">
+                  <Link href="/services/acheter-un-appartement">
                     <a className="dropdown-item">Acheter un appartement</a>
                   </Link>
                 </div>
@@ -130,7 +132,7 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link href='/quote'>
+                <Link href='/services/acheter-un-appartement'>
                   <button className="btn-curve btn-color mt-5 nav-link">
                     <span>Acheter un Appartement</span>
                   </button>

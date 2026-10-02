@@ -1,71 +1,73 @@
-// var mysql = require('mysql');
-const nodemailer = require('nodemailer');
+const nodemailer = require("nodemailer");
 
-function sendMail(email, name, phone, option1,
-  option2,
-  surface, other,region) {
-  let transporter = nodemailer.createTransport({
-    service: 'gmail',
+const DEFAULT_RECIPIENTS = "ibracool99@gmail.com,sedargroup.sn@gmail.com";
+
+const recipients = () =>
+  (process.env.PROJECT_CONTACT_EMAIL || DEFAULT_RECIPIENTS)
+    .split(",")
+    .map((address) => address.trim())
+    .filter(Boolean);
+
+const response = (statusCode, body) => ({
+  statusCode,
+  headers: { "Content-Type": "application/json" },
+  body: JSON.stringify(body),
+});
+
+exports.handler = async (event) => {
+  if (event.httpMethod !== "POST") {
+    return response(405, { error: "Method not allowed" });
+  }
+
+  let payload;
+  try {
+    payload = JSON.parse(event.body || "{}");
+  } catch (error) {
+    return response(400, { error: "Invalid JSON body" });
+  }
+
+  const { email, name, phone, option1, option2, surface, other, region } = payload;
+
+  if (!email || !name || !phone) {
+    return response(400, { error: "Missing required fields" });
+  }
+
+  if (!process.env.APP_EMAIL || !process.env.APP_EMAIL_PASS) {
+    console.error("APP_EMAIL / APP_EMAIL_PASS are not configured");
+    return response(500, { error: "Mail transport not configured" });
+  }
+
+  const transporter = nodemailer.createTransport({
+    service: "gmail",
     auth: {
       user: process.env.APP_EMAIL,
       pass: process.env.APP_EMAIL_PASS,
     },
   });
-  let mailOptions = {
-    from: `Sedar <${email}>`,
-    to: ["ibracool99@gmail.com", "sedargroup.sn@gmail.com"],
-    subject: "Nouvelle demande de devis",
-    html: `${name} souhaite avoir un devis.\nTéléphone: ${phone?phone:'N/A'}\nMail: ${email?email:'N/A'}\n Option 1: ${option1?option1:'N/A'}\nOption2: ${option2?option2:'N/A'} ${other?other:''}\nSurface: ${surface?surface:'N/A'} m2\nRégion: ${region} `,
-  };
-  transporter.sendMail(mailOptions, function (err, info) {});
-}
-exports.handler = (event, context, callback) => {
-  if (event.httpMethod === 'POST') {
-    const {
-      email,
-      name,
-      phone,
-      option1,
-      option2,
-      surface,
-      other,
-      region
-    } = JSON.parse(event.body);
-    if (email && name && phone) {
-      sendMail(email, name, phone, option1, option2, surface, other,region)
-      // var con = mysql.createConnection({
-      //   host: process.env.MYSQLHOSTNAME,
-      //   user: process.env.USER,
-      //   password: process.env.PASSWORD,
-      //   database: process.env.DATABASE
-      // });
-      // con.connect(function (err) {
-      //   if (err) {
-      //     callback(null, {
-      //       statusCode: 500,
-      //       body: JSON.stringify(err)
-      //     })
-      //   }
-      //   console.log("Connected!");
-      //   var sql = `INSERT INTO quotes ( email, name, phone, option1, option2, surface, other, region) VALUES ('${email}','${name}','${phone}','${option1}','${option2}','${surface?surface:0}','${other}','${region}')`;
-      //   con.query(sql, function (err, result) {
-      //     if (err) {
-      //       callback(null, {
-      //         statusCode: 500,
-      //         body: JSON.stringify(err)
-      //       })
-      //     }
-      //     callback(null, {
-      //       statusCode: 200,
-      //       body: '1 quote inserted'
-      //     })
-      //   });
-      // });
-    } else {
-      callback(null, {
-        statusCode: 404,
-        body: 'Invalid request'
-      })
-    }
+
+  const lines = [
+    `${name} souhaite avoir un devis.`,
+    `Téléphone: ${phone || "N/A"}`,
+    `Mail: ${email || "N/A"}`,
+    `Option 1: ${option1 || "N/A"}`,
+    `Option 2: ${option2 || "N/A"} ${other || ""}`.trim(),
+    `Surface: ${surface || "N/A"} m2`,
+    `Région: ${region || "N/A"}`,
+  ];
+
+  try {
+    await transporter.sendMail({
+      from: `Sédar <${process.env.APP_EMAIL}>`,
+      to: recipients(),
+      replyTo: `${name} <${email}>`,
+      subject: "Nouvelle demande de devis",
+      text: lines.join("\n"),
+      html: lines.join("<br />"),
+    });
+
+    return response(200, { ok: true });
+  } catch (error) {
+    console.error("saveQuote failed", error);
+    return response(502, { error: "Could not send the email" });
   }
-}
+};
