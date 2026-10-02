@@ -1,6 +1,6 @@
 const nodemailer = require("nodemailer");
 
-const DEFAULT_RECIPIENTS = "ibracool99@gmail.com,sedargroup.sn@gmail.com";
+const DEFAULT_RECIPIENTS = "sedargroup.sn@gmail.com";
 
 const recipients = () =>
   (process.env.PROJECT_CONTACT_EMAIL || DEFAULT_RECIPIENTS)
