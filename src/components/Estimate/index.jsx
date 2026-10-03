@@ -27,9 +27,10 @@ const Estimate = () => {
     }, [step, selectedOption])
     const goToStep3 = () => {
         const selectedOptionData = estimations[selectedOption[0]].children[selectedOption[1]];
-        if (selectedOptionData.title === 'Autre') {
+        if (selectedOptionData.title === 'Autres') {
             if (!other) {
                 alert('Veuillez préciser')
+                return
             }
         }
             if (surface) {
@@ -105,7 +106,7 @@ const Estimate = () => {
                                     {step === 0 && estimations.map((feat, index) => renderOptions(feat, index, 0))}
                                     {step === 1 && estimations[selectedOption[0]].children.map((feat, index) =>
                                         renderOptions(feat, index, 1))}
-                                     {step===2 && estimations[selectedOption[0]].children[selectedOption[1]].title === 'Autre' && <input
+                                     {step===2 && estimations[selectedOption[0]].children[selectedOption[1]].title === 'Autres' && <input
                                         id="other"
                                         onKeyPress={handleStep2KeyPress}
                                         name={"other"}

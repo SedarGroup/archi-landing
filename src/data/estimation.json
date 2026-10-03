@@ -1,71 +1,35 @@
 [
-    {
-        "title": "F2",
-        "name": "Surface (m2)",
-        "id": 1,
-        "children": [
-            {
-                "title": "Maison simple",
-                "factor": 1500
-            },
-            {
-                "title": "Villa",
-                "factor": 1500
-            },
-            {
-                "title": "Immeuble",
-                "factor": 2000
-            },
-            {
-                "title": "Autre",
-                "factor": 1500
-            }
-        ]
-    },
-    {
-        "id": 2,
-        "title": "F3",
-        "name": "Surface (m2)",
-        "children": [
-            {
-                "title": "Peinture",
-                "factor": 2000
-            },
-            {
-                "title": "Plomberie",
-                "factor": 1700
-            },
-            {
-                "title": "Carrelage",
-                "factor": 4500
-            },
-            {
-                "title": "Autre",
-                "factor": 1500
-            }
-        ]
-    },
-    {
-        "title": "F4",
-        "name": "Surface (m2)",
-        "id": 3,
-        "children": [
-            {
-                "title": "Villa",
-                "factor": 500
-            },
-            {
-                "title": "SPA",
-                "factor": 900
-            },
-            {
-                "title": "Restaurant",
-                "factor": 2500
-            },
-            {
-                "title": "Autre",
-                "factor": 1500
-            }
-        ]
-    }
+  {
+    "title": "F2",
+    "name": "Surface (m2)",
+    "id": 1,
+    "children": [
+      { "title": "Point E", "factor": 1500 },
+      { "title": "Mermoz", "factor": 1500 },
+      { "title": "Sacré-Cœur", "factor": 1500 },
+      { "title": "Autres", "factor": 1500 }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "F3",
+    "name": "Surface (m2)",
+    "children": [
+      { "title": "Point E", "factor": 2000 },
+      { "title": "Mermoz", "factor": 2000 },
+      { "title": "Sacré-Cœur", "factor": 2000 },
+      { "title": "Autres", "factor": 2000 }
+    ]
+  },
+  {
+    "title": "F4",
+    "name": "Surface (m2)",
+    "id": 3,
+    "children": [
+      { "title": "Point E", "factor": 1500 },
+      { "title": "Mermoz", "factor": 1500 },
+      { "title": "Sacré-Cœur", "factor": 1500 },
+      { "title": "Autres", "factor": 1500 }
+    ]
+  }
 ]
