@@ -54,7 +54,7 @@ const Contact = () => {
                     {status === "error" && (
                       <div className="sg-alert sg-alert--error" role="alert">
                         L&apos;envoi a échoué. Réessayez dans un instant, ou appelez-nous au
-                        +221 78 444 60 02.
+                        +221 78 135 35 58.
                       </div>
                     )}
                     <div className="form-group">

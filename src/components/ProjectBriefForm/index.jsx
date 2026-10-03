@@ -194,7 +194,7 @@ const ProjectBriefForm = ({
     } catch (error) {
       setStatus("error");
       setServerError(
-        "L'envoi a échoué. Réessayez dans un instant, ou contactez-nous directement au +221 78 444 60 02."
+        "L'envoi a échoué. Réessayez dans un instant, ou contactez-nous directement au +221 78 135 35 58."
       );
     }
   };

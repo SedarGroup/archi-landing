@@ -43,7 +43,7 @@ const Footer = ({ classText }) => {
                   <span className="icon pe-7s-call"></span>
                   <div onClick={onCallClick} className="cont">
                     <h6>Téléphone</h6>
-                    <p > <a>+221 78 444 60 02</a></p>
+                    <p > <a>+221 78 135 35 58</a></p>
                   </div>
                 </li>
               </ul>

@@ -19,7 +19,7 @@ const HomeCta = () => (
           </Link>
           <a className="sg-btn sg-btn--outline-light" href="tel:+221784446002">
             <i className="pe-7s-call" aria-hidden="true"></i>
-            +221 78 444 60 02
+            +221 78 135 35 58
           </a>
         </div>
       </div>

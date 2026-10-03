@@ -54,7 +54,7 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
               <li onClick={onCallClick}className="nav-item">
                   <div className="nav-link justify-content-center">
                     <a>                    <div className="icon pe-7s-call"></div>
-                      <b> +221 78 444 60 02</b></a>
+                      <b> +221 78 135 35 58</b></a>
                   </div>
               </li>
               <li className="nav-item dropdown" onClick={handleDropdown}>
